@@ -11,7 +11,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://geneandgeorgetti.com/gene-georgetti-chicago-menus/",
     "Price $": 60.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "PERFECT STEAK MEAL! BEST & MY FAVORITE!"
   },
   {
@@ -26,7 +26,7 @@
     "Meals": "Breakfast, Lunch,Dinner",
     "Menu/Website": "https://www.perillachicago.com/perilla-steakhouse-menus/",
     "Price $": 38.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "GREAT KOREAN AMERICAN STYLED STEAK FRITES!"
   },
   {
@@ -41,7 +41,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://carminesitalian.com/chicago/menu/",
     "Price $": 30.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "AWESOME SAUSAGE SPAGHETTI!"
   },
   {
@@ -56,7 +56,7 @@
     "Meals": "Breakfast, Lunch, Dinner",
     "Menu/Website": "https://luxbar.com/menu/",
     "Price $": 20.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing Steak & Eggs Brunch!"
   },
   {
@@ -71,7 +71,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.exchequerpub.com/menu-1",
     "Price $": 31.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Filet Mignon was amazing with baked potatoes!"
   },
   {
@@ -86,8 +86,8 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.daebakwp.com/",
     "Price $": 66.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Best authentic Korean BBQ in the City of Chicago! At least 2 meat items has to be ordered but worth spending the money on each meat because a lot of side dish and rice are provided. I ate thinly sliced brisket (차돌박이) and seasoned prime boneless short rib (꽃살 주물럭)"
+    "Ratings (/5)": 5,
+    "Comments by Louis Sungwoo Cho": "Best authentic Korean BBQ in the City of Chicago! At least 2 meat items has to be ordered but worth spending the money on each meat because a lot of side dish and rice are provided. I ate thinly sliced brisket (\ucc28\ub3cc\ubc15\uc774) and seasoned prime boneless short rib (\uaf43\uc0b4 \uc8fc\ubb3c\ub7ed)"
   },
   {
     "Index": 7,
@@ -101,7 +101,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.benihana.com/menus/#food",
     "Price $": 60.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing Japanese Teppanyaki! Large portion size"
   },
   {
@@ -116,7 +116,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://thehawksmoor.com/us/locations/chicago/food/menu/",
     "Price $": 25.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "8pm Tue to Sat Steak Frites were amazing!"
   },
   {
@@ -131,7 +131,7 @@
     "Meals": "Lunch, DInner",
     "Menu/Website": "https://www.tavernonrush.com/menus",
     "Price $": 32.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Steak Frites were nice!"
   },
   {
@@ -146,7 +146,7 @@
     "Meals": "Dinner",
     "Menu/Website": "https://www.charliemartinschicago.com/",
     "Price $": 60.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing NY Strip Frites"
   },
   {
@@ -161,7 +161,7 @@
     "Meals": "Dinner",
     "Menu/Website": "https://www.mastrosrestaurants.com/location/mastros-steakhouse-chicago/",
     "Price $": 60.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Steak was nice but portion size was too small"
   },
   {
@@ -176,7 +176,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.eataly.com/us_en/stores/chicago",
     "Price $": 28.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing authentic Italian pizza!"
   },
   {
@@ -191,7 +191,7 @@
     "Meals": "Breakfast, Lunch, Dinner",
     "Menu/Website": "https://www.theroanokerestaurant.com/menus",
     "Price $": 20.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Steak & Eggs and Steak Salad were PERFECT!"
   },
   {
@@ -236,7 +236,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.thedearborntavern.com/menus/",
     "Price $": 30.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Wagyu Burger, Salad, and Rasberry Sorbet was nice"
   },
   {
@@ -251,7 +251,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://petterinos.com/menu/",
     "Price $": 30.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Fantastic lunch!"
   },
   {
@@ -296,7 +296,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.labellachicago.com/",
     "Price $": 22.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Pizza was nice"
   },
   {
@@ -311,7 +311,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.sweetwatertavernandgrille.com/",
     "Price $": 19.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Burger was amazing!"
   },
   {
@@ -326,7 +326,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://gibsonssteakhouse.com/gibsons-chicago/",
     "Price $": 58.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Great fillet mignon!"
   },
   {
@@ -341,7 +341,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.legalseafoods.com/locations/chicago-marina-city/",
     "Price $": 35.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing salmon with good portion"
   },
   {
@@ -356,7 +356,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.rpmrestaurants.com/rpm-seafood-chicago/",
     "Price $": 44.0,
-    "Ratings (/5)": 3.0,
+    "Ratings (/5)": 3,
     "Comments by Louis Sungwoo Cho": "Too expensive and small portion"
   },
   {
@@ -371,7 +371,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.sundanewasian.com/river-north",
     "Price $": 26.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Pad Thai was delicious"
   },
   {
@@ -386,7 +386,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.remingtonschicago.com/menus/",
     "Price $": 18.95,
-    "Ratings (/5)": 3.0,
+    "Ratings (/5)": 3,
     "Comments by Louis Sungwoo Cho": "Burger was not tasty"
   },
   {
@@ -416,7 +416,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://stksteakhouse.com/en-us/location/chicago/",
     "Price $": 50.0,
-    "Ratings (/5)": 3.0,
+    "Ratings (/5)": 3,
     "Comments by Louis Sungwoo Cho": "Portion size too small"
   },
   {
@@ -431,7 +431,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://thegagechicago.com/",
     "Price $": 25.0,
-    "Ratings (/5)": 3.0,
+    "Ratings (/5)": 3,
     "Comments by Louis Sungwoo Cho": "Gage Stack Sandwhich was ok"
   },
   {
@@ -446,7 +446,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.ikigaichicago.com/",
     "Price $": 45.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Great Chirashi and meat kebabs"
   },
   {
@@ -461,7 +461,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.millenniumhallchicago.com/",
     "Price $": 19.95,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Millennium Burger was great!"
   },
   {
@@ -476,7 +476,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.thevillage-chicago.com/",
     "Price $": 20.0,
-    "Ratings (/5)": 1.0,
+    "Ratings (/5)": 1,
     "Comments by Louis Sungwoo Cho": "Don't recommend"
   },
   {
@@ -491,7 +491,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://iheartcafecito.com/",
     "Price $": 14.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Palomilla Steak sandwich was nice"
   },
   {
@@ -506,7 +506,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.acantochicago.com/",
     "Price $": 20.0,
-    "Ratings (/5)": 2.0,
+    "Ratings (/5)": 2,
     "Comments by Louis Sungwoo Cho": "Don't recommend"
   },
   {
@@ -521,7 +521,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.bandolrestaurant.com/",
     "Price $": 19.0,
-    "Ratings (/5)": 2.0,
+    "Ratings (/5)": 2,
     "Comments by Louis Sungwoo Cho": "Don't recommend"
   },
   {
@@ -536,7 +536,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.elephantcastle.com/en/menus/food.html",
     "Price $": 17.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing burgers and great place to vibe during St. Patrick's Weekend"
   },
   {
@@ -551,7 +551,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/",
     "Price $": 50.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing grill and pasta dishes!"
   },
   {
@@ -566,7 +566,7 @@
     "Meals": "Breakfast, Lunch",
     "Menu/Website": "https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/",
     "Price $": 30.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing place to eat for breakfast, brunch, and lunch"
   },
   {
@@ -581,7 +581,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.vurooftop.com/menus",
     "Price $": 34.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing tavern and Korean-style skirt steak and chicken skewers were amazing!"
   },
   {
@@ -596,7 +596,7 @@
     "Meals": "Breakfast, Lunch",
     "Menu/Website": "https://brunchonclark.com/menu/",
     "Price $": 28.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing Steak & Eggs Brunch!"
   },
   {
@@ -611,22 +611,22 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://eviechicago.com/menus",
     "Price $": 38.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 4,
     "Comments by Louis Sungwoo Cho": "Herb Roasted Chicken was nice"
   },
   {
     "Index": 42,
-    "Restaurants": "",
+    "Restaurants": "Italian Restaurant",
     "Neighborhood": "West Loop",
-    "Address": "",
-    "Phone Number": "",
+    "Address": "538 N Michigan Ave Ste 200, Chicago, IL 60611",
+    "Phone Number": "(312) 701-3301",
     "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "",
-    "L Line [Train]": "",
+    "Nearest CTA L Stop [Train Station]": "Grand",
+    "L Line [Train]": "Red",
     "Meals": "Lunch",
-    "Menu/Website": "",
-    "Price $": 0.0,
-    "Ratings (/5)": 5.0,
+    "Menu/Website": "https://eviechicago.com/menus",
+    "Price $": 23.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Great Italian course meal!"
   },
   {
@@ -641,7 +641,7 @@
     "Meals": "Lunch",
     "Menu/Website": "https://ordergreenapplephoever.com/",
     "Price $": 20.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Amazing authentic Korean food in the Loop!"
   },
   {
@@ -656,7 +656,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.pinkmuchicago.com/",
     "Price $": 13.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Best authentic Korean-style Kimbap!"
   },
   {
@@ -671,7 +671,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.82kimbap.com/ ",
     "Price $": 14.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Unique purple rice Kimbap and very delicious!"
   },
   {
@@ -686,7 +686,7 @@
     "Meals": "Breakfast, Lunch",
     "Menu/Website": "https://coreysbagels.com/",
     "Price $": 14.0,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "Delicious bagel sandwiches!"
   },
   {
@@ -700,8 +700,8 @@
     "L Line [Train]": "Green, Orange",
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.chicagofirehouse.com/#",
-    "Price $": 0.0,
-    "Ratings (/5)": 0.0,
+    "Price $": "",
+    "Ratings (/5)": "TBD",
     "Comments by Louis Sungwoo Cho": "TBD"
   },
   {
@@ -716,7 +716,7 @@
     "Meals": "Lunch",
     "Menu/Website": "https://www.chipotle.com/home",
     "Price $": 13.52,
-    "Ratings (/5)": 5.0,
+    "Ratings (/5)": 5,
     "Comments by Louis Sungwoo Cho": "My go-to place for lunch and generous portions"
   },
   {
@@ -745,173 +745,8 @@
     "L Line [Train]": "",
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://giordanos.com/",
-    "Price $": 0.0,
+    "Price $": "",
     "Ratings (/5)": 2.5,
     "Comments by Louis Sungwoo Cho": "People like the Chicago-styled Deep Dish here but not for me"
-  },
-  {
-    "Index": 51,
-    "Restaurants": "Starbucks Reserve Roastery",
-    "Neighborhood": "River North",
-    "Address": "646 N Michigan Ave, Chicago, IL 60611",
-    "Phone Number": "(312) 283-7100",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Grand",
-    "L Line [Train]": "Red",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://www.starbucksreserve.com/locations/chicago-roastery",
-    "Price $": 0.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Iconic café in Chicago and you must visit here."
-  },
-  {
-    "Index": 52,
-    "Restaurants": "Ground Up Coffee + Bites",
-    "Neighborhood": "Loop",
-    "Address": "144 S Dearborn St, Chicago, IL 60603",
-    "Phone Number": "(312)-559-9000",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink",
-    "Meals": "Café",
-    "Menu/Website": "https://groundupchicago.com/",
-    "Price $": 4.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "My go-to place for morning coffee"
-  },
-  {
-    "Index": 53,
-    "Restaurants": "Amorino",
-    "Neighborhood": "Loop",
-    "Address": "38 S Michigan Ave, Chicago, IL 60603",
-    "Phone Number": "",
-    "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Dessert",
-    "Menu/Website": "https://www.amorino.com/en-us/stores/chicago",
-    "Price $": 8.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great Gelato and Sorbetto!"
-  },
-  {
-    "Index": 54,
-    "Restaurants": "Lea French Cafe Michigan Avenue",
-    "Neighborhood": "Loop",
-    "Address": "20 N Michigan Ave, Chicago, IL 60602",
-    "Phone Number": "(312) 366-2140",
-    "Cuisine": "French",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://leafrenchcafe.com/menu/",
-    "Price $": 14.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Baguette Chicken Sandwich was nice"
-  },
-  {
-    "Index": 55,
-    "Restaurants": "Defloured Gluten Free Bakery",
-    "Neighborhood": "Andersonville",
-    "Address": "1477 W Balmoral Ave, Chicago, IL 60640",
-    "Phone Number": "(773) 234-5733",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Berwyn",
-    "L Line [Train]": "Red, Purple",
-    "Meals": "Bakery, Dessert",
-    "Menu/Website": "https://www.deflouredbakery.com/",
-    "Price $": 8.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "My favorite bakery and chocolate brownies and chocolate cookies were amazing!"
-  },
-  {
-    "Index": 56,
-    "Restaurants": "Nimble Café",
-    "Neighborhood": "River North",
-    "Address": "114 W Chicago Ave, Chicago, IL 60654",
-    "Phone Number": "(312) 763-6937",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Chicago",
-    "L Line [Train]": "Red, Purple, Brown",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://nimblechicago.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great coffee and nice place to chill out"
-  },
-  {
-    "Index": 57,
-    "Restaurants": "3 Greens Coffee & Bakery",
-    "Neighborhood": "River North",
-    "Address": "900 N Michigan Ave, Chicago, IL 60611",
-    "Phone Number": "(312) 915-3916",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Chicago",
-    "L Line [Train]": "Red",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://www.shop900.com/retailer/3-greens/",
-    "Price $": 4.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great place to drink coffee and grab bites after a run"
-  },
-  {
-    "Index": 58,
-    "Restaurants": "FRÍO Gelato - Evanston",
-    "Neighborhood": "Evanston",
-    "Address": "1301 Chicago Ave, Evanston, IL 60201",
-    "Phone Number": "(224) 307-2343",
-    "Cuisine": "Argentine",
-    "Nearest CTA L Stop [Train Station]": "Dempster",
-    "L Line [Train]": "Purple",
-    "Meals": "Dessert",
-    "Menu/Website": "https://www.friogelato.com/",
-    "Price $": 8.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Amazing gelato with generous portions!"
-  },
-  {
-    "Index": 59,
-    "Restaurants": "Philz Coffee",
-    "Neighborhood": "Lincoln Park",
-    "Address": "2323 N Lincoln Ave, Chicago, IL 60614",
-    "Phone Number": "(773) 666-5220",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Fullerton",
-    "L Line [Train]": "Red, Purple, Brown",
-    "Meals": "Café",
-    "Menu/Website": "https://philzcoffee.com/locations/lincoln-park",
-    "Price $": 6.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Interesting pink coffee"
-  },
-  {
-    "Index": 60,
-    "Restaurants": "Eataly",
-    "Neighborhood": "River North",
-    "Address": "43 E Ohio St, Chicago, IL 60611",
-    "Phone Number": "(312) 521-8700",
-    "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "Grand",
-    "L Line [Train]": "Red",
-    "Meals": "Café, Dessert",
-    "Menu/Website": "https://www.eataly.com/us_en/stores/chicago",
-    "Price $": 8.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Amazing Gelato!"
-  },
-  {
-    "Index": 61,
-    "Restaurants": "Daeji Dough Company",
-    "Neighborhood": "Lakeview",
-    "Address": "1360 W Belmont Ave, Chicago, IL 60657",
-    "Phone Number": "",
-    "Cuisine": "Korean",
-    "Nearest CTA L Stop [Train Station]": "Belmont, Southport",
-    "L Line [Train]": "Red, Purple, Brown",
-    "Meals": "Bakery",
-    "Menu/Website": "https://daejidoughco.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great Oolong Tea and a lot of Korean fusion pastries"
   }
 ]
