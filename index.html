@@ -225,19 +225,74 @@
   <p>Curated by <strong>Louis Sungwoo Cho</strong> &nbsp;·&nbsp; Chicago, IL &nbsp;·&nbsp; Ride the L, eat well.</p>
 </footer>
 
+
 <script>
 const LINE_COLORS = {
-  'Red': '#C8102E', 'Blue': '#00A1DE', 'Brown': '#62361B',
-  'Green': '#009B3A', 'Orange': '#F9461C', 'Purple': '#522398',
-  'Pink': '#E27EA6', 'Yellow': '#F9E300'
+  Red: '#C8102E',
+  Blue: '#00A1DE',
+  Brown: '#62361B',
+  Green: '#009B3A',
+  Orange: '#F9461C',
+  Purple: '#522398',
+  Pink: '#E27EA6',
+  Yellow: '#F9E300'
 };
-const ALL_LINES = ['Red','Blue','Brown','Green','Orange','Purple','Pink'];
 
-const RAW = [{"Index":1,"Restaurants":"Gene & Georgetti","Neighborhood":"River North","Address":"500 N Franklin St, Chicago, IL 60654","Phone Number":"(312) 527-3718","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Merchandise Mart","L Line [Train]":"Brown","Meals":"Lunch, Dinner","Menu/Website":"https://geneandgeorgetti.com/gene-georgetti-chicago-menus/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"PERFECT STEAK MEAL! BEST & MY FAVORITE!"},{"Index":2,"Restaurants":"Perilla Korean American Steakhouse","Neighborhood":"Loop","Address":"225 N Wabash Ave, Chicago, IL 60601","Phone Number":"(312) 236-9300","Cuisine":"Korean, American","Nearest CTA L Stop [Train Station]":"State/Lake, Washington/Wabash [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Breakfast, Lunch,Dinner","Menu/Website":"https://www.perillachicago.com/perilla-steakhouse-menus/","Price $":38.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"GREAT KOREAN AMERICAN STYLED STEAK FRITES!"},{"Index":3,"Restaurants":"Carmine's","Neighborhood":"Near North Side","Address":"1037 N Rush St, Chicago, IL 60611","Phone Number":"(312) 988-7676","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://carminesitalian.com/chicago/menu/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"AWESOME SAUSAGE SPAGHETTI!"},{"Index":4,"Restaurants":"Luxbar Chicago","Neighborhood":"Near North Side","Address":"18 E Bellevue Pl, Chicago, IL 60611","Phone Number":"(312) 642-3400","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Breakfast, Lunch, Dinner","Menu/Website":"https://luxbar.com/menu/","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Steak & Eggs Brunch!"},{"Index":5,"Restaurants":"Exchequer Restaurant & Pub","Neighborhood":"Loop","Address":"226 S Wabash Ave, Chicago, IL 60604","Phone Number":"(312) 939-5633","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Jackson","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.exchequerpub.com/menu-1","Price $":31.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Filet Mignon was amazing with baked potatoes!"},{"Index":6,"Restaurants":"Daebak Korean BBQ","Neighborhood":"Wicker Park","Address":"1266 N Milwaukee Ave, Chicago, IL 60622","Phone Number":"(312) 722-6923","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Division-Milwaukee","L Line [Train]":"Blue","Meals":"Lunch, Dinner","Menu/Website":"https://www.daebakwp.com/","Price $":66.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Best authentic Korean BBQ in the City of Chicago!"},{"Index":7,"Restaurants":"Benihana","Neighborhood":"River North","Address":"875 N Michigan Ave, Chicago, IL 60611","Phone Number":"(312) 780-3110","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.benihana.com/menus/#food","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Japanese Teppanyaki! Large portion size"},{"Index":8,"Restaurants":"Hawksmoor Chicago","Neighborhood":"River North","Address":"500 N La Salle Dr, Chicago, IL 60654","Phone Number":"(872) 272-4240","Cuisine":"English","Nearest CTA L Stop [Train Station]":"Merchandise Mart","L Line [Train]":"Brown","Meals":"Lunch, Dinner","Menu/Website":"https://thehawksmoor.com/us/locations/chicago/food/menu/","Price $":25.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"8pm Tue to Sat Steak Frites were amazing!"},{"Index":9,"Restaurants":"Tavern on Rush","Neighborhood":"Near North Side","Address":"1015 N Rush St, Chicago, IL 60611","Phone Number":"(312) 664-9600","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.tavernonrush.com/menus","Price $":32.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak Frites were nice!"},{"Index":10,"Restaurants":"Charlie Martin","Neighborhood":"River North","Address":"736 N Clark St, Chicago, IL 60654","Phone Number":"(312) 929-3174","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red, Purple, Brown","Meals":"Dinner","Menu/Website":"https://www.charliemartinschicago.com/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing NY Strip Frites"},{"Index":11,"Restaurants":"Mastro Steakhouse","Neighborhood":"River North","Address":"520 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 521-5100","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Dinner","Menu/Website":"https://www.mastrosrestaurants.com/location/mastros-steakhouse-chicago/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak was nice but portion size was too small"},{"Index":12,"Restaurants":"Eataly","Neighborhood":"River North","Address":"43 E Ohio St, Chicago, IL 60611","Phone Number":"(312) 521-8700","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.eataly.com/us_en/stores/chicago","Price $":28.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing authentic Italian pizza!"},{"Index":13,"Restaurants":"Roanoke Restaurant","Neighborhood":"Loop","Address":"135 W Madison St, Chicago, IL 60602","Phone Number":"(312) 361-3800","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Breakfast, Lunch, Dinner","Menu/Website":"https://www.theroanokerestaurant.com/menus","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak & Eggs and Steak Salad were PERFECT!"},{"Index":14,"Restaurants":"Kyu Ramen","Neighborhood":"River North","Address":"6 W Hubbard St, Chicago, IL 60654","Phone Number":"(312) 877-5365","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.kyuramen.com/menu","Price $":45.0,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"Large portion, delicious grill and ramen."},{"Index":15,"Restaurants":"FireLake Grill House and Cocktail Bar","Neighborhood":"Loop","Address":"221 N Columbus Dr, Chicago, IL 60601","Phone Number":"(312) 477-0234","Cuisine":"American","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.firelakechicago.com/","Price $":30.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Steak Brunch was nice but portion was too small"},{"Index":16,"Restaurants":"The Dearborn","Neighborhood":"Loop","Address":"145 N Dearborn St, Chicago, IL 60602","Phone Number":"(312) 384-1242","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.thedearborntavern.com/menus/","Price $":30.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Wagyu Burger, Salad, and Rasberry Sorbet was nice"},{"Index":17,"Restaurants":"Petterinos","Neighborhood":"Loop","Address":"150 N Dearborn St, Chicago, IL 60601","Phone Number":"(312) 422-0150","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://petterinos.com/menu/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Fantastic lunch!"},{"Index":18,"Restaurants":"90th Meridian","Neighborhood":"Loop","Address":"231 S LaSalle St #108, Chicago, IL 60604","Phone Number":"(312) 929-3948","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Jackson, Quincy [Chicago Union Station]","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.90thmeridian.com/","Price $":30.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Lunch was ok"},{"Index":19,"Restaurants":"Seville Chicago","Neighborhood":"Loop","Address":"243 S Franklin St, Chicago, IL 60606","Phone Number":"(773) 339-0362","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Quincy [Chicago Union Station]","L Line [Train]":"Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.sevillechicago.com/","Price $":30.0,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"Pasta was nice but portions were too small"},{"Index":20,"Restaurants":"La Bella Trattoria","Neighborhood":"Loop","Address":"120 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 312-2142","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.labellachicago.com/","Price $":22.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Pizza was nice"},{"Index":21,"Restaurants":"Sweetwater","Neighborhood":"Loop","Address":"225 N Michigan Ave, Chicago, IL 60601","Phone Number":"(312) 698-7111","Cuisine":"American","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.sweetwatertavernandgrille.com/","Price $":19.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Burger was amazing!"},{"Index":22,"Restaurants":"Gibson Steakhouse","Neighborhood":"Near North Side","Address":"1028 N Rush St, Chicago, IL 60611","Phone Number":"(312) 266-8999","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Division","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://gibsonssteakhouse.com/gibsons-chicago/","Price $":58.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Great fillet mignon!"},{"Index":23,"Restaurants":"Legal Seafood","Neighborhood":"River North","Address":"315 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 910-6517","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake, Merchandise Mart [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.legalseafoods.com/locations/chicago-marina-city/","Price $":35.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing salmon with good portion"},{"Index":24,"Restaurants":"RPM Seafood","Neighborhood":"River North","Address":"317 N Clark St, Chicago, IL 60654","Phone Number":"(312) 900-9035","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake, Merchandise Mart [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.rpmrestaurants.com/rpm-seafood-chicago/","Price $":44.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Too expensive and small portion"},{"Index":25,"Restaurants":"Sunda New Asian - River North","Neighborhood":"River North","Address":"110 W Illinois St, Chicago, IL 60654","Phone Number":"(312) 644-0500","Cuisine":"Asian Fusion","Nearest CTA L Stop [Train Station]":"Grand, Merchandise Mart","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://www.sundanewasian.com/river-north","Price $":26.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Pad Thai was delicious"},{"Index":26,"Restaurants":"Remington's","Neighborhood":"Loop","Address":"20 N Michigan Ave, Chicago, IL 60602","Phone Number":"(312) 782-6000","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.remingtonschicago.com/menus/","Price $":18.95,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Burger was not tasty"},{"Index":27,"Restaurants":"Miller's Pub","Neighborhood":"Loop","Address":"134 S Wabash Ave, Chicago, IL 60603","Phone Number":"(312) 263-4988","Cuisine":"Irish","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Jackson","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.millerspub.com/","Price $":50.25,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"NY Strip was nice"},{"Index":28,"Restaurants":"STK Steakhouse","Neighborhood":"River North","Address":"9 W Kinzie St, Chicago, IL 60654","Phone Number":"(312) 340-5636","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand, Merchandise Mart","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://stksteakhouse.com/en-us/location/chicago/","Price $":50.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Portion size too small"},{"Index":29,"Restaurants":"Gage Chicago","Neighborhood":"Loop","Address":"24 S Michigan Ave, Chicago, IL 60603","Phone Number":"(312) 372-4243","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://thegagechicago.com/","Price $":25.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Gage Stack Sandwich was ok"},{"Index":30,"Restaurants":"Ikigai Sushi & Izakaya","Neighborhood":"Near North Side","Address":"372 W Chicago Ave, Chicago, IL 60654","Phone Number":"(312) 291-9663","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Brown, Purple","Meals":"Lunch, Dinner","Menu/Website":"https://www.ikigaichicago.com/","Price $":45.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Great Chirashi and meat kebabs"},{"Index":31,"Restaurants":"Millennium Hall","Neighborhood":"Loop","Address":"11 N Michigan Ave, Chicago, IL 60602","Phone Number":"(312) 521-7275","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.millenniumhallchicago.com/","Price $":19.95,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Millennium Burger was great!"},{"Index":32,"Restaurants":"Italian Village","Neighborhood":"Loop","Address":"71 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 332-7005","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.thevillage-chicago.com/","Price $":20.0,"Ratings (/5)":1,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":33,"Restaurants":"Cafecito","Neighborhood":"River North","Address":"215 E Chestnut St, Chicago, IL 60611","Phone Number":"(312) 643-2242","Cuisine":"Cuban","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Brown, Purple","Meals":"Lunch, Dinner","Menu/Website":"https://iheartcafecito.com/","Price $":14.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Palomilla Steak sandwich was nice"},{"Index":34,"Restaurants":"Acanto","Neighborhood":"Loop","Address":"18 S Michigan Ave, Chicago, IL 60603","Phone Number":"(312) 578-0763","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.acantochicago.com/","Price $":20.0,"Ratings (/5)":2,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":35,"Restaurants":"Bandol","Neighborhood":"Loop","Address":"100 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 877-5713","Cuisine":"French","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.bandolrestaurant.com/","Price $":19.0,"Ratings (/5)":2,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":36,"Restaurants":"Elephant Castle","Neighborhood":"Loop","Address":"185 N Wabash Ave, Chicago, IL 60601","Phone Number":"(312) 345-1710","Cuisine":"English","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Orange, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.elephantcastle.com/en/menus/food.html","Price $":17.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing burgers and great place to vibe during St. Patrick's Weekend"},{"Index":37,"Restaurants":"Gaslight Club","Neighborhood":"O'Hare","Address":"Chicago O'Hare International Airport Hilton Hotel, 4000 N, Chicago, IL 60666","Phone Number":"(773) 686-0200","Cuisine":"European","Nearest CTA L Stop [Train Station]":"O'Hare [O'Hare Transfer]","L Line [Train]":"Blue [Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/","Price $":50.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing grill and pasta dishes!"},{"Index":38,"Restaurants":"Andiamo","Neighborhood":"O'Hare","Address":"Chicago O'Hare International Airport Hilton Hotel, 4000 N, Chicago, IL 60667","Phone Number":"(773) 686-8000","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"O'Hare [O'Hare Transfer]","L Line [Train]":"Blue [Metra]","Meals":"Breakfast, Lunch","Menu/Website":"https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing place to eat for breakfast, brunch, and lunch"},{"Index":39,"Restaurants":"VU Rooftop","Neighborhood":"South Loop","Address":"133 E Cermak Rd, Chicago, IL 60616","Phone Number":"(312) 256-2990","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Cermak-McCormick Place [McCormick Place]","L Line [Train]":"Green [Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.vurooftop.com/menus","Price $":34.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing tavern and Korean-style skirt steak and chicken skewers were amazing!"},{"Index":40,"Restaurants":"The Brunchery","Neighborhood":"Lincoln Park","Address":"2552 N Clark St, Chicago, IL 60614","Phone Number":"(773) 248-4580","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Diversey","L Line [Train]":"Red, Purple, Brown","Meals":"Breakfast, Lunch","Menu/Website":"https://brunchonclark.com/menu/","Price $":28.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Steak & Eggs Brunch!"},{"Index":41,"Restaurants":"The Evie","Neighborhood":"River North","Address":"537 N Michigan Ave Ste 200, Chicago, IL 60611","Phone Number":"(312) 701-3300","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://eviechicago.com/menus","Price $":38.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Herb Roasted Chicken was nice"},{"Index":43,"Restaurants":"Green Apple PHOever","Neighborhood":"Loop","Address":"Food Court, 105 W Madison St B1, Chicago, IL 60602","Phone Number":"(312) 456-9995","Cuisine":"Korean, Vietnamese","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch","Menu/Website":"https://ordergreenapplephoever.com/","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing authentic Korean food in the Loop!"},{"Index":44,"Restaurants":"PINK MU","Neighborhood":"River North","Address":"738 N Clark St, Chicago, IL 60654","Phone Number":"(312) 265-1607","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://www.pinkmuchicago.com/","Price $":13.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Best authentic Korean-style Kimbap!"},{"Index":45,"Restaurants":"82 Kimbap","Neighborhood":"Loop","Address":"125 S Clark St, Chicago, IL 60603","Phone Number":"","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe, Quincy [Chicago Union Station]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.82kimbap.com/","Price $":14.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Unique purple rice Kimbap and very delicious!"},{"Index":46,"Restaurants":"Corey's NYC Bagel Deli","Neighborhood":"River North","Address":"515 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 923-9999","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Breakfast, Lunch","Menu/Website":"https://coreysbagels.com/","Price $":14.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Delicious bagel sandwiches!"},{"Index":47,"Restaurants":"Chicago Firehouse Restaurant","Neighborhood":"South Loop","Address":"1401 S Michigan Ave, Chicago, IL 60605","Phone Number":"(312) 786-1401","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Roosevelt","L Line [Train]":"Green, Orange","Meals":"Lunch, Dinner","Menu/Website":"https://www.chicagofirehouse.com/#","Price $":"","Ratings (/5)":"TBD","Comments by Louis Sungwoo Cho":"TBD"},{"Index":48,"Restaurants":"Chipotle - Mexican Grill","Neighborhood":"Varies","Address":"Varies","Phone Number":"Varies","Cuisine":"Mexican","Nearest CTA L Stop [Train Station]":"Varies","L Line [Train]":"Varies","Meals":"Lunch","Menu/Website":"https://www.chipotle.com/home","Price $":13.52,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"My go-to place for lunch and generous portions"},{"Index":49,"Restaurants":"BenjYehuda","Neighborhood":"Loop","Address":"10 S LaSalle St #2400, Chicago, IL 60603","Phone Number":"(312) 726-9653","Cuisine":"Mediterranean","Nearest CTA L Stop [Train Station]":"Washington/Wells","L Line [Train]":"Brown, Orange, Purple, Pink","Meals":"Lunch","Menu/Website":"https://benjyehuda.com/","Price $":14.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Chicken bowl was ok"}];
+const ALL_LINES = ['Red','Blue','Brown','Green','Orange','Purple','Pink','Yellow'];
+let RAW = [];
+let restaurants = [];
+
+async function loadData() {
+  const grid = document.getElementById('grid');
+  const noResults = document.getElementById('noResults');
+  const countBadge = document.getElementById('countBadge');
+
+  grid.innerHTML = '<div class="no-results" style="display:block;grid-column:1/-1;">Loading restaurants…</div>';
+  noResults.style.display = 'none';
+  countBadge.textContent = 'Loading…';
+
+  try {
+    const response = await fetch('./combined_restaurants.json', { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    RAW = await response.json();
+    restaurants = RAW.filter(r => (r['Restaurants'] || '').trim() !== '');
+
+    activeLines = new Set(ALL_LINES);
+    populateFilters();
+    buildLegend();
+    updateStats();
+    render();
+
+    console.log(`Loaded ${restaurants.length} restaurants from combined_restaurants.json`);
+  } catch (error) {
+    console.error('Failed to load combined_restaurants.json:', error);
+    document.getElementById('stat-total').textContent = '0';
+    document.getElementById('stat-5star').textContent = '0';
+    countBadge.textContent = '0 spots';
+    grid.innerHTML = '<div class="no-results" style="display:block;grid-column:1/-1;">Could not load <code>combined_restaurants.json</code>. Make sure the HTML and JSON files are in the same folder and open them through a local server.</div>';
+  }
+}
+
+
+let activeLines = new Set(ALL_LINES);
+let currentSort = 'rating';
 
 function getLines(lineStr) {
   if (!lineStr || lineStr === 'Varies') return [];
-  return ALL_LINES.filter(l => lineStr.includes(l));
+  return ALL_LINES.filter(line => String(lineStr).includes(line));
+}
+
+function getCuisines(cuisineStr) {
+  if (!cuisineStr) return [];
+  return String(cuisineStr).split(',').map(c => c.trim()).filter(Boolean);
+}
+
+function getRatingValue(value) {
+  const n = parseFloat(value);
+  return isNaN(n) ? -1 : n;
 }
 
 function getRatingColor(r) {
@@ -247,223 +302,267 @@ function getRatingColor(r) {
   return '#888';
 }
 
-function getPriceLabel(p) {
-  if (!p || p === '') return '—';
+function getPriceValue(p) {
   const n = parseFloat(p);
-  if (isNaN(n)) return '—';
+  return isNaN(n) ? null : n;
+}
+
+function getPriceLabel(p) {
+  const n = getPriceValue(p);
+  if (n === null) return '—';
   if (n < 20) return '$';
   if (n < 35) return '$$';
   if (n < 55) return '$$$';
   return '$$$$';
 }
 
-let activeLines = new Set(ALL_LINES);
-let currentSort = 'rating';
-let restaurants = RAW.filter(r => r.Restaurants && r.Restaurants.trim() !== '');
-
-function getCuisines(cuisineStr) {
-  return cuisineStr.split(',').map(c => c.trim()).filter(Boolean);
+function updateStats() {
+  document.getElementById('stat-total').textContent = restaurants.length;
+  document.getElementById('stat-5star').textContent = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) === 5).length;
 }
 
-// Populate filters
-const cuisines = [...new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])))].sort();
-const neighborhoods = [...new Set(restaurants.map(r => r['Neighborhood']))].sort();
-const cuisineEl = document.getElementById('cuisineFilter');
-const nbrEl = document.getElementById('neighborhoodFilter');
-cuisines.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; cuisineEl.appendChild(o); });
-neighborhoods.forEach(n => { if (n !== 'Varies') { const o = document.createElement('option'); o.value = n; o.textContent = n; nbrEl.appendChild(o); }});
+function populateFilters() {
+  const cuisineEl = document.getElementById('cuisineFilter');
+  const nbrEl = document.getElementById('neighborhoodFilter');
 
-// Build legend
-const legend = document.getElementById('linesLegend');
-ALL_LINES.forEach(l => {
-  const b = document.createElement('div');
-  b.className = 'line-badge active'; b.dataset.line = l;
-  b.innerHTML = `<div class="line-dot" style="background:${LINE_COLORS[l]}"></div>${l} Line`;
-  b.style.background = LINE_COLORS[l] + '22';
-  b.style.color = LINE_COLORS[l];
-  b.addEventListener('click', () => toggleLine(l));
-  legend.appendChild(b);
-});
+  cuisineEl.innerHTML = '<option value="">All cuisines</option>';
+  nbrEl.innerHTML = '<option value="">All neighborhoods</option>';
+
+  const cuisines = [...new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])))].sort((a,b) => a.localeCompare(b));
+  const neighborhoods = [...new Set(restaurants.map(r => r['Neighborhood']).filter(Boolean))].sort((a,b) => a.localeCompare(b));
+
+  cuisines.forEach(c => {
+    const option = document.createElement('option');
+    option.value = c;
+    option.textContent = c;
+    cuisineEl.appendChild(option);
+  });
+
+  neighborhoods.forEach(n => {
+    const option = document.createElement('option');
+    option.value = n;
+    option.textContent = n;
+    nbrEl.appendChild(option);
+  });
+}
+
+function buildLegend() {
+  const legend = document.getElementById('linesLegend');
+  legend.innerHTML = '';
+
+  ALL_LINES.forEach(line => {
+    const badge = document.createElement('div');
+    badge.className = 'line-badge active';
+    badge.dataset.line = line;
+    badge.style.background = LINE_COLORS[line] + '22';
+    badge.style.color = line === 'Yellow' ? '#111' : LINE_COLORS[line];
+    badge.innerHTML = `<div class="line-dot" style="background:${LINE_COLORS[line]}"></div>${line} Line`;
+    badge.addEventListener('click', () => toggleLine(line));
+    legend.appendChild(badge);
+  });
+}
 
 function toggleLine(line) {
   if (activeLines.has(line)) {
-    if (activeLines.size === 1) return;
     activeLines.delete(line);
   } else {
     activeLines.add(line);
   }
-  document.querySelectorAll('.line-badge').forEach(b => {
-    const l = b.dataset.line;
-    b.classList.toggle('active', activeLines.has(l));
-    b.classList.toggle('inactive', !activeLines.has(l));
+
+  document.querySelectorAll('.line-badge').forEach(badge => {
+    const isActive = activeLines.has(badge.dataset.line);
+    badge.classList.toggle('active', isActive);
+    badge.classList.toggle('inactive', !isActive);
   });
+
   render();
 }
 
-function setSort(s) {
-  currentSort = s;
-  ['sortRating','sortPrice','sortName'].forEach(id => document.getElementById(id).classList.remove('active'));
-  document.getElementById('sort' + s.charAt(0).toUpperCase() + s.slice(1)).classList.add('active');
+function setSort(type) {
+  currentSort = type;
+  document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+  document.getElementById('sortRating').classList.toggle('active', type === 'rating');
+  document.getElementById('sortPrice').classList.toggle('active', type === 'price');
+  document.getElementById('sortName').classList.toggle('active', type === 'name');
   render();
 }
 
-function getFiltered() {
-  const q = document.getElementById('searchInput').value.toLowerCase();
-  const cuisine = document.getElementById('cuisineFilter').value;
-  const nbr = document.getElementById('neighborhoodFilter').value;
-  const meal = document.getElementById('mealFilter').value;
+function getFilteredRestaurants() {
+  const search = document.getElementById('searchInput').value.toLowerCase().trim();
+  const cuisineFilter = document.getElementById('cuisineFilter').value;
+  const neighborhoodFilter = document.getElementById('neighborhoodFilter').value;
+  const mealFilter = document.getElementById('mealFilter').value;
 
-  return restaurants.filter(r => {
+  const filtered = restaurants.filter(r => {
     const lines = getLines(r['L Line [Train]']);
-    const hasLine = r['L Line [Train]'] === 'Varies' || lines.some(l => activeLines.has(l)) || lines.length === 0;
-    if (!hasLine) return false;
-    if (cuisine && !getCuisines(r['Cuisine']).includes(cuisine)) return false;
-    if (nbr && r['Neighborhood'] !== nbr) return false;
-    if (meal && !r['Meals'].toLowerCase().includes(meal.toLowerCase())) return false;
-    if (q && !r['Restaurants'].toLowerCase().includes(q) &&
-        !r['Cuisine'].toLowerCase().includes(q) &&
-        !r['Nearest CTA L Stop [Train Station]'].toLowerCase().includes(q) &&
-        !r['Neighborhood'].toLowerCase().includes(q)) return false;
-    return true;
-  }).sort((a, b) => {
+    const matchesLine = lines.length === 0 || lines.some(line => activeLines.has(line));
+
+    const haystack = [
+      r['Restaurants'],
+      r['Cuisine'],
+      r['Neighborhood'],
+      r['Nearest CTA L Stop [Train Station]'],
+      r['Comments by Louis Sungwoo Cho']
+    ].join(' ').toLowerCase();
+
+    const matchesSearch = !search || haystack.includes(search);
+    const matchesCuisine = !cuisineFilter || getCuisines(r['Cuisine']).includes(cuisineFilter);
+    const matchesNeighborhood = !neighborhoodFilter || r['Neighborhood'] === neighborhoodFilter;
+    const matchesMeal = !mealFilter || String(r['Meals'] || '').includes(mealFilter);
+
+    return matchesLine && matchesSearch && matchesCuisine && matchesNeighborhood && matchesMeal;
+  });
+
+  filtered.sort((a, b) => {
     if (currentSort === 'rating') {
-      const ra = parseFloat(a['Ratings (/5)']) || 0, rb = parseFloat(b['Ratings (/5)']) || 0;
-      return rb - ra;
+      return getRatingValue(b['Ratings (/5)']) - getRatingValue(a['Ratings (/5)']);
     }
     if (currentSort === 'price') {
-      const pa = parseFloat(a['Price $']) || 0, pb = parseFloat(b['Price $']) || 0;
-      return pa - pb;
+      const aVal = getPriceValue(a['Price $']);
+      const bVal = getPriceValue(b['Price $']);
+      if (aVal === null && bVal === null) return 0;
+      if (aVal === null) return 1;
+      if (bVal === null) return -1;
+      return aVal - bVal;
     }
-    return a['Restaurants'].localeCompare(b['Restaurants']);
+    return String(a['Restaurants'] || '').localeCompare(String(b['Restaurants'] || ''));
   });
-}
 
-function getPrimaryLineColor(lineStr) {
-  const lines = getLines(lineStr);
-  if (lines.length === 0) return '#444';
-  return LINE_COLORS[lines[0]];
-}
-
-function buildAccentGradient(lineStr) {
-  const lines = getLines(lineStr);
-  if (lines.length === 0) return 'background: #444';
-  if (lines.length === 1) return `background: ${LINE_COLORS[lines[0]]}`;
-  const stops = lines.map((l, i) => `${LINE_COLORS[l]} ${Math.round(i*100/(lines.length-1))}%`).join(', ');
-  return `background: linear-gradient(90deg, ${stops})`;
+  return filtered;
 }
 
 function render() {
-  const filtered = getFiltered();
+  const filtered = getFilteredRestaurants();
   const grid = document.getElementById('grid');
   const noResults = document.getElementById('noResults');
   const countBadge = document.getElementById('countBadge');
-  countBadge.textContent = `${filtered.length} spot${filtered.length !== 1 ? 's' : ''}`;
 
-  if (filtered.length === 0) {
-    grid.style.display = 'none'; noResults.style.display = 'block'; return;
+  countBadge.textContent = `${filtered.length} spots`;
+
+  if (!filtered.length) {
+    grid.innerHTML = '';
+    noResults.style.display = 'block';
+    return;
   }
-  grid.style.display = 'grid'; noResults.style.display = 'none';
 
-  grid.innerHTML = filtered.map((r, i) => {
+  noResults.style.display = 'none';
+
+  grid.innerHTML = filtered.map((r, index) => {
+    const rating = getRatingValue(r['Ratings (/5)']);
     const lines = getLines(r['L Line [Train]']);
-    const rating = parseFloat(r['Ratings (/5)']);
-    const ratingStr = isNaN(rating) ? '—' : rating.toFixed(1);
-    const rColor = isNaN(rating) ? '#888' : getRatingColor(rating);
-    const linePills = lines.map(l => `<div class="line-pill" style="background:${LINE_COLORS[l]}" title="${l} Line"></div>`).join('');
-    const comment = r['Comments by Louis Sungwoo Cho'];
-    const showComment = comment && comment !== 'TBD' && comment.length > 3;
-    const price = getPriceLabel(r['Price $']);
-    const cuisineTags = getCuisines(r['Cuisine']).map(c => `<span class="meta-tag cuisine">${c}</span>`).join('');
+    const accent = lines.length ? LINE_COLORS[lines[0]] : '#444';
 
-    return `<div class="card" onclick="openModal(${r.Index})">
-      <div class="card-accent-bar" style="${buildAccentGradient(r['L Line [Train]'])}"></div>
-      <div class="card-header">
-        <div class="card-name">${r['Restaurants']}</div>
-        <div class="card-rating">
-          <div class="rating-num" style="color:${rColor}">${ratingStr}</div>
-          <div class="rating-stars">/5</div>
+    return `
+      <div class="card" data-index="${index}">
+        <div class="card-accent-bar" style="background:${accent}"></div>
+        <div class="card-header">
+          <div class="card-name">${r['Restaurants'] || 'Untitled'}</div>
+          <div class="card-rating">
+            <div class="rating-num" style="color:${getRatingColor(rating)}">${rating < 0 ? '–' : r['Ratings (/5)']}</div>
+            <div class="rating-stars">/5</div>
+          </div>
+        </div>
+        <div class="card-meta">
+          <span class="meta-tag cuisine">${r['Cuisine'] || 'Unknown'}</span>
+          <span class="meta-tag price">${getPriceLabel(r['Price $'])}</span>
+        </div>
+        <div class="card-station">
+          <div class="station-icon">CTA</div>
+          <div class="station-text"><span class="station-name">${r['Nearest CTA L Stop [Train Station]'] || 'Unknown stop'}</span></div>
+        </div>
+        <div class="card-lines">
+          ${lines.map(line => `<div class="line-pill" title="${line}" style="background:${LINE_COLORS[line]}"></div>`).join('')}
+        </div>
+        <div class="card-comment">${r['Comments by Louis Sungwoo Cho'] || ''}</div>
+        <div class="card-footer">
+          <div class="card-hood">${r['Neighborhood'] || ''}</div>
+          <a class="card-link" href="${r['Menu/Website'] || '#'}" target="_blank" rel="noopener noreferrer">Menu →</a>
         </div>
       </div>
-      <div class="card-meta">
-        ${cuisineTags}
-        <span class="meta-tag price">${price}</span>
-      </div>
-      <div class="card-station">
-        <div class="station-icon">CTA</div>
-        <div class="station-text"><span class="station-name">${r['Nearest CTA L Stop [Train Station]']}</span></div>
-      </div>
-      ${linePills ? `<div class="card-lines">${linePills}</div>` : ''}
-      ${showComment ? `<div class="card-comment">${comment}</div>` : ''}
-      <div class="card-footer">
-        <span class="card-hood">${r['Neighborhood']}</span>
-        ${r['Menu/Website'] ? `<a class="card-link" href="${r['Menu/Website']}" onclick="event.stopPropagation()" target="_blank">Menu →</a>` : ''}
-      </div>
-    </div>`;
+    `;
   }).join('');
 
-  // update 5-star stat
-  const fiveStars = restaurants.filter(r => parseFloat(r['Ratings (/5)']) >= 5).length;
-  document.getElementById('stat-5star').textContent = fiveStars;
+  document.querySelectorAll('.card').forEach((card, index) => {
+    card.addEventListener('click', () => openModal(filtered[index]));
+  });
 }
 
-function openModal(idx) {
-  const r = restaurants.find(x => x.Index === idx);
-  if (!r) return;
+function openModal(r) {
   const lines = getLines(r['L Line [Train]']);
-  const rating = parseFloat(r['Ratings (/5)']);
-  const ratingStr = isNaN(rating) ? 'TBD' : rating.toFixed(1) + ' / 5';
-  const price = r['Price $'] ? '$' + parseFloat(r['Price $']).toFixed(2) : '—';
-  const comment = r['Comments by Louis Sungwoo Cho'];
+  const linePills = lines.map(line => `
+    <div class="modal-line-pill" style="background:${LINE_COLORS[line]}22; color:${line === 'Yellow' ? '#111' : LINE_COLORS[line]}; border:1px solid ${LINE_COLORS[line]}44;">
+      <div class="line-dot" style="background:${LINE_COLORS[line]}"></div>${line}
+    </div>
+  `).join('');
 
-  document.getElementById('modalBar').style.cssText = buildAccentGradient(r['L Line [Train]']);
-  document.getElementById('modalTitle').textContent = r['Restaurants'];
-
-  const linePills = lines.map(l =>
-    `<div class="modal-line-pill" style="background:${LINE_COLORS[l]}22; color:${LINE_COLORS[l]}; border: 1px solid ${LINE_COLORS[l]}44">
-      <div style="width:10px;height:10px;border-radius:50%;background:${LINE_COLORS[l]}"></div>${l}
-    </div>`
-  ).join('');
+  document.getElementById('modalBar').style.background = lines.length ? LINE_COLORS[lines[0]] : '#444';
+  document.getElementById('modalTitle').textContent = r['Restaurants'] || '';
 
   document.getElementById('modalBody').innerHTML = `
     <div class="modal-row">
-      <div class="modal-field"><div class="modal-label">Neighborhood</div><div class="modal-value">${r['Neighborhood']}</div></div>
-      <div class="modal-field"><div class="modal-label">Cuisine</div><div class="modal-value" style="display:flex;flex-wrap:wrap;gap:5px;margin-top:4px">${getCuisines(r['Cuisine']).map(c => `<span class="meta-tag cuisine" style="font-size:0.75rem">${c}</span>`).join('')}</div></div>
+      <div class="modal-field">
+        <div class="modal-label">Cuisine</div>
+        <div class="modal-value">${r['Cuisine'] || '—'}</div>
+      </div>
+      <div class="modal-field">
+        <div class="modal-label">Price</div>
+        <div class="modal-value">${getPriceLabel(r['Price $'])}</div>
+      </div>
     </div>
     <div class="modal-row">
-      <div class="modal-field"><div class="modal-label">Rating</div><div class="modal-value" style="color:${isNaN(rating)?'#888':getRatingColor(rating)};font-family:'Space Mono',monospace;font-size:1.3rem;font-weight:700">${ratingStr}</div></div>
-      <div class="modal-field"><div class="modal-label">Avg price</div><div class="modal-value" style="font-family:'Space Mono',monospace">${price}</div></div>
+      <div class="modal-field">
+        <div class="modal-label">Neighborhood</div>
+        <div class="modal-value">${r['Neighborhood'] || '—'}</div>
+      </div>
+      <div class="modal-field">
+        <div class="modal-label">Rating</div>
+        <div class="modal-value">${r['Ratings (/5)'] || '—'}</div>
+      </div>
     </div>
     <div>
-      <div class="modal-label" style="margin-bottom:8px">CTA Station</div>
-      <div class="modal-value" style="font-size:1rem">${r['Nearest CTA L Stop [Train Station]']}</div>
+      <div class="modal-label">Nearest CTA Stop</div>
+      <div class="modal-value">${r['Nearest CTA L Stop [Train Station]'] || '—'}</div>
     </div>
-    ${linePills ? `<div><div class="modal-label" style="margin-bottom:8px">L Lines</div><div class="modal-lines">${linePills}</div></div>` : ''}
     <div>
-      <div class="modal-label">Meals served</div>
-      <div class="modal-value" style="margin-top:4px">${r['Meals']}</div>
+      <div class="modal-label">Meals</div>
+      <div class="modal-value">${r['Meals'] || '—'}</div>
     </div>
-    ${r['Address'] && r['Address'] !== 'Varies' ? `<div><div class="modal-label">Address</div><div class="modal-value" style="font-size:0.85rem;margin-top:4px">${r['Address']}</div></div>` : ''}
-    ${comment && comment !== 'TBD' ? `<div class="modal-comment-box">"${comment}"<br><small style="color:var(--muted);margin-top:6px;display:block">— Louis Sungwoo Cho</small></div>` : ''}
-    ${r['Menu/Website'] ? `<a href="${r['Menu/Website']}" target="_blank" class="modal-cta">View Menu / Website →</a>` : ''}
+    <div>
+      <div class="modal-label">Address</div>
+      <div class="modal-value">${r['Address'] || '—'}</div>
+    </div>
+    <div>
+      <div class="modal-label">Lines</div>
+      <div class="modal-lines">${linePills || '<span class="modal-value">—</span>'}</div>
+    </div>
+    <div class="modal-comment-box">${r['Comments by Louis Sungwoo Cho'] || 'No note yet.'}</div>
+    ${r['Menu/Website'] ? `<a href="${r['Menu/Website']}" target="_blank" rel="noopener noreferrer" class="modal-cta">View Menu / Website →</a>` : ''}
   `;
 
   document.getElementById('modalOverlay').classList.add('open');
 }
 
-function closeModal(e) {
-  if (e.target === document.getElementById('modalOverlay')) closeModalDirect();
+function closeModal(event) {
+  if (event.target === document.getElementById('modalOverlay')) {
+    closeModalDirect();
+  }
 }
+
 function closeModalDirect() {
   document.getElementById('modalOverlay').classList.remove('open');
 }
 
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') closeModalDirect();
+});
+
 document.getElementById('searchInput').addEventListener('input', render);
 document.getElementById('cuisineFilter').addEventListener('change', render);
 document.getElementById('neighborhoodFilter').addEventListener('change', render);
 document.getElementById('mealFilter').addEventListener('change', render);
 
-render();
+loadData();
 </script>
+
 </body>
 </html>
