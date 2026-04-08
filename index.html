@@ -185,9 +185,9 @@
 
 <header class="hero">
   <h1>Chicago <span>L</span> Eats</h1>
-  <p>50 restaurants. 8 L lines. One city. Find your next meal by the train you take.</p>
+  <p>49 restaurants. 8 L lines. One city. Find your next meal by the train you take.</p>
   <div class="hero-stats">
-    <div class="stat"><div class="stat-n" id="stat-total">50</div><div class="stat-l">Restaurants</div></div>
+    <div class="stat"><div class="stat-n" id="stat-total">49</div><div class="stat-l">Restaurants</div></div>
     <div class="stat"><div class="stat-n">8</div><div class="stat-l">L Lines</div></div>
     <div class="stat"><div class="stat-n" id="stat-5star">–</div><div class="stat-l">5-Star Picks</div></div>
     <div class="stat"><div class="stat-n">14</div><div class="stat-l">Cuisines</div></div>
@@ -208,6 +208,7 @@
 </div>
 
 <div class="grid" id="grid"></div>
+<div id="loadingMsg" style="padding:80px 40px;text-align:center;color:var(--muted);font-family:'Space Mono',monospace;font-size:0.85rem;">Loading restaurants from Google Sheets...</div>
 <div class="no-results" id="noResults" style="display:none;">No restaurants match your filters. Try a different line or search.</div>
 
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
@@ -233,49 +234,6 @@ const LINE_COLORS = {
 };
 const ALL_LINES = ['Red','Blue','Brown','Green','Orange','Purple','Pink'];
 
-// Replace the hardcoded const RAW = [...] with this:
-window.onload = loadData;
-let RAW = [];
-
-async function loadData() {
-  try {
-    const response = await fetch('combined_restaurants.json');
-    RAW = await response.json();
-    
-    // Call your existing render functions here after data is loaded
-    render(); 
-    updateStats();
-  } catch (error) {
-    console.error("Error loading restaurant data:", error);
-  }
-}
-
-// Call the function when the page loads
-// window.onload = loadData;
-
-// const RAW = [
-// {"Index":1,"Restaurants":"Gene & Georgetti","Neighborhood":"River North","Address":"500 N Franklin St, Chicago, IL 60654","Phone Number":"(312) 527-3718","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Merchandise Mart","L Line [Train]":"Brown","Meals":"Lunch, Dinner","Menu/Website":"https://geneandgeorgetti.com/gene-georgetti-chicago-menus/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"PERFECT STEAK MEAL! BEST & MY FAVORITE!"},
-// {"Index":2,"Restaurants":"Perilla Korean American Steakhouse","Neighborhood":"Loop","Address":"225 N Wabash Ave, Chicago, IL 60601","Phone Number":"(312) 236-9300","Cuisine":"Korean, American","Nearest CTA L Stop [Train Station]":"State/Lake, Washington/Wabash [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Breakfast, Lunch,Dinner","Menu/Website":"https://www.perillachicago.com/perilla-steakhouse-menus/","Price $":38.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"GREAT KOREAN AMERICAN STYLED STEAK FRITES!"},
-// {"Index":3,"Restaurants":"Carmine's","Neighborhood":"Near North Side","Address":"1037 N Rush St, Chicago, IL 60611","Phone Number":"(312) 988-7676","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://carminesitalian.com/chicago/menu/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"AWESOME SAUSAGE SPAGHETTI!"},
-// {"Index":4,"Restaurants":"Luxbar Chicago","Neighborhood":"Near North Side","Address":"18 E Bellevue Pl, Chicago, IL 60611","Phone Number":"(312) 642-3400","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Breakfast, Lunch, Dinner","Menu/Website":"https://luxbar.com/menu/","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Steak & Eggs Brunch!"},
-// {"Index":5,"Restaurants":"Exchequer Restaurant & Pub","Neighborhood":"Loop","Address":"226 S Wabash Ave, Chicago, IL 60604","Phone Number":"(312) 939-5633","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Jackson","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.exchequerpub.com/menu-1","Price $":31.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Filet Mignon was amazing with baked potatoes!"},
-// {"Index":6,"Restaurants":"Daebak Korean BBQ","Neighborhood":"Wicker Park","Address":"1266 N Milwaukee Ave, Chicago, IL 60622","Phone Number":"(312) 722-6923","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Division-Milwaukee","L Line [Train]":"Blue","Meals":"Lunch, Dinner","Menu/Website":"https://www.daebakwp.com/","Price $":66.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Best authentic Korean BBQ in the City of Chicago!"},
-// {"Index":7,"Restaurants":"Benihana","Neighborhood":"River North","Address":"875 N Michigan Ave, Chicago, IL 60611","Phone Number":"(312) 780-3110","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.benihana.com/menus/#food","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Japanese Teppanyaki! Large portion size"},
-// {"Index":8,"Restaurants":"Hawksmoor Chicago","Neighborhood":"River North","Address":"500 N La Salle Dr, Chicago, IL 60654","Phone Number":"(872) 272-4240","Cuisine":"English","Nearest CTA L Stop [Train Station]":"Merchandise Mart","L Line [Train]":"Brown","Meals":"Lunch, Dinner","Menu/Website":"https://thehawksmoor.com/us/locations/chicago/food/menu/","Price $":25.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"8pm Tue to Sat Steak Frites were amazing!"},
-// {"Index":9,"Restaurants":"Tavern on Rush","Neighborhood":"Near North Side","Address":"1015 N Rush St, Chicago, IL 60611","Phone Number":"(312) 664-9600","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.tavernonrush.com/menus","Price $":32.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak Frites were nice!"},
-// {"Index":10,"Restaurants":"Charlie Martin","Neighborhood":"River North","Address":"736 N Clark St, Chicago, IL 60654","Phone Number":"(312) 929-3174","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red, Purple, Brown","Meals":"Dinner","Menu/Website":"https://www.charliemartinschicago.com/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing NY Strip Frites"},
-// {"Index":11,"Restaurants":"Mastro Steakhouse","Neighborhood":"River North","Address":"520 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 521-5100","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Dinner","Menu/Website":"https://www.mastrosrestaurants.com/location/mastros-steakhouse-chicago/","Price $":60.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak was nice but portion size was too small"},
-// {"Index":12,"Restaurants":"Eataly","Neighborhood":"River North","Address":"43 E Ohio St, Chicago, IL 60611","Phone Number":"(312) 521-8700","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.eataly.com/us_en/stores/chicago","Price $":28.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing authentic Italian pizza!"},
-// {"Index":13,"Restaurants":"Roanoke Restaurant","Neighborhood":"Loop","Address":"135 W Madison St, Chicago, IL 60602","Phone Number":"(312) 361-3800","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Breakfast, Lunch, Dinner","Menu/Website":"https://www.theroanokerestaurant.com/menus","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Steak & Eggs and Steak Salad were PERFECT!"},
-// {"Index":14,"Restaurants":"Kyu Ramen","Neighborhood":"River North","Address":"6 W Hubbard St, Chicago, IL 60654","Phone Number":"(312) 877-5365","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://www.kyuramen.com/menu","Price $":45.0,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"Large portion, delicious grill and ramen."},
-// {"Index":15,"Restaurants":"FireLake Grill House and Cocktail Bar","Neighborhood":"Loop","Address":"221 N Columbus Dr, Chicago, IL 60601","Phone Number":"(312) 477-0234","Cuisine":"American","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.firelakechicago.com/","Price $":30.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Steak Brunch was nice but portion was too small"},{"Index":16,"Restaurants":"The Dearborn","Neighborhood":"Loop","Address":"145 N Dearborn St, Chicago, IL 60602","Phone Number":"(312) 384-1242","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.thedearborntavern.com/menus/","Price $":30.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Wagyu Burger, Salad, and Rasberry Sorbet was nice"},{"Index":17,"Restaurants":"Petterinos","Neighborhood":"Loop","Address":"150 N Dearborn St, Chicago, IL 60601","Phone Number":"(312) 422-0150","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://petterinos.com/menu/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Fantastic lunch!"},{"Index":18,"Restaurants":"90th Meridian","Neighborhood":"Loop","Address":"231 S LaSalle St #108, Chicago, IL 60604","Phone Number":"(312) 929-3948","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Jackson, Quincy [Chicago Union Station]","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.90thmeridian.com/","Price $":30.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Lunch was ok"},{"Index":19,"Restaurants":"Seville Chicago","Neighborhood":"Loop","Address":"243 S Franklin St, Chicago, IL 60606","Phone Number":"(773) 339-0362","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Quincy [Chicago Union Station]","L Line [Train]":"Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.sevillechicago.com/","Price $":30.0,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"Pasta was nice but portions were too small"},{"Index":20,"Restaurants":"La Bella Trattoria","Neighborhood":"Loop","Address":"120 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 312-2142","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.labellachicago.com/","Price $":22.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Pizza was nice"},{"Index":21,"Restaurants":"Sweetwater","Neighborhood":"Loop","Address":"225 N Michigan Ave, Chicago, IL 60601","Phone Number":"(312) 698-7111","Cuisine":"American","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.sweetwatertavernandgrille.com/","Price $":19.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Burger was amazing!"},{"Index":22,"Restaurants":"Gibson Steakhouse","Neighborhood":"Near North Side","Address":"1028 N Rush St, Chicago, IL 60611","Phone Number":"(312) 266-8999","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Division","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://gibsonssteakhouse.com/gibsons-chicago/","Price $":58.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Great fillet mignon!"},{"Index":23,"Restaurants":"Legal Seafood","Neighborhood":"River North","Address":"315 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 910-6517","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake, Merchandise Mart [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.legalseafoods.com/locations/chicago-marina-city/","Price $":35.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing salmon with good portion"},
-
-
-// {"Index":24,"Restaurants":"RPM Seafood","Neighborhood":"River North","Address":"317 N Clark St, Chicago, IL 60654","Phone Number":"(312) 900-9035","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Clark/Lake, State/Lake, Merchandise Mart [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.rpmrestaurants.com/rpm-seafood-chicago/","Price $":44.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Too expensive and small portion"},{"Index":25,"Restaurants":"Sunda New Asian - River North","Neighborhood":"River North","Address":"110 W Illinois St, Chicago, IL 60654","Phone Number":"(312) 644-0500","Cuisine":"Asian Fusion","Nearest CTA L Stop [Train Station]":"Grand, Merchandise Mart","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://www.sundanewasian.com/river-north","Price $":26.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Pad Thai was delicious"},{"Index":26,"Restaurants":"Remington's","Neighborhood":"Loop","Address":"20 N Michigan Ave, Chicago, IL 60602","Phone Number":"(312) 782-6000","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.remingtonschicago.com/menus/","Price $":18.95,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Burger was not tasty"},{"Index":27,"Restaurants":"Miller's Pub","Neighborhood":"Loop","Address":"134 S Wabash Ave, Chicago, IL 60603","Phone Number":"(312) 263-4988","Cuisine":"Irish","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Jackson","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.millerspub.com/","Price $":50.25,"Ratings (/5)":4.5,"Comments by Louis Sungwoo Cho":"NY Strip was nice"},{"Index":28,"Restaurants":"STK Steakhouse","Neighborhood":"River North","Address":"9 W Kinzie St, Chicago, IL 60654","Phone Number":"(312) 340-5636","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand, Merchandise Mart","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://stksteakhouse.com/en-us/location/chicago/","Price $":50.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Portion size too small"},{"Index":29,"Restaurants":"Gage Chicago","Neighborhood":"Loop","Address":"24 S Michigan Ave, Chicago, IL 60603","Phone Number":"(312) 372-4243","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://thegagechicago.com/","Price $":25.0,"Ratings (/5)":3,"Comments by Louis Sungwoo Cho":"Gage Stack Sandwich was ok"},{"Index":30,"Restaurants":"Ikigai Sushi & Izakaya","Neighborhood":"Near North Side","Address":"372 W Chicago Ave, Chicago, IL 60654","Phone Number":"(312) 291-9663","Cuisine":"Japanese","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Brown, Purple","Meals":"Lunch, Dinner","Menu/Website":"https://www.ikigaichicago.com/","Price $":45.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Great Chirashi and meat kebabs"},{"Index":31,"Restaurants":"Millennium Hall","Neighborhood":"Loop","Address":"11 N Michigan Ave, Chicago, IL 60602","Phone Number":"(312) 521-7275","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.millenniumhallchicago.com/","Price $":19.95,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Millennium Burger was great!"},{"Index":32,"Restaurants":"Italian Village","Neighborhood":"Loop","Address":"71 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 332-7005","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.thevillage-chicago.com/","Price $":20.0,"Ratings (/5)":1,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":33,"Restaurants":"Cafecito","Neighborhood":"River North","Address":"215 E Chestnut St, Chicago, IL 60611","Phone Number":"(312) 643-2242","Cuisine":"Cuban","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Brown, Purple","Meals":"Lunch, Dinner","Menu/Website":"https://iheartcafecito.com/","Price $":14.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Palomilla Steak sandwich was nice"},{"Index":34,"Restaurants":"Acanto","Neighborhood":"Loop","Address":"18 S Michigan Ave, Chicago, IL 60603","Phone Number":"(312) 578-0763","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.acantochicago.com/","Price $":20.0,"Ratings (/5)":2,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":35,"Restaurants":"Bandol","Neighborhood":"Loop","Address":"100 W Monroe St, Chicago, IL 60603","Phone Number":"(312) 877-5713","Cuisine":"French","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wells","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink","Meals":"Lunch, Dinner","Menu/Website":"https://www.bandolrestaurant.com/","Price $":19.0,"Ratings (/5)":2,"Comments by Louis Sungwoo Cho":"Don't recommend"},{"Index":36,"Restaurants":"Elephant Castle","Neighborhood":"Loop","Address":"185 N Wabash Ave, Chicago, IL 60601","Phone Number":"(312) 345-1710","Cuisine":"English","Nearest CTA L Stop [Train Station]":"State/Lake [Millenium]","L Line [Train]":"Red, Orange, Green, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch, Dinner","Menu/Website":"https://www.elephantcastle.com/en/menus/food.html","Price $":17.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing burgers and great place to vibe during St. Patrick's Weekend"},{"Index":37,"Restaurants":"Gaslight Club","Neighborhood":"O'Hare","Address":"Chicago O'Hare International Airport Hilton Hotel, 4000 N, Chicago, IL 60666","Phone Number":"(773) 686-0200","Cuisine":"European","Nearest CTA L Stop [Train Station]":"O'Hare [O'Hare Transfer]","L Line [Train]":"Blue [Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/","Price $":50.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing grill and pasta dishes!"},{"Index":38,"Restaurants":"Andiamo","Neighborhood":"O'Hare","Address":"Chicago O'Hare International Airport Hilton Hotel, 4000 N, Chicago, IL 60667","Phone Number":"(773) 686-8000","Cuisine":"Italian","Nearest CTA L Stop [Train Station]":"O'Hare [O'Hare Transfer]","L Line [Train]":"Blue [Metra]","Meals":"Breakfast, Lunch","Menu/Website":"https://www.hilton.com/en/hotels/chiohhh-hilton-chicago-ohare-airport/dining/","Price $":30.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing place to eat for breakfast, brunch, and lunch"},{"Index":39,"Restaurants":"VU Rooftop","Neighborhood":"South Loop","Address":"133 E Cermak Rd, Chicago, IL 60616","Phone Number":"(312) 256-2990","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Cermak-McCormick Place [McCormick Place]","L Line [Train]":"Green [Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.vurooftop.com/menus","Price $":34.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing tavern and Korean-style skirt steak and chicken skewers were amazing!"},
-// {"Index":40,"Restaurants":"The Brunchery","Neighborhood":"Lincoln Park","Address":"2552 N Clark St, Chicago, IL 60614","Phone Number":"(773) 248-4580","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Diversey","L Line [Train]":"Red, Purple, Brown","Meals":"Breakfast, Lunch","Menu/Website":"https://brunchonclark.com/menu/","Price $":28.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing Steak & Eggs Brunch!"},{"Index":41,"Restaurants":"The Evie","Neighborhood":"River North","Address":"537 N Michigan Ave Ste 200, Chicago, IL 60611","Phone Number":"(312) 701-3300","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Lunch, Dinner","Menu/Website":"https://eviechicago.com/menus","Price $":38.0,"Ratings (/5)":4,"Comments by Louis Sungwoo Cho":"Herb Roasted Chicken was nice"},{"Index":43,"Restaurants":"Green Apple PHOever","Neighborhood":"Loop","Address":"Food Court, 105 W Madison St B1, Chicago, IL 60602","Phone Number":"(312) 456-9995","Cuisine":"Korean, Vietnamese","Nearest CTA L Stop [Train Station]":"Monroe, Washington/Wabash [Millenium]","L Line [Train]":"Blue, Red, Brown, Orange, Purple, Pink [Metra, South Shore]","Meals":"Lunch","Menu/Website":"https://ordergreenapplephoever.com/","Price $":20.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Amazing authentic Korean food in the Loop!"},{"Index":44,"Restaurants":"PINK MU","Neighborhood":"River North","Address":"738 N Clark St, Chicago, IL 60654","Phone Number":"(312) 265-1607","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Chicago","L Line [Train]":"Red, Purple, Brown","Meals":"Lunch, Dinner","Menu/Website":"https://www.pinkmuchicago.com/","Price $":13.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Best authentic Korean-style Kimbap!"},{"Index":45,"Restaurants":"82 Kimbap","Neighborhood":"Loop","Address":"125 S Clark St, Chicago, IL 60603","Phone Number":"","Cuisine":"Korean","Nearest CTA L Stop [Train Station]":"Adams/Wabash, Monroe, Quincy [Chicago Union Station]","L Line [Train]":"Blue, Red, Green, Brown, Orange, Purple, Pink [Amtrak, Metra]","Meals":"Lunch, Dinner","Menu/Website":"https://www.82kimbap.com/","Price $":14.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Unique purple rice Kimbap and very delicious!"},{"Index":46,"Restaurants":"Corey's NYC Bagel Deli","Neighborhood":"River North","Address":"515 N Dearborn St, Chicago, IL 60654","Phone Number":"(312) 923-9999","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Grand","L Line [Train]":"Red","Meals":"Breakfast, Lunch","Menu/Website":"https://coreysbagels.com/","Price $":14.0,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"Delicious bagel sandwiches!"},{"Index":47,"Restaurants":"Chicago Firehouse Restaurant","Neighborhood":"South Loop","Address":"1401 S Michigan Ave, Chicago, IL 60605","Phone Number":"(312) 786-1401","Cuisine":"American","Nearest CTA L Stop [Train Station]":"Roosevelt","L Line [Train]":"Green, Orange","Meals":"Lunch, Dinner","Menu/Website":"https://www.chicagofirehouse.com/#","Price $":"","Ratings (/5)":"TBD","Comments by Louis Sungwoo Cho":"TBD"},{"Index":48,"Restaurants":"Chipotle - Mexican Grill","Neighborhood":"Varies","Address":"Varies","Phone Number":"Varies","Cuisine":"Mexican","Nearest CTA L Stop [Train Station]":"Varies","L Line [Train]":"Varies","Meals":"Lunch","Menu/Website":"https://www.chipotle.com/home","Price $":13.52,"Ratings (/5)":5,"Comments by Louis Sungwoo Cho":"My go-to place for lunch and generous portions"},{"Index":49,"Restaurants":"BenjYehuda","Neighborhood":"Loop","Address":"10 S LaSalle St #2400, Chicago, IL 60603","Phone Number":"(312) 726-9653","Cuisine":"Mediterranean","Nearest CTA L Stop [Train Station]":"Washington/Wells","L Line [Train]":"Brown, Orange, Purple, Pink","Meals":"Lunch","Menu/Website":"https://benjyehuda.com/","Price $":14.0,"Ratings (/5)":3.5,"Comments by Louis Sungwoo Cho":"Chicken bowl was ok"}];
-
-
-
 
 function getLines(lineStr) {
   if (!lineStr || lineStr === 'Varies') return [];
@@ -299,33 +257,81 @@ function getPriceLabel(p) {
   return '$$$$';
 }
 
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSmMP8_C4HtqpmtqYhaBaPHmLzW5O3SyLRaeKRIvGH5Irtlco0G7Yicy1_jBif2nA/pub?output=csv';
+
 let activeLines = new Set(ALL_LINES);
 let currentSort = 'rating';
-let restaurants = RAW.filter(r => r.Restaurants && r.Restaurants.trim() !== '');
+let restaurants = [];
 
 function getCuisines(cuisineStr) {
+  if (!cuisineStr) return [];
   return cuisineStr.split(',').map(c => c.trim()).filter(Boolean);
 }
 
-// Populate filters
-const cuisines = [...new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])))].sort();
-const neighborhoods = [...new Set(restaurants.map(r => r['Neighborhood']))].sort();
-const cuisineEl = document.getElementById('cuisineFilter');
-const nbrEl = document.getElementById('neighborhoodFilter');
-cuisines.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; cuisineEl.appendChild(o); });
-neighborhoods.forEach(n => { if (n !== 'Varies') { const o = document.createElement('option'); o.value = n; o.textContent = n; nbrEl.appendChild(o); }});
+function parseCSV(text) {
+  const lines = text.split('\n');
+  const headers = lines[0].split(',').map(h => h.replace(/"/g, '').trim());
+  return lines.slice(1).map(line => {
+    const vals = [];
+    let cur = '', inQ = false;
+    for (let ch of line) {
+      if (ch === '"') { inQ = !inQ; }
+      else if (ch === ',' && !inQ) { vals.push(cur.trim()); cur = ''; }
+      else { cur += ch; }
+    }
+    vals.push(cur.trim());
+    const obj = {};
+    headers.forEach((h, i) => { obj[h] = (vals[i] || '').replace(/^"|"$/g, ''); });
+    return obj;
+  }).filter(r => r['Restaurants'] && r['Restaurants'].trim() !== '');
+}
 
-// Build legend
-const legend = document.getElementById('linesLegend');
-ALL_LINES.forEach(l => {
-  const b = document.createElement('div');
-  b.className = 'line-badge active'; b.dataset.line = l;
-  b.innerHTML = `<div class="line-dot" style="background:${LINE_COLORS[l]}"></div>${l} Line`;
-  b.style.background = LINE_COLORS[l] + '22';
-  b.style.color = LINE_COLORS[l];
-  b.addEventListener('click', () => toggleLine(l));
-  legend.appendChild(b);
-});
+function populateFilters() {
+  const cuisines = [...new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])))].sort();
+  const neighborhoods = [...new Set(restaurants.map(r => r['Neighborhood']))].sort();
+  const cuisineEl = document.getElementById('cuisineFilter');
+  const nbrEl = document.getElementById('neighborhoodFilter');
+  cuisineEl.innerHTML = '<option value="">All cuisines</option>';
+  nbrEl.innerHTML = '<option value="">All neighborhoods</option>';
+  cuisines.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; cuisineEl.appendChild(o); });
+  neighborhoods.forEach(n => { if (n !== 'Varies') { const o = document.createElement('option'); o.value = n; o.textContent = n; nbrEl.appendChild(o); }});
+}
+
+function showLoading(on) {
+  document.getElementById('grid').style.display = on ? 'none' : 'grid';
+  document.getElementById('loadingMsg').style.display = on ? 'block' : 'none';
+}
+
+async function loadData() {
+  showLoading(true);
+  try {
+    const res = await fetch(CSV_URL);
+    const text = await res.text();
+    restaurants = parseCSV(text);
+    document.getElementById('stat-total').textContent = restaurants.length;
+    populateFilters();
+    buildLegend();
+    render();
+  } catch(e) {
+    document.getElementById('loadingMsg').textContent = 'Failed to load data. Please refresh the page.';
+  } finally {
+    showLoading(false);
+  }
+}
+
+function buildLegend() {
+  const legend = document.getElementById('linesLegend');
+  legend.innerHTML = '';
+  ALL_LINES.forEach(l => {
+    const b = document.createElement('div');
+    b.className = 'line-badge active'; b.dataset.line = l;
+    b.innerHTML = `<div class="line-dot" style="background:${LINE_COLORS[l]}"></div>${l} Line`;
+    b.style.background = LINE_COLORS[l] + '22';
+    b.style.color = LINE_COLORS[l];
+    b.addEventListener('click', () => toggleLine(l));
+    legend.appendChild(b);
+  });
+}
 
 function toggleLine(line) {
   if (activeLines.has(line)) {
@@ -417,7 +423,7 @@ function render() {
     const price = getPriceLabel(r['Price $']);
     const cuisineTags = getCuisines(r['Cuisine']).map(c => `<span class="meta-tag cuisine">${c}</span>`).join('');
 
-    return `<div class="card" onclick="openModal(${r.Index})">
+    return `<div class="card" onclick="openModal(${JSON.stringify(r['Restaurants'])})">
       <div class="card-accent-bar" style="${buildAccentGradient(r['L Line [Train]'])}"></div>
       <div class="card-header">
         <div class="card-name">${r['Restaurants']}</div>
@@ -448,8 +454,8 @@ function render() {
   document.getElementById('stat-5star').textContent = fiveStars;
 }
 
-function openModal(idx) {
-  const r = restaurants.find(x => x.Index === idx);
+function openModal(name) {
+  const r = restaurants.find(x => x['Restaurants'] === name);
   if (!r) return;
   const lines = getLines(r['L Line [Train]']);
   const rating = parseFloat(r['Ratings (/5)']);
@@ -505,7 +511,7 @@ document.getElementById('cuisineFilter').addEventListener('change', render);
 document.getElementById('neighborhoodFilter').addEventListener('change', render);
 document.getElementById('mealFilter').addEventListener('change', render);
 
-render();
+loadData();
 </script>
 </body>
 </html>
