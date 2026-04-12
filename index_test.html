@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago L Eats — Ride the Line, Find Your Meal</title>
+<link rel="icon" href="favicon.ico?v=2" type="image/x-icon"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C8102E; --blue: #00A1DE; --brown: #62361B; --green: #009B3A;
+    --orange: #F9461C; --purple: #522398; --pink: #E27EA6; --yellow: #F9E300;
+    --bg: #0a0a0a; --surface: #141414; --surface2: #1e1e1e; --border: #2a2a2a;
+    --text: #f0ede8; --muted: #888; --accent: #F9E300;
+    --amtrak: #1a4fa3; --metra: #006747; --southshore: #8B0000;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  /* ---- ANIMATED TRACK ---- */
+  .hero-track {
+    position: fixed; top: 0; left: 0; right: 0; height: 4px; z-index: 999;
+    background: repeating-linear-gradient(90deg,
+      var(--red) 0 80px, transparent 80px 100px,
+      var(--blue) 100px 180px, transparent 180px 200px,
+      var(--brown) 200px 280px, transparent 280px 300px,
+      var(--green) 300px 380px, transparent 380px 400px,
+      var(--orange) 400px 480px, transparent 480px 500px,
+      var(--purple) 500px 580px, transparent 580px 600px
+    );
+    animation: slide 20s linear infinite;
+  }
+  @keyframes slide { from { background-position: 0 0; } to { background-position: 600px 0; } }
+
+  /* ---- HERO ---- */
+  .hero {
+    position: relative; padding: 80px 40px 60px; text-align: center;
+    border-bottom: 1px solid var(--border); overflow: hidden; margin-top: 4px;
+  }
+  .hero h1 {
+    font-family: 'Space Mono', monospace; font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 700; letter-spacing: -0.02em; line-height: 1.1;
+    color: var(--accent); text-shadow: 0 0 40px rgba(249,227,0,0.15);
+  }
+  .hero h1 span { color: var(--text); }
+  .hero p { font-size: 1.05rem; color: var(--muted); max-width: 480px; margin: 14px auto 0; line-height: 1.6; }
+  .hero-stats { display: flex; gap: 32px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+  .stat { text-align: center; }
+  .stat-n { font-family: 'Space Mono', monospace; font-size: 2rem; font-weight: 700; color: var(--accent); }
+  .stat-l { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 2px; }
+
+  /* ---- SURPRISE ME BUTTON ---- */
+  .surprise-wrap { display: flex; justify-content: center; margin-top: 28px; }
+  .surprise-btn {
+    font-family: 'Space Mono', monospace; font-size: 0.82rem; font-weight: 700;
+    background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
+    padding: 10px 24px; border-radius: 30px; cursor: pointer;
+    transition: all 0.2s; letter-spacing: 0.04em;
+  }
+  .surprise-btn:hover { background: var(--accent); color: #000; transform: scale(1.04); }
+
+  /* ---- MAP SECTION ---- */
+  .map-section {
+    border-bottom: 1px solid var(--border); padding: 40px;
+    background: var(--surface);
+  }
+  .map-section-inner { max-width: 900px; margin: 0 auto; }
+  .map-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+  .map-title { font-family: 'Space Mono', monospace; font-size: 1rem; font-weight: 700; color: var(--text); }
+  .map-subtitle { font-size: 0.8rem; color: var(--muted); margin-top: 3px; }
+  .map-img-wrap {
+    border-radius: 12px; overflow: hidden; border: 1px solid var(--border);
+    background: var(--surface2); text-align: center;
+  }
+  .map-img-wrap img { width: 100%; max-width: 860px; display: block; margin: 0 auto; }
+  .map-img-placeholder {
+    padding: 60px 20px; color: var(--muted); font-family: 'Space Mono', monospace; font-size: 0.8rem;
+  }
+  .map-img-placeholder .map-icon { font-size: 3rem; margin-bottom: 12px; }
+  .map-source { font-size: 0.72rem; color: var(--muted); margin-top: 10px; text-align: right; }
+  .map-source a { color: var(--muted); text-decoration: underline; }
+
+  /* ---- TRANSIT LEGEND ---- */
+  .transit-legend {
+    margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;
+  }
+  .transit-group { }
+  .transit-group-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-family: 'Space Mono', monospace; }
+  .transit-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .transit-pill {
+    display: flex; align-items: center; gap: 6px; padding: 5px 12px;
+    border-radius: 20px; font-family: 'Space Mono', monospace; font-size: 0.7rem; font-weight: 700;
+    border: 1.5px solid transparent; cursor: default;
+  }
+  .transit-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+  /* ---- LINE LEGEND (filter) ---- */
+  .lines-legend {
+    display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+    padding: 20px 40px; border-bottom: 1px solid var(--border);
+  }
+  .line-badge {
+    display: flex; align-items: center; gap: 6px; padding: 6px 14px;
+    border-radius: 20px; font-family: 'Space Mono', monospace; font-size: 0.72rem;
+    font-weight: 700; cursor: pointer; transition: transform 0.15s, opacity 0.15s;
+    border: 2px solid transparent; user-select: none;
+  }
+  .line-badge:hover { transform: scale(1.05); }
+  .line-badge.active { border-color: rgba(255,255,255,0.5); }
+  .line-badge.inactive { opacity: 0.28; }
+  .line-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+  /* ---- CONTROLS ---- */
+  .controls {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    padding: 16px 40px; border-bottom: 1px solid var(--border); background: var(--surface);
+  }
+  .controls input[type=text] {
+    flex: 1; min-width: 200px; padding: 10px 16px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 8px; color: var(--text);
+    font-family: 'Space Mono', monospace; font-size: 0.82rem;
+  }
+  .controls input[type=text]::placeholder { color: var(--muted); }
+  .controls input[type=text]:focus { outline: none; border-color: var(--accent); }
+  .controls select {
+    padding: 10px 14px; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-family: 'Space Mono', monospace; font-size: 0.8rem; cursor: pointer;
+  }
+  .sort-btn {
+    padding: 10px 14px; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--muted); font-family: 'Space Mono', monospace;
+    font-size: 0.75rem; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+  }
+  .sort-btn:hover, .sort-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  .count-badge { margin-left: auto; font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+
+  /* ---- GRID ---- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--border); }
+  .card {
+    background: var(--bg); padding: 24px; display: flex; flex-direction: column;
+    gap: 12px; cursor: pointer; transition: background 0.15s; position: relative; overflow: hidden;
+  }
+  .card:hover { background: var(--surface); }
+  .card-accent-bar { position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .card-name { font-family: 'Space Mono', monospace; font-size: 0.9rem; font-weight: 700; line-height: 1.3; color: var(--text); }
+  .card-rating { display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0; }
+  .rating-num { font-family: 'Space Mono', monospace; font-size: 1.4rem; font-weight: 700; }
+  .rating-stars { font-size: 0.62rem; color: var(--muted); }
+  .card-meta { display: flex; flex-wrap: wrap; gap: 5px; }
+  .meta-tag {
+    font-size: 0.68rem; padding: 3px 9px; border-radius: 20px;
+    border: 1px solid var(--border); color: var(--muted); font-family: 'Space Mono', monospace;
+  }
+  .meta-tag.cuisine { border-color: #444; color: #ccc; }
+  .meta-tag.price { border-color: var(--accent); color: var(--accent); }
+  .card-station { display: flex; align-items: flex-start; gap: 10px; }
+  .station-icon { font-size: 10px; background: var(--surface2); padding: 4px 7px; border-radius: 5px; font-family: 'Space Mono', monospace; color: var(--muted); flex-shrink: 0; margin-top: 1px; }
+  .station-name { font-size: 0.8rem; color: var(--text); font-weight: 500; line-height: 1.4; }
+  .card-lines { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
+  .line-pill { width: 20px; height: 8px; border-radius: 4px; }
+  /* connector badges on cards */
+  .connector-badge {
+    font-family: 'Space Mono', monospace; font-size: 0.58rem; font-weight: 700;
+    padding: 2px 6px; border-radius: 4px; letter-spacing: 0.03em;
+  }
+  .badge-amtrak { background: var(--amtrak); color: #fff; }
+  .badge-metra { background: var(--metra); color: #fff; }
+  .badge-southshore { background: var(--southshore); color: #fff; }
+  .card-comment { font-size: 0.8rem; color: var(--muted); line-height: 1.5; font-style: italic; border-left: 2px solid var(--border); padding-left: 10px; }
+  .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+  .card-hood { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .card-link { font-family: 'Space Mono', monospace; font-size: 0.68rem; color: var(--accent); text-decoration: none; }
+  .card-link:hover { text-decoration: underline; }
+  .no-results { padding: 80px 40px; text-align: center; color: var(--muted); font-family: 'Space Mono', monospace; font-size: 0.85rem; }
+
+  /* ---- MODAL ---- */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88);
+    z-index: 200; align-items: center; justify-content: center; padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    max-width: 560px; width: 100%; max-height: 90vh; overflow-y: auto; position: relative;
+  }
+  .modal-hero { padding: 32px 32px 0; position: relative; }
+  .modal-hero-bar { height: 4px; border-radius: 2px; margin-bottom: 24px; }
+  .modal-title { font-family: 'Space Mono', monospace; font-size: 1.3rem; font-weight: 700; line-height: 1.2; padding-right: 40px; }
+  .modal-close {
+    position: absolute; top: 16px; right: 16px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 8px; color: var(--muted);
+    font-size: 1rem; cursor: pointer; padding: 4px 10px; line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-body { padding: 20px 32px 32px; display: flex; flex-direction: column; gap: 18px; }
+  .modal-row { display: flex; gap: 12px; }
+  .modal-field { flex: 1; }
+  .modal-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 5px; }
+  .modal-value { font-size: 0.9rem; color: var(--text); line-height: 1.5; }
+  .modal-comment-box {
+    background: var(--surface2); border-radius: 10px; padding: 16px;
+    font-size: 0.85rem; color: var(--text); line-height: 1.65; font-style: italic;
+    border-left: 3px solid var(--accent);
+  }
+  .modal-lines { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+  .modal-line-pill {
+    display: flex; align-items: center; gap: 6px; padding: 5px 13px;
+    border-radius: 20px; font-family: 'Space Mono', monospace; font-size: 0.7rem; font-weight: 700;
+  }
+  .modal-connectors { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 4px; }
+  .modal-connector-pill {
+    font-family: 'Space Mono', monospace; font-size: 0.72rem; font-weight: 700;
+    padding: 5px 12px; border-radius: 20px;
+  }
+  .modal-cta {
+    display: block; text-align: center; background: var(--accent); color: #000;
+    text-decoration: none; font-family: 'Space Mono', monospace; font-weight: 700;
+    font-size: 0.85rem; padding: 14px; border-radius: 10px; margin-top: 4px;
+  }
+  .modal-cta:hover { opacity: 0.88; }
+
+  /* ---- SURPRISE MODAL ---- */
+  .surprise-modal {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    max-width: 480px; width: 100%; padding: 36px 32px; text-align: center; position: relative;
+  }
+  .surprise-modal .surprise-emoji { font-size: 2.8rem; margin-bottom: 16px; }
+  .surprise-modal h2 { font-family: 'Space Mono', monospace; font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+  .surprise-modal .surprise-subtitle { font-size: 0.85rem; color: var(--muted); margin-bottom: 24px; }
+  .surprise-card-name { font-family: 'Space Mono', monospace; font-size: 1.5rem; font-weight: 700; color: var(--text); margin-bottom: 6px; line-height: 1.2; }
+  .surprise-meta { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+  .surprise-comment { font-size: 0.85rem; color: var(--muted); font-style: italic; line-height: 1.5; margin-bottom: 24px; border-left: 2px solid var(--accent); padding-left: 12px; text-align: left; }
+  .surprise-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .surprise-action-btn {
+    font-family: 'Space Mono', monospace; font-size: 0.78rem; font-weight: 700;
+    padding: 10px 20px; border-radius: 8px; cursor: pointer; border: 1.5px solid var(--border);
+    background: var(--surface2); color: var(--text); transition: all 0.15s;
+  }
+  .surprise-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .surprise-action-btn.primary { background: var(--accent); color: #000; border-color: var(--accent); }
+  .surprise-action-btn.primary:hover { opacity: 0.88; }
+
+  /* ---- FOOTER ---- */
+  footer { padding: 40px; text-align: center; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.78rem; font-family: 'Space Mono', monospace; line-height: 1.8; }
+  footer strong { color: var(--accent); }
+  footer a { color: var(--muted); text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .hero { padding: 60px 20px 40px; }
+    .hero-stats { gap: 20px; }
+    .controls { padding: 14px 16px; }
+    .lines-legend { padding: 14px 16px; }
+    .map-section { padding: 24px 16px; }
+    .grid { grid-template-columns: 1fr; }
+    .modal-body, .modal-hero { padding-left: 18px; padding-right: 18px; }
+    .surprise-modal { padding: 28px 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero-track"></div>
+
+<header class="hero">
+  <h1>Chicago <span>L</span> Eats</h1>
+  <p>Curated restaurants paired with every CTA line. Ride the train, find your meal.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n" id="stat-total">—</div><div class="stat-l">Restaurants</div></div>
+    <div class="stat"><div class="stat-n">8</div><div class="stat-l">L Lines</div></div>
+    <div class="stat"><div class="stat-n" id="stat-5star">—</div><div class="stat-l">5-Star Picks</div></div>
+    <div class="stat"><div class="stat-n" id="stat-cuisines">—</div><div class="stat-l">Cuisines</div></div>
+  </div>
+  <div class="surprise-wrap">
+    <button class="surprise-btn" onclick="openSurprise()">🎲 Surprise Me</button>
+  </div>
+</header>
+
+<!-- CTA SYSTEM MAP -->
+<section class="map-section">
+  <div class="map-section-inner">
+    <div class="map-header">
+      <div>
+        <div class="map-title">Chicago Transit Authority L Network Map</div> 
+      </div>
+    </div>
+    <div class="map-img-wrap" id="mapWrap">
+      <img src="./cta_l_map.png"
+           alt="CTA L System Map"
+           onerror="this.parentElement.innerHTML=document.getElementById('mapFallback').innerHTML"
+           style="width:100%; display:block;">
+    </div>
+    <div id="mapFallback" style="display:none">
+      <div class="map-img-placeholder">
+        <div class="map-icon">🗺️</div>
+        <div>Add <code>cta-map.png</code> to your repo to display the system map here.</div>
+        <div style="margin-top:8px"><a href="https://www.transitchicago.com/maps/" target="_blank" style="color:var(--accent)">Download official CTA map →</a></div>
+      </div>
+    </div>
+    <div class="map-source">
+      Source: <a href="https://www.transitchicago.com/maps/" target="_blank">Chicago Transit Authority</a>
+    </div>
+
+    <!-- TRANSIT SYSTEM LEGEND -->
+    <div class="transit-legend">
+      <div class="transit-group">
+        <div class="transit-group-label">CTA L Lines</div>
+        <div class="transit-pills" id="ctaPills"></div>
+      </div>
+      <div class="transit-group">
+        <div class="transit-group-label">Regional Rail Connections</div>
+        <div class="transit-pills">
+          <div class="transit-pill" style="background:#1a4fa322; color:#5b8fe8; border-color:#1a4fa344">
+            <div class="transit-dot" style="background:#1a4fa3"></div>Amtrak
+          </div>
+          <div class="transit-pill" style="background:#00674722; color:#4aab7c; border-color:#00674744">
+            <div class="transit-dot" style="background:#006747"></div>Metra
+          </div>
+          <div class="transit-pill" style="background:#8B000022; color:#d45f5f; border-color:#8B000044">
+            <div class="transit-dot" style="background:#8B0000"></div>South Shore Line
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- L LINE FILTER -->
+<div class="lines-legend" id="linesLegend"></div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="Search restaurant, cuisine, station...">
+  <select id="cuisineFilter"><option value="">All cuisines</option></select>
+  <select id="neighborhoodFilter"><option value="">All neighborhoods</option></select>
+  <select id="mealFilter">
+    <option value="">All Meals</option>
+    <option value="Breakfast">Breakfast</option>
+    <option value="Lunch">Lunch</option>
+    <option value="Dinner">Dinner</option>
+    <option value="Bakery">Bakery</option>
+    <option value="Café">Café</option>
+    <option value="Dessert">Dessert</option>
+  </select>
+  <button class="sort-btn active" id="sortRating" onclick="setSort('rating')">★ Rating</button>
+  <button class="sort-btn" id="sortPrice" onclick="setSort('price')">$ Price</button>
+  <button class="sort-btn" id="sortName" onclick="setSort('name')">A–Z</button>
+  <span class="count-badge" id="countBadge">Loading…</span>
+</div>
+
+<!-- GRID -->
+<div class="grid" id="grid"></div>
+<div class="no-results" id="noResults" style="display:none;">No restaurants match your filters. Try adjusting your search or line selection.</div>
+
+<!-- DETAIL MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-hero">
+      <div class="modal-hero-bar" id="modalBar"></div>
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <div class="modal-title" id="modalTitle"></div>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- SURPRISE MODAL -->
+<div class="modal-overlay" id="surpriseOverlay" onclick="closeSurprise(event)">
+  <div class="surprise-modal" id="surpriseModal">
+    <button class="modal-close" onclick="closeSurpriseDirectly()" style="position:absolute;top:16px;right:16px">✕</button>
+    <div class="surprise-emoji">🎲</div>
+    <h2>Tonight's Pick</h2>
+    <p class="surprise-subtitle" id="surpriseSubtitle"></p>
+    <div class="surprise-card-name" id="surpriseName"></div>
+    <div class="surprise-meta" id="surpriseMeta"></div>
+    <div class="surprise-comment" id="surpriseComment"></div>
+    <div class="surprise-actions">
+      <button class="surprise-action-btn" onclick="rollSurprise()">🎲 Roll Again</button>
+      <button class="surprise-action-btn primary" onclick="viewSurprise()">View Details →</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Curated by <strong>Louis Sungwoo Cho</strong> &nbsp;·&nbsp; Chicago, IL</p>
+  <p style="margin-top:6px">Ride the L. Eat well. &nbsp;·&nbsp; <a href="https://www.transitchicago.com/maps/" target="_blank">CTA System Map</a></p>
+</footer>
+
+<script>
+const LINE_COLORS = {
+  Red:'#C8102E', Blue:'#00A1DE', Brown:'#62361B', Green:'#009B3A',
+  Orange:'#F9461C', Purple:'#522398', Pink:'#E27EA6', Yellow:'#F9E300'
+};
+const ALL_LINES = ['Red','Blue','Brown','Green','Orange','Purple','Pink','Yellow'];
+const CONNECTOR_PATTERNS = {
+  Amtrak: /amtrak/i,
+  Metra: /metra/i,
+  'South Shore': /south\s*shore/i
+};
+const CONNECTOR_STYLES = {
+  Amtrak:       { bg:'#1a4fa3', text:'#fff' },
+  Metra:        { bg:'#006747', text:'#fff' },
+  'South Shore':{ bg:'#8B0000', text:'#fff' }
+};
+
+let restaurants = [];
+let activeLines = new Set(ALL_LINES);
+let currentSort = 'rating';
+let surpriseCurrent = null;
+
+// ---- DATA LOADING ----
+async function loadData() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '<div class="no-results" style="display:block;grid-column:1/-1;">Loading restaurants…</div>';
+  try {
+    const res = await fetch('./combined_restaurants.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const raw = await res.json();
+    restaurants = raw.filter(r => (r['Restaurants'] || '').trim() !== '');
+    initApp();
+  } catch(e) {
+    console.error(e);
+    grid.innerHTML = '<div class="no-results" style="display:block;grid-column:1/-1;">Could not load <code>combined_restaurants.json</code>. Make sure it\'s in the same folder.</div>';
+  }
+}
+
+function initApp() {
+  updateStats();
+  populateFilters();
+  buildLegend();
+  buildCTAPills();
+  render();
+}
+
+// ---- STATS ----
+function updateStats() {
+  const cuisineSet = new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])));
+  document.getElementById('stat-total').textContent = restaurants.length;
+  document.getElementById('stat-5star').textContent = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) === 5).length;
+  document.getElementById('stat-cuisines').textContent = cuisineSet.size;
+}
+
+// ---- HELPERS ----
+function getLines(str) {
+  if (!str || str === 'Varies') return [];
+  return ALL_LINES.filter(l => String(str).includes(l));
+}
+
+function getConnectors(str) {
+  if (!str) return [];
+  return Object.keys(CONNECTOR_PATTERNS).filter(k => CONNECTOR_PATTERNS[k].test(str));
+}
+
+function getCuisines(str) {
+  if (!str) return [];
+  return String(str).split(',').map(c => c.trim()).filter(Boolean);
+}
+
+function getRatingValue(v) {
+  const n = parseFloat(v); return isNaN(n) ? -1 : n;
+}
+
+function getRatingColor(r) {
+  if (r >= 5) return '#F9E300';
+  if (r >= 4) return '#009B3A';
+  if (r >= 3) return '#00A1DE';
+  return '#888';
+}
+
+function getPriceValue(p) { const n = parseFloat(p); return isNaN(n) ? null : n; }
+
+function getPriceLabel(p) {
+  const n = getPriceValue(p);
+  if (n === null) return '—';
+  if (n < 20) return '$'; if (n < 35) return '$$';
+  if (n < 55) return '$$$'; return '$$$$';
+}
+
+function buildAccentGradient(lineStr) {
+  const lines = getLines(lineStr);
+  if (!lines.length) return '#444';
+  if (lines.length === 1) return LINE_COLORS[lines[0]];
+  const stops = lines.map((l, i) => `${LINE_COLORS[l]} ${Math.round(i*100/(lines.length-1))}%`).join(', ');
+  return `linear-gradient(90deg, ${stops})`;
+}
+
+// ---- LEGEND & FILTERS ----
+function buildCTAPills() {
+  const wrap = document.getElementById('ctaPills');
+  ALL_LINES.forEach(l => {
+    const pill = document.createElement('div');
+    pill.className = 'transit-pill';
+    pill.style.cssText = `background:${LINE_COLORS[l]}22; color:${l==='Yellow'?'#b8a000':LINE_COLORS[l]}; border-color:${LINE_COLORS[l]}44`;
+    pill.innerHTML = `<div class="transit-dot" style="background:${LINE_COLORS[l]}"></div>${l}`;
+    wrap.appendChild(pill);
+  });
+}
+
+function buildLegend() {
+  const legend = document.getElementById('linesLegend');
+  legend.innerHTML = '';
+  ALL_LINES.forEach(l => {
+    const b = document.createElement('div');
+    b.className = 'line-badge active'; b.dataset.line = l;
+    b.style.background = LINE_COLORS[l] + '22';
+    b.style.color = l === 'Yellow' ? '#b8a000' : LINE_COLORS[l];
+    b.innerHTML = `<div class="line-dot" style="background:${LINE_COLORS[l]}"></div>${l} Line`;
+    b.addEventListener('click', () => toggleLine(l));
+    legend.appendChild(b);
+  });
+}
+
+function toggleLine(line) {
+  activeLines.has(line) ? activeLines.delete(line) : activeLines.add(line);
+  document.querySelectorAll('.line-badge').forEach(b => {
+    b.classList.toggle('active', activeLines.has(b.dataset.line));
+    b.classList.toggle('inactive', !activeLines.has(b.dataset.line));
+  });
+  render();
+}
+
+function populateFilters() {
+  const cEl = document.getElementById('cuisineFilter');
+  const nEl = document.getElementById('neighborhoodFilter');
+  cEl.innerHTML = '<option value="">All cuisines</option>';
+  nEl.innerHTML = '<option value="">All neighborhoods</option>';
+  [...new Set(restaurants.flatMap(r => getCuisines(r['Cuisine'])))].sort().forEach(c => {
+    const o = document.createElement('option'); o.value = c; o.textContent = c; cEl.appendChild(o);
+  });
+  [...new Set(restaurants.map(r => r['Neighborhood']).filter(Boolean))].sort().forEach(n => {
+    const o = document.createElement('option'); o.value = n; o.textContent = n; nEl.appendChild(o);
+  });
+}
+
+function setSort(type) {
+  currentSort = type;
+  ['sortRating','sortPrice','sortName'].forEach(id => document.getElementById(id).classList.remove('active'));
+  const map = {rating:'sortRating', price:'sortPrice', name:'sortName'};
+  document.getElementById(map[type]).classList.add('active');
+  render();
+}
+
+// ---- FILTERING & SORTING ----
+function getFiltered() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const cf = document.getElementById('cuisineFilter').value;
+  const nf = document.getElementById('neighborhoodFilter').value;
+  const mf = document.getElementById('mealFilter').value;
+
+  return restaurants.filter(r => {
+    const lines = getLines(r['L Line [Train]']);
+    if (lines.length && !lines.some(l => activeLines.has(l))) return false;
+    if (cf && !getCuisines(r['Cuisine']).includes(cf)) return false;
+    if (nf && r['Neighborhood'] !== nf) return false;
+    if (mf && !String(r['Meals']||'').includes(mf)) return false;
+    if (q) {
+      const hay = [r['Restaurants'],r['Cuisine'],r['Neighborhood'],r['Nearest CTA L Stop [Train Station]'],r['Comments by Louis Sungwoo Cho']].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a, b) => {
+    if (currentSort === 'rating') return getRatingValue(b['Ratings (/5)']) - getRatingValue(a['Ratings (/5)']);
+    if (currentSort === 'price') {
+      const av = getPriceValue(a['Price $']), bv = getPriceValue(b['Price $']);
+      if (av===null && bv===null) return 0;
+      if (av===null) return 1; if (bv===null) return -1;
+      return av - bv;
+    }
+    return String(a['Restaurants']||'').localeCompare(String(b['Restaurants']||''));
+  });
+}
+
+// ---- RENDER ----
+function render() {
+  const filtered = getFiltered();
+  const grid = document.getElementById('grid');
+  const noResults = document.getElementById('noResults');
+  document.getElementById('countBadge').textContent = `${filtered.length} spot${filtered.length!==1?'s':''}`;
+
+  if (!filtered.length) {
+    grid.innerHTML = ''; noResults.style.display = 'block'; return;
+  }
+  noResults.style.display = 'none';
+
+  grid.innerHTML = filtered.map((r, idx) => {
+    const rating = getRatingValue(r['Ratings (/5)']);
+    const lines = getLines(r['L Line [Train]']);
+    const connectors = getConnectors(r['L Line [Train]']);
+    const cuisineTags = getCuisines(r['Cuisine']).map(c => `<span class="meta-tag cuisine">${c}</span>`).join('');
+    const linePills = lines.map(l => `<div class="line-pill" title="${l} Line" style="background:${LINE_COLORS[l]}"></div>`).join('');
+    const connBadges = connectors.map(c => {
+      const s = CONNECTOR_STYLES[c];
+      const key = c.replace(' ','').toLowerCase();
+      return `<span class="connector-badge badge-${key}" title="Connects to ${c}">${c}</span>`;
+    }).join('');
+    const comment = r['Comments by Louis Sungwoo Cho'] || '';
+    const showComment = comment && comment !== 'TBD' && comment.length > 3;
+
+    return `<div class="card" data-idx="${idx}">
+      <div class="card-accent-bar" style="background:${buildAccentGradient(r['L Line [Train]'])}"></div>
+      <div class="card-header">
+        <div class="card-name">${r['Restaurants']||'Untitled'}</div>
+        <div class="card-rating">
+          <div class="rating-num" style="color:${getRatingColor(rating)}">${rating<0?'—':r['Ratings (/5)']}</div>
+          <div class="rating-stars">/5</div>
+        </div>
+      </div>
+      <div class="card-meta">${cuisineTags}<span class="meta-tag price">${getPriceLabel(r['Price $'])}</span></div>
+      <div class="card-station">
+        <div class="station-icon">CTA</div>
+        <div class="station-name">${r['Nearest CTA L Stop [Train Station]']||'—'}</div>
+      </div>
+      <div class="card-lines">${linePills}${connBadges}</div>
+      ${showComment ? `<div class="card-comment">${comment}</div>` : ''}
+      <div class="card-footer">
+        <span class="card-hood">${r['Neighborhood']||''}</span>
+        ${r['Menu/Website'] ? `<a class="card-link" href="${r['Menu/Website']}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Menu →</a>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  // attach click handlers
+  document.querySelectorAll('.card').forEach((card, idx) => {
+    card.addEventListener('click', () => openModal(filtered[idx]));
+  });
+}
+
+// ---- DETAIL MODAL ----
+function openModal(r) {
+  const lines = getLines(r['L Line [Train]']);
+  const connectors = getConnectors(r['L Line [Train]']);
+  const rating = getRatingValue(r['Ratings (/5)']);
+
+  document.getElementById('modalBar').style.background = buildAccentGradient(r['L Line [Train]']);
+  document.getElementById('modalTitle').textContent = r['Restaurants']||'';
+
+  const linePills = lines.map(l => `
+    <div class="modal-line-pill" style="background:${LINE_COLORS[l]}22;color:${l==='Yellow'?'#b8a000':LINE_COLORS[l]};border:1px solid ${LINE_COLORS[l]}44">
+      <div class="line-dot" style="background:${LINE_COLORS[l]}"></div>${l}
+    </div>`).join('');
+
+  const connPills = connectors.map(c => {
+    const s = CONNECTOR_STYLES[c];
+    return `<div class="modal-connector-pill" style="background:${s.bg}22;color:${s.bg};border:1px solid ${s.bg}44">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${s.bg};margin-right:6px;vertical-align:middle"></span>${c}
+    </div>`;
+  }).join('');
+
+  const cuisineTags = getCuisines(r['Cuisine']).map(c => `<span class="meta-tag cuisine" style="font-size:0.75rem">${c}</span>`).join('');
+
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-row">
+      <div class="modal-field"><div class="modal-label">Cuisine</div><div class="modal-value" style="display:flex;flex-wrap:wrap;gap:5px;margin-top:2px">${cuisineTags||r['Cuisine']||'—'}</div></div>
+      <div class="modal-field"><div class="modal-label">Price</div><div class="modal-value">${getPriceLabel(r['Price $'])} ${r['Price $']?`<span style="color:var(--muted);font-size:0.8rem">avg $${parseFloat(r['Price $'])||'—'}</span>`:''}</div></div>
+    </div>
+    <div class="modal-row">
+      <div class="modal-field"><div class="modal-label">Neighborhood</div><div class="modal-value">${r['Neighborhood']||'—'}</div></div>
+      <div class="modal-field"><div class="modal-label">Rating</div><div class="modal-value" style="font-family:'Space Mono',monospace;font-size:1.2rem;font-weight:700;color:${getRatingColor(rating)}">${rating<0?'TBD':r['Ratings (/5)']+' / 5'}</div></div>
+    </div>
+    <div><div class="modal-label">Nearest CTA Stop</div><div class="modal-value" style="margin-top:3px">${r['Nearest CTA L Stop [Train Station]']||'—'}</div></div>
+    <div>
+      <div class="modal-label">L Lines</div>
+      <div class="modal-lines">${linePills||'<span class="modal-value">—</span>'}</div>
+    </div>
+    ${connectors.length ? `<div><div class="modal-label">Regional Rail Connections</div><div class="modal-connectors">${connPills}</div></div>` : ''}
+    <div><div class="modal-label">Meals</div><div class="modal-value" style="margin-top:3px">${r['Meals']||'—'}</div></div>
+    ${r['Address'] && r['Address']!=='Varies' ? `<div><div class="modal-label">Address</div><div class="modal-value" style="font-size:0.85rem;margin-top:3px">${r['Address']}</div></div>` : ''}
+    ${r['Comments by Louis Sungwoo Cho'] && r['Comments by Louis Sungwoo Cho']!=='TBD' ? `<div class="modal-comment-box">"${r['Comments by Louis Sungwoo Cho']}"<br><small style="color:var(--muted);margin-top:6px;display:block">— Louis Sungwoo Cho</small></div>` : ''}
+    ${r['Menu/Website'] ? `<a href="${r['Menu/Website']}" target="_blank" rel="noopener" class="modal-cta">View Menu / Website →</a>` : ''}
+  `;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) { if (e.target===document.getElementById('modalOverlay')) closeModalDirect(); }
+function closeModalDirect() { document.getElementById('modalOverlay').classList.remove('open'); }
+
+// ---- SURPRISE ME ----
+function openSurprise() {
+  rollSurprise();
+  document.getElementById('surpriseOverlay').classList.add('open');
+}
+
+function rollSurprise() {
+  const eligible = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) >= 3.5);
+  const pool = eligible.length ? eligible : restaurants;
+  surpriseCurrent = pool[Math.floor(Math.random() * pool.length)];
+  const r = surpriseCurrent;
+  const rating = getRatingValue(r['Ratings (/5)']);
+  const lines = getLines(r['L Line [Train]']);
+  const connectors = getConnectors(r['L Line [Train]']);
+
+  document.getElementById('surpriseName').textContent = r['Restaurants']||'';
+  document.getElementById('surpriseSubtitle').textContent = `${r['Neighborhood']||''} · ${r['Nearest CTA L Stop [Train Station]']||''}`;
+  document.getElementById('surpriseComment').textContent = (r['Comments by Louis Sungwoo Cho']&&r['Comments by Louis Sungwoo Cho']!=='TBD') ? r['Comments by Louis Sungwoo Cho'] : 'A recommended spot on Louis\'s list.';
+
+  const meta = document.getElementById('surpriseMeta');
+  meta.innerHTML = [
+    `<span class="meta-tag cuisine">${r['Cuisine']||'—'}</span>`,
+    `<span class="meta-tag price">${getPriceLabel(r['Price $'])}</span>`,
+    rating>=0?`<span class="meta-tag" style="border-color:${getRatingColor(rating)};color:${getRatingColor(rating)}">★ ${r['Ratings (/5)']}</span>`:'',
+    ...lines.map(l=>`<span class="meta-tag" style="border-color:${LINE_COLORS[l]}55;color:${LINE_COLORS[l]}">${l}</span>`),
+    ...connectors.map(c=>`<span class="meta-tag" style="border-color:${CONNECTOR_STYLES[c].bg}55;color:${CONNECTOR_STYLES[c].bg}">${c}</span>`)
+  ].join('');
+}
+
+function viewSurprise() {
+  closeSurpriseDirectly();
+  if (surpriseCurrent) openModal(surpriseCurrent);
+}
+
+function closeSurprise(e) { if (e.target===document.getElementById('surpriseOverlay')) closeSurpriseDirectly(); }
+function closeSurpriseDirectly() { document.getElementById('surpriseOverlay').classList.remove('open'); }
+
+// ---- EVENT LISTENERS ----
+document.addEventListener('keydown', e => { if (e.key==='Escape') { closeModalDirect(); closeSurpriseDirectly(); }});
+document.getElementById('searchInput').addEventListener('input', render);
+document.getElementById('cuisineFilter').addEventListener('change', render);
+document.getElementById('neighborhoodFilter').addEventListener('change', render);
+document.getElementById('mealFilter').addEventListener('change', render);
+
+loadData();
+</script>
+</body>
+</html>
