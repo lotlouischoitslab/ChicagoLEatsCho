@@ -1,3 +1,2 @@
 ﻿# Louis_Chicago_Restaurant_Recommendations
-
-https://chicagoleatscho.netlify.app/
+ 
