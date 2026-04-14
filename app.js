@@ -367,8 +367,8 @@ const GALLERY_SLIDES = [
   { src: './photos/luxbar1.jpg', name: 'Luxbar', caption: 'Steak and Eggs brunch you will never forget!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
   { src: './photos/tavern_rush1.jpg', name: 'Tavern on Rush', caption: 'Crispy Steak Frites!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
   
-  { src: './photos/tavern_rush1.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
-  { src: './photos/tavern_rush2.jpg', name: 'Charlie Martin', caption: 'Crispy Steak Frites!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
+  { src: './photos/charlie_martin1.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
+  { src: './photos/charlie_martin2.jpg', name: 'Charlie Martin', caption: 'Crispy Steak Frites!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
   { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Steak and Eggs is a great way to finish off your business meeting!', neighborhood: 'Loop',  line: 'Red',   cuisine: 'American' },
   { src: './photos/roanoke2.jpg', name: 'Roanoke',     caption: 'Steak and Eggs is a great way to finish off your business meeting!', neighborhood: 'Loop',  line: 'Blue',   cuisine: 'American' },

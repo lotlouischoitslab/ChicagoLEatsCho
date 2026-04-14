@@ -7,4 +7,4 @@ Website Link: https://lotlouischoitslab.github.io/ChicagoLEatsCho/
 - **Louis Sungwoo Cho**
 - **Claude Sonnet 4.6**
 - **ChatGPT**
- 
+- **Google Gemini**
