@@ -399,7 +399,7 @@ const GALLERY_SLIDES = [
 
 
   { src: './photos/daebak1.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌바기).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
+  { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌박이).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   { src: './photos/daebak3.jpg',         name: 'Daebak Korean BBQ', caption: 'Your mouth cannot wait for Korean BBQ', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   { src: './photos/daebak4.jpg',         name: 'Daebak Korean BBQ', caption: 'Finish off with marinated Galbi (양념갈비).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   
