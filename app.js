@@ -388,7 +388,7 @@ const GALLERY_SLIDES = [
   { src: './photos/eataly_pizza4.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   { src: './photos/eataly_gel1.jpg', name: 'Eataly Chicago',    caption: 'Finish off with cool gelato or sorbetto!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   
-  { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.',          neighborhood: 'River North',   line: 'Brown', cuisine: 'English' },
+  { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.',          neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
 
 
   { src: './photos/vu_rooftop1.jpg', name: 'VU Rooftop',        caption: 'Korean-style skirt steak with a view of the South Loop.',        neighborhood: 'South Loop',    line: 'Green', cuisine: 'American' },
