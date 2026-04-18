@@ -712,12 +712,12 @@
     "Phone Number": "(312) 786-1401",
     "Cuisine": "American",
     "Nearest CTA L Stop [Train Station]": "Roosevelt",
-    "L Line [Train]": "Green, Orange",
+    "L Line [Train]": "Red, Green, Orange",
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.chicagofirehouse.com/#",
     "Price $": 20.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "TBD"
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Although their burger was one their recommended menu, it was too greasy. Other items look better"
   },
   {
     "Index": 49,
@@ -851,7 +851,7 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://barsolnavypier.com/",
     "Price $": 40.0,
-    "Ratings (/5)": 4.0,
+    "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "The salmon grill was nice but the rice was mediocre"
   },
   {
