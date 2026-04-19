@@ -14,6 +14,17 @@
 <div class="hero-track"></div>
 
 <header class="hero">
+  <!--
+    VIDEO BACKGROUND: add your .mp4 file to your repo and set the src below.
+    e.g. src="./videos/chicago_l.mp4"
+    Recommended: a short 10-30s looping clip of the L train or Chicago skyline.
+    Keep the file under 20MB for fast loading. Convert at handbrake.fr if needed.
+  -->
+  <video class="hero-video" autoplay muted loop playsinline poster="./photos/chicago_l_henge.jpg">
+    <source src="./videos/chicago_l.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
   <h1>Chicago <span>L</span> Eats</h1>
   <p>Curated restaurants paired with every CTA line. Ride the train, find your meal.</p>
   <div class="hero-stats">
@@ -88,6 +99,30 @@
         <div class="gallery-nav">
           <button class="gallery-nav-btn" onclick="galleryStep(-1)">← Prev</button>
           <button class="gallery-nav-btn" onclick="galleryStep(1)">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- L TRAIN PHOTO GALLERY -->
+<section class="l-train-section">
+  <div class="l-train-section-inner">
+    <div class="l-train-header">
+      <div>
+        <div class="l-train-title">The L — Chicago's Elevated Railway</div>
+        <div class="l-train-subtitle">Photos from the lines that connect the city's neighborhoods and restaurants.</div>
+      </div>
+      <div class="l-train-badge">🚂 CTA L Photos</div>
+    </div>
+    <div class="gallery-stage" id="lTrainStage"></div>
+    <div class="gallery-controls">
+      <div class="gallery-dots" id="lTrainDots"></div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="gallery-pause-btn" id="lTrainPauseBtn" onclick="toggleLTrainPause()">⏸ Pause</button>
+        <div class="gallery-nav">
+          <button class="gallery-nav-btn" onclick="lTrainStep(-1)">← Prev</button>
+          <button class="gallery-nav-btn" onclick="lTrainStep(1)">Next →</button>
         </div>
       </div>
     </div>

@@ -346,7 +346,107 @@ function closeSurprise(e) { if (e.target===document.getElementById('surpriseOver
 function closeSurpriseDirectly() { document.getElementById('surpriseOverlay').classList.remove('open'); }
 
 // ================================================================
-// GALLERY
+// L TRAIN GALLERY SLIDES
+// ================================================================
+const L_TRAIN_SLIDES = [
+  { src: './photos/cta_red.jpg', caption: 'The Red Line, Chicago\'s spine, running 24/7.', line: 'Red' },
+  { src: './photos/cta_blue.jpg', caption: 'The Blue Line to O\'Hare 🛧, the major gateway to the city running 24/7.', line: 'Blue' },
+  { src: './photos/cta_brown.jpg', caption: 'The Brown Line at its terminal Kimball.', line: 'Brown' },
+  { src: './photos/cta_orange.jpg', caption: 'The Orange Line to Midway 🛧, another gateway to the city', line: 'Orange' },
+  { src: './photos/cta_green.jpg', caption: 'The Green Line through ploughing through the foggy weather!', line: 'Green' },
+  { src: './photos/cta_purple.jpg', caption: 'The Purple Line Express!', line: 'Purple' },
+  { src: './photos/cta_pink.jpg', caption: 'The Pink Line, the second shortest train in the system!', line: 'Pink' }
+];
+
+let lTrainCurrent = 0;
+let lTrainTimer   = null;
+let lTrainPaused  = false;
+
+function buildLTrainGallery() {
+  const stage  = document.getElementById('lTrainStage');
+  const dotsEl = document.getElementById('lTrainDots');
+  if (!stage || !dotsEl) return;
+  stage.innerHTML  = '';
+  dotsEl.innerHTML = '';
+
+  L_TRAIN_SLIDES.forEach((slide, i) => {
+    const lineColor = LINE_COLORS_GALLERY[slide.line] || '#888';
+    const div = document.createElement('div');
+    div.className = 'gallery-slide' + (i === 0 ? ' active' : '');
+    div.id = `ltslide-${i}`;
+
+    const captionHTML = `
+      <div class="gallery-caption">
+        <div class="gallery-caption-bar" style="background:${lineColor}"></div>
+        <div class="gallery-caption-line">
+          <span class="gallery-caption-name">${slide.line} Line</span>
+          <span class="gallery-caption-tag" style="background:${lineColor}33;border:1px solid ${lineColor}55">CTA L</span>
+        </div>
+        <div class="gallery-caption-sub">
+          <span style="font-style:italic">${slide.caption}</span>
+        </div>
+      </div>`;
+
+    div.innerHTML = slide.src ? `
+      <img class="gallery-slide-img" src="${slide.src}" alt="${slide.line} Line"
+           onerror="this.style.display='none';this.parentElement.querySelector('.gallery-placeholder').style.display='flex'">
+      <div class="gallery-placeholder" style="display:none">
+        <div class="gallery-placeholder-icon">🚂</div>
+        <div>Add photo: <code style="color:var(--accent)">${slide.src}</code></div>
+      </div>
+      ${captionHTML}` : `
+      <div class="gallery-placeholder">
+        <div class="gallery-placeholder-icon">🚂</div>
+        <div style="text-align:center;max-width:280px">
+          <div style="color:${lineColor};font-weight:700;font-family:'Space Mono',monospace;margin-bottom:6px">${slide.line} Line</div>
+          <div style="color:var(--muted);font-size:0.75rem">Add an L train photo and set the src in <code style="color:var(--accent)">L_TRAIN_SLIDES</code>.</div>
+        </div>
+      </div>
+      ${captionHTML}`;
+
+    stage.appendChild(div);
+
+    const dot = document.createElement('button');
+    dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
+    dot.style.background = i === 0 ? lineColor : '';
+    dot.title = `${slide.line} Line`;
+    dot.addEventListener('click', () => lTrainGoTo(i));
+    dotsEl.appendChild(dot);
+  });
+
+  lTrainTimer = setInterval(() => lTrainGoTo(lTrainCurrent + 1), 5000);
+}
+
+function lTrainGoTo(next) {
+  const slides = document.querySelectorAll('#lTrainStage .gallery-slide');
+  const dots   = document.querySelectorAll('#lTrainDots .gallery-dot');
+  slides[lTrainCurrent].classList.remove('active');
+  slides[lTrainCurrent].classList.add('prev');
+  dots[lTrainCurrent].classList.remove('active');
+  dots[lTrainCurrent].style.background = '';
+  const prevIdx = lTrainCurrent;
+  setTimeout(() => { if(slides[prevIdx]) slides[prevIdx].classList.remove('prev'); }, 700);
+  lTrainCurrent = (next + L_TRAIN_SLIDES.length) % L_TRAIN_SLIDES.length;
+  slides[lTrainCurrent].classList.add('active');
+  dots[lTrainCurrent].classList.add('active');
+  dots[lTrainCurrent].style.background = LINE_COLORS_GALLERY[L_TRAIN_SLIDES[lTrainCurrent].line] || '#888';
+}
+
+function lTrainStep(dir) {
+  clearInterval(lTrainTimer);
+  lTrainGoTo(lTrainCurrent + dir);
+  if (!lTrainPaused) lTrainTimer = setInterval(() => lTrainGoTo(lTrainCurrent + 1), 5000);
+}
+
+function toggleLTrainPause() {
+  lTrainPaused = !lTrainPaused;
+  const btn = document.getElementById('lTrainPauseBtn');
+  if (lTrainPaused) { clearInterval(lTrainTimer); btn.textContent = '▶ Play'; }
+  else { lTrainTimer = setInterval(() => lTrainGoTo(lTrainCurrent + 1), 5000); btn.textContent = '⏸ Pause'; }
+}
+
+// ================================================================
+// GALLERY (RESTAURANTS)
 // ================================================================
 
 // Add your own photos by updating src values below.
@@ -357,13 +457,13 @@ function closeSurpriseDirectly() { document.getElementById('surpriseOverlay').cl
 
   // Only Display 5 Star Items otherwise it's going to be too much
 
-const GALLERY_SLIDES = [
-  { src: './photos/gene_georgetti1.jpg', name: 'Gene & Georgetti', caption: 'The perfect steak meal — a Chicago institution since 1941. Fresh bread to kick off a legendary dinner.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
-  { src: './photos/gene_georgetti2.jpg', name: 'Gene & Georgetti', caption: 'Classic Italian antipasto — simple, fresh, perfect salad!', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
-  { src: './photos/gene_georgetti3.jpg', name: 'Gene & Georgetti', caption: 'The steak itself. Worth every single penny.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
-  { src: './photos/gene_georgetti4.jpg', name: 'Gene & Georgetti', caption: 'Fresh sorbet to finish off!', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
-
+const GALLERY_SLIDES = [ 
   { src: './photos/sweetwater1.jpg', name: 'Sweet Water Tavern and Grill', caption: 'Devouring dishes you want to order every item', neighborhood: 'Loop', line: 'Brown', cuisine: 'Italian' },
+
+  { src: './photos/gene_georgetti1.jpg', name: 'Gene & Georgetti', caption: 'The steak itself is a legendary dinner. Worth every single penny.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
+  { src: './photos/monteverde1.jpg', name: 'Monteverde Restaurant & Pastificio', caption: 'Authentic Italian Spaghetti in the West Loop Fulton Market!', neighborhood: 'West Loop', line: 'Green, Pink', cuisine: 'Italian' },
+
+  { src: './photos/gibsons_steak1.jpg', name: 'Gibsons Steakhouse', caption: 'Expensive but a luxurious steakhouse experience!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
 
 
 
@@ -374,15 +474,12 @@ const GALLERY_SLIDES = [
   { src: './photos/charlie_martin1.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
   { src: './photos/charlie_martin2.jpg', name: 'Charlie Martin', caption: 'Crispy Steak Frites!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
-  { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Steak and Eggs is a great way to finish off your business meeting!', neighborhood: 'Loop',  line: 'Red',   cuisine: 'American' },
-  { src: './photos/roanoke2.jpg', name: 'Roanoke',     caption: 'Steak and Eggs is a great way to finish off your business meeting!', neighborhood: 'Loop',  line: 'Blue',   cuisine: 'American' },
-  { src: './photos/roanoke3.jpg', name: 'Roanoke',     caption: 'Fresh salads are nice too!', neighborhood: 'Loop',  line: 'Brown',   cuisine: 'American' },
-  { src: './photos/roanoke4.jpg', name: 'Roanoke',     caption: 'Sorbet at last!', neighborhood: 'Loop',  line: 'Orange',   cuisine: 'American' },
-  
+  { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Make sure to eat Steak and Eggs after finishing your business meeting!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
+  { src: './photos/roanoke2.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
+ 
   { src: './photos/exchequer1.jpg', name: 'Exchequer',     caption: '$31.00 Filet Mignon? That is dope!', neighborhood: 'Loop',  line: 'Red',   cuisine: 'American' },
 
   
-  { src: './photos/brunchery1.jpg', name: 'The Brunchery',     caption: 'Amazing Steak & Eggs Brunch on Clark Street.', neighborhood: 'Lincoln Park',  line: 'Red',   cuisine: 'American' },
 
 
 
@@ -390,10 +487,10 @@ const GALLERY_SLIDES = [
   { src: './photos/eataly_pizza2.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   { src: './photos/eataly_pizza3.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   { src: './photos/eataly_pizza4.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  { src: './photos/eataly_gel1.jpg', name: 'Eataly Chicago',    caption: 'Finish off with cool gelato or sorbetto!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  
+ 
   { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.',          neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
 
+  { src: './photos/brunchery1.jpg', name: 'The Brunchery',     caption: 'Amazing Steak & Eggs Brunch on Clark Street.', neighborhood: 'Lincoln Park',  line: 'Red',   cuisine: 'American' },
 
   { src: './photos/vu_rooftop1.jpg', name: 'VU Rooftop',        caption: 'Korean-style skirt steak with a view of the South Loop.',        neighborhood: 'South Loop',    line: 'Green', cuisine: 'American' },
 
@@ -404,13 +501,10 @@ const GALLERY_SLIDES = [
 
   { src: './photos/daebak1.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌박이).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  { src: './photos/daebak3.jpg',         name: 'Daebak Korean BBQ', caption: 'Your mouth cannot wait for Korean BBQ', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  { src: './photos/daebak4.jpg',         name: 'Daebak Korean BBQ', caption: 'Finish off with marinated Galbi (양념갈비).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
+  { src: './photos/daebak3.jpg',         name: 'Daebak Korean BBQ', caption: 'Finish off with marinated Galbi (양념갈비).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   
    
-  { src: './photos/perilla1.jpg', name: 'Perilla',     caption: '$Fusion Korean American Steakhouse you do not want to miss!', neighborhood: 'Loop',  line: 'Brown',   cuisine: 'American' },
-
-
+  { src: './photos/perilla1.jpg', name: 'Perilla', caption: 'Fusion Korean American Steakhouse you do not want to miss!', neighborhood: 'Loop', line: 'Red, Green, Brown, Orange, Purple, Pink', cuisine: 'Korean, American' },
 ];
 
 const LINE_COLORS_GALLERY = {
@@ -431,17 +525,27 @@ function buildGallery() {
   dotsEl.innerHTML = '';
 
   GALLERY_SLIDES.forEach((slide, i) => {
-    const lineColor = LINE_COLORS_GALLERY[slide.line] || '#888';
+    // Support multiple lines e.g. "Red, Brown, Purple"
+    const slideLines  = String(slide.line || '').split(',').map(l => l.trim()).filter(l => LINE_COLORS_GALLERY[l]);
+    const primaryColor = LINE_COLORS_GALLERY[slideLines[0]] || '#888';
+    const barGradient  = slideLines.length > 1
+      ? `linear-gradient(90deg, ${slideLines.map((l, idx) => `${LINE_COLORS_GALLERY[l]} ${Math.round(idx*100/(slideLines.length-1))}%`).join(', ')})`
+      : primaryColor;
+
+    const linePillsHTML = slideLines.map(l =>
+      `<span class="gallery-caption-tag" style="background:${LINE_COLORS_GALLERY[l]}33;border:1px solid ${LINE_COLORS_GALLERY[l]}55;color:#fff">${l}</span>`
+    ).join('');
+
     const div = document.createElement('div');
     div.className = 'gallery-slide' + (i === 0 ? ' active' : '');
     div.id = `gslide-${i}`;
 
     const captionHTML = `
       <div class="gallery-caption">
-        <div class="gallery-caption-bar" style="background:${lineColor}"></div>
+        <div class="gallery-caption-bar" style="background:${barGradient}"></div>
         <div class="gallery-caption-line">
           <span class="gallery-caption-name">${slide.name}</span>
-          <span class="gallery-caption-tag" style="background:${lineColor}33;border:1px solid ${lineColor}55">${slide.line} Line</span>
+          ${linePillsHTML}
           <span class="gallery-caption-tag">${slide.cuisine}</span>
         </div>
         <div class="gallery-caption-sub">
@@ -476,7 +580,7 @@ function buildGallery() {
 
     const dot = document.createElement('button');
     dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
-    dot.style.background = i === 0 ? lineColor : '';
+    dot.style.background = i === 0 ? primaryColor : '';
     dot.title = slide.name;
     dot.addEventListener('click', () => galleryGoTo(i));
     dotsEl.appendChild(dot);
@@ -500,7 +604,9 @@ function galleryGoTo(next) {
   galleryCurrent = (next + GALLERY_SLIDES.length) % GALLERY_SLIDES.length;
   slides[galleryCurrent].classList.add('active');
   dots[galleryCurrent].classList.add('active');
-  dots[galleryCurrent].style.background = LINE_COLORS_GALLERY[GALLERY_SLIDES[galleryCurrent].line] || '#888';
+  const currentSlide = GALLERY_SLIDES[galleryCurrent];
+  const currentLines = String(currentSlide.line || '').split(',').map(l => l.trim());
+  dots[galleryCurrent].style.background = LINE_COLORS_GALLERY[currentLines[0]] || '#888';
 }
 
 function galleryStep(dir) {
@@ -547,6 +653,11 @@ document.addEventListener('DOMContentLoaded', () => {
     stage.addEventListener('mouseenter', () => { if (!galleryPaused) clearGalleryTimer(); });
     stage.addEventListener('mouseleave', () => { if (!galleryPaused) startGalleryTimer(); });
   }
+  const lStage = document.getElementById('lTrainStage');
+  if (lStage) {
+    lStage.addEventListener('mouseenter', () => { if (!lTrainPaused) clearInterval(lTrainTimer); });
+    lStage.addEventListener('mouseleave', () => { if (!lTrainPaused) lTrainTimer = setInterval(() => lTrainGoTo(lTrainCurrent + 1), 5000); });
+  }
 });
 
 // ================================================================
@@ -554,3 +665,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // ================================================================
 loadData();
 buildGallery();
+buildLTrainGallery();
