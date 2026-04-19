@@ -35,37 +35,120 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   to   { background-position: 800px 0; }
 }
 
-/* ---- HERO with VIDEO BACKGROUND ---- */
+/* ---- HERO with VIDEO BACKGROUND ----
 .hero {
   position: relative; padding: 120px 40px 80px; text-align: center;
   border-bottom: 1px solid var(--border); overflow: hidden; margin-top: 6px;
   min-height: 520px; display: flex; flex-direction: column; align-items: center; justify-content: center;
 }
-/* Video background */
-.hero-video {
-  position: absolute; inset: 0; width: 100%; height: 90%;
-  object-fit: cover; object-position: center;
-  opacity: 0.22; z-index: 0; pointer-events: none;
+
+
+/* ---- HERO with VIDEO BACKGROUND ---- */
+.hero {
+  position: relative;
+  padding: 120px 40px 80px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+  margin-top: 6px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+/* YouTube iframe wrapper */
+.hero-video-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* YouTube iframe background */
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 177.78vh;
+  height: 56.25vw;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0.75;
+  z-index: 0;
+  pointer-events: none;
+  border: 0;
+}
+
 /* Dark overlay over video */
 .hero-overlay {
-  position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(to bottom, rgba(10,10,10,0.5) 0%, rgba(10,10,10,0.3) 50%, rgba(10,10,10,0.7) 100%);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    rgba(10,10,10,0.5) 0%,
+    rgba(10,10,10,0.3) 50%,
+    rgba(10,10,10,0.7) 100%
+  );
   pointer-events: none;
 }
+
 /* All hero content sits above video */
-.hero > *:not(.hero-video):not(.hero-overlay) { position: relative; z-index: 2; }
-.hero h1 {
-  font-family: 'Space Mono', monospace; font-size: clamp(2rem, 5vw, 4rem);
-  font-weight: 700; letter-spacing: -0.02em; line-height: 1.1;
-  color: var(--accent); text-shadow: 0 0 60px rgba(249,227,0,0.3), 0 2px 20px rgba(0,0,0,0.8);
+.hero > *:not(.hero-video-wrap):not(.hero-overlay) {
+  position: relative;
+  z-index: 2;
 }
+
+.hero h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--accent);
+  text-shadow: 0 0 60px rgba(249,227,0,0.3), 0 2px 20px rgba(0,0,0,0.8);
+}
+
 .hero h1 span { color: var(--text); }
-.hero p { font-size: 1.05rem; color: rgba(240,237,232,0.85); max-width: 480px; margin: 14px auto 0; line-height: 1.6; text-shadow: 0 1px 8px rgba(0,0,0,0.6); }
-.hero-stats { display: flex; gap: 32px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+
+.hero p {
+  font-size: 1.05rem;
+  color: rgba(240,237,232,0.85);
+  max-width: 480px;
+  margin: 14px auto 0;
+  line-height: 1.6;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.6);
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
 .stat { text-align: center; }
-.stat-n { font-family: 'Space Mono', monospace; font-size: 2rem; font-weight: 700; color: var(--accent); text-shadow: 0 0 20px rgba(249,227,0,0.3); }
-.stat-l { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 2px; }
+
+.stat-n {
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-shadow: 0 0 20px rgba(249,227,0,0.3);
+}
+
+.stat-l {
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 2px;
+}
+
 
 /* ---- SURPRISE ME BUTTON ---- */
 .surprise-wrap { display: flex; justify-content: center; margin-top: 28px; }
