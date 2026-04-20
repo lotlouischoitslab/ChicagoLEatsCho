@@ -181,19 +181,46 @@
   </div>
 </div>
 
-<!-- SURPRISE MODAL -->
-<div class="modal-overlay" id="surpriseOverlay" onclick="closeSurprise(event)">
+<!-- CINEMATIC SURPRISE MODAL -->
+<div class="surprise-overlay" id="surpriseOverlay" onclick="closeSurprise(event)">
   <div class="surprise-modal" id="surpriseModal">
-    <button class="modal-close" onclick="closeSurpriseDirectly()" style="position:absolute;top:16px;right:16px">✕</button>
-    <div class="surprise-emoji">🎲</div>
-    <h2>Tonight's Pick</h2>
-    <p class="surprise-subtitle" id="surpriseSubtitle"></p>
-    <div class="surprise-card-name" id="surpriseName"></div>
-    <div class="surprise-meta" id="surpriseMeta"></div>
-    <div class="surprise-comment" id="surpriseComment"></div>
-    <div class="surprise-actions">
-      <button class="surprise-action-btn" onclick="rollSurprise()">🎲 Roll Again</button>
-      <button class="surprise-action-btn primary" onclick="viewSurprise()">View Details →</button>
+    <button class="surprise-close-btn" onclick="closeSurpriseDirectly()">✕</button>
+
+    <!-- Animated line color banner -->
+    <div class="surprise-line-banner" id="surpriseLineBanner"></div>
+
+    <!-- PHASE 1: Rolling -->
+    <div class="surprise-rolling-phase" id="surpriseRollingPhase">
+      <div class="dice-wrap">
+        <div class="dice" id="surpriseDice">🎲</div>
+      </div>
+      <div class="slot-machine-wrap">
+        <div class="slot-machine" id="slotMachine">Gene & Georgetti</div>
+      </div>
+      <div class="rolling-label" id="rollingLabel">Finding your next meal...</div>
+      <div class="rolling-lines" id="rollingLineDots"></div>
+    </div>
+
+    <!-- PHASE 2: Reveal -->
+    <div class="surprise-reveal-phase" id="surpriseRevealPhase">
+      <div class="surprise-reveal-header">
+        <div class="surprise-reveal-bg" id="surpriseRevealBg"></div>
+        <div class="surprise-reveal-overlay"></div>
+        <div class="surprise-reveal-title-wrap">
+          <div class="surprise-reveal-restaurant" id="surpriseRevealName"></div>
+          <div class="surprise-reveal-subtitle-row" id="surpriseRevealSubtitle"></div>
+        </div>
+      </div>
+
+      <div class="surprise-stars-row" id="surpriseStarsRow"></div>
+      <div class="surprise-tags-row" id="surpriseTagsRow"></div>
+      <div class="surprise-quote" id="surpriseQuote"></div>
+      <div class="surprise-station-row" id="surpriseStationRow"></div>
+
+      <div class="surprise-actions">
+        <button class="surprise-action-btn" onclick="rerollSurprise()">🎲 Roll Again</button>
+        <button class="surprise-action-btn primary" onclick="viewSurprise()">Let's Go! →</button>
+      </div>
     </div>
   </div>
 </div>

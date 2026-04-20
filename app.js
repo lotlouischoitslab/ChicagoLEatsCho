@@ -306,35 +306,188 @@ function closeModal(e) { if (e.target===document.getElementById('modalOverlay'))
 function closeModalDirect() { document.getElementById('modalOverlay').classList.remove('open'); }
 
 // ================================================================
-// SURPRISE ME
+// CINEMATIC SURPRISE ME
 // ================================================================
+const DICE_FACES = ['🎲','⚀','⚁','⚂','⚃','⚄','⚅'];
+const ROLL_MESSAGES = [
+  'Scanning the L network…',
+  'Checking all 8 lines…',
+  'Consulting the food gods…',
+  'Analyzing 5-star picks…',
+  'Riding the Brown Line…',
+  'Picking your destiny…',
+  'Almost there…',
+];
+let surpriseRolling = false;
+let slotInterval = null;
+let diceInterval = null;
+
 function openSurprise() {
-  rollSurprise();
+  if (surpriseRolling) return;
+  // show overlay
   document.getElementById('surpriseOverlay').classList.add('open');
+  // reset to rolling phase
+  document.getElementById('surpriseRollingPhase').classList.remove('hidden');
+  document.getElementById('surpriseRevealPhase').classList.remove('visible');
+  // build rolling line dots
+  const dotsEl = document.getElementById('rollingLineDots');
+  dotsEl.innerHTML = Object.entries(LINE_COLORS).map(([name, color]) =>
+    `<div class="rolling-line-dot" style="background:${color}" title="${name} Line"></div>`
+  ).join('');
+  startRolling();
 }
 
-function rollSurprise() {
-  const eligible = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) == 5.0);
+function startRolling() {
+  surpriseRolling = true;
+  const eligible = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) === 5.0);
   const pool = eligible.length ? eligible : restaurants;
-  surpriseCurrent = pool[Math.floor(Math.random() * pool.length)];
+  const dice  = document.getElementById('surpriseDice');
+  const slot  = document.getElementById('slotMachine');
+  const label = document.getElementById('rollingLabel');
+
+  // Start dice spinning
+  dice.classList.remove('landing');
+  dice.classList.add('rolling');
+
+  // Slot machine cycles through random restaurant names
+  let slotIdx = 0;
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  slot.classList.remove('stopped');
+  slotInterval = setInterval(() => {
+    slot.textContent = shuffled[slotIdx % shuffled.length]['Restaurants'] || '';
+    slotIdx++;
+  }, 120);
+
+  // Cycle rolling messages
+  let msgIdx = 0;
+  const msgInterval = setInterval(() => {
+    label.textContent = ROLL_MESSAGES[msgIdx % ROLL_MESSAGES.length];
+    msgIdx++;
+  }, 380);
+
+  // Pick winner after 2.4 seconds of drama
+  setTimeout(() => {
+    clearInterval(slotInterval);
+    clearInterval(msgInterval);
+
+    // Pick the final winner
+    surpriseCurrent = pool[Math.floor(Math.random() * pool.length)];
+
+    // Slow down slot to winner name
+    slot.textContent = surpriseCurrent['Restaurants'] || '';
+    slot.classList.add('stopped');
+    label.textContent = '🎯 Found it!';
+
+    // Land the dice
+    dice.classList.remove('rolling');
+    dice.classList.add('landing');
+    dice.textContent = DICE_FACES[Math.floor(Math.random() * DICE_FACES.length)];
+
+    // After a beat, reveal
+    setTimeout(() => {
+      surpriseRolling = false;
+      showSurpriseReveal();
+    }, 600);
+
+  }, 2400);
+}
+
+function showSurpriseReveal() {
   const r = surpriseCurrent;
-  const rating     = getRatingValue(r['Ratings (/5)']);
   const lines      = getLines(r['L Line [Train]']);
   const connectors = getConnectors(r['L Line [Train]']);
+  const rating     = getRatingValue(r['Ratings (/5)']);
+  const primaryColor = LINE_COLORS[lines[0]] || '#F9E300';
 
-  document.getElementById('surpriseName').textContent = r['Restaurants']||'';
-  document.getElementById('surpriseSubtitle').textContent = `${r['Neighborhood']||''} · ${r['Nearest CTA L Stop [Train Station]']||''}`;
-  document.getElementById('surpriseComment').textContent = (r['Comments by Louis Sungwoo Cho'] && r['Comments by Louis Sungwoo Cho']!=='TBD')
-    ? r['Comments by Louis Sungwoo Cho']
-    : "A recommended spot on Louis's list.";
+  // Animate the top banner to the line color gradient
+  const banner = document.getElementById('surpriseLineBanner');
+  if (lines.length > 1) {
+    const stops = lines.map((l, i) => `${LINE_COLORS[l]} ${Math.round(i*100/(lines.length-1))}%`).join(', ');
+    banner.style.background = `linear-gradient(90deg, ${stops})`;
+  } else {
+    banner.style.background = primaryColor;
+  }
 
-  document.getElementById('surpriseMeta').innerHTML = [
-    `<span class="meta-tag cuisine">${r['Cuisine']||'—'}</span>`,
+  // Background glow color
+  document.getElementById('surpriseRevealBg').style.background =
+    `radial-gradient(ellipse at center, ${primaryColor}44 0%, transparent 70%)`;
+
+  // Restaurant name
+  document.getElementById('surpriseRevealName').textContent = r['Restaurants'] || '';
+
+  // Subtitle row: line pills + neighborhood
+  const linePills = lines.map(l =>
+    `<span class="meta-tag" style="border-color:${LINE_COLORS[l]}66;color:${LINE_COLORS[l]};font-size:0.68rem">${l} Line</span>`
+  ).join('');
+  const connPills = connectors.map(c =>
+    `<span class="meta-tag" style="border-color:${CONNECTOR_STYLES[c].bg}55;color:${CONNECTOR_STYLES[c].bg};font-size:0.68rem">${c}</span>`
+  ).join('');
+  document.getElementById('surpriseRevealSubtitle').innerHTML =
+    `<span style="font-size:0.8rem;color:var(--muted)">${r['Neighborhood']||''}</span>${linePills}${connPills}`;
+
+  // 5 stars animate in
+  const starsEl = document.getElementById('surpriseStarsRow');
+  const starCount = rating >= 5 ? 5 : rating >= 4 ? 4 : rating >= 3 ? 3 : 2;
+  starsEl.innerHTML = Array(5).fill(0).map((_, i) =>
+    `<span class="surprise-star" style="animation-delay:${0.4 + i*0.1}s;opacity:0;color:${i < starCount ? '#F9E300' : '#333'}">${i < starCount ? '★' : '☆'}</span>`
+  ).join('');
+
+  // Tags
+  const cuisines = (r['Cuisine'] || '').split(',').map(c => c.trim()).filter(Boolean);
+  document.getElementById('surpriseTagsRow').innerHTML = [
+    ...cuisines.map(c => `<span class="meta-tag cuisine">${c}</span>`),
     `<span class="meta-tag price">${getPriceLabel(r['Price $'])}</span>`,
-    rating>=0 ? `<span class="meta-tag" style="border-color:${getRatingColor(rating)};color:${getRatingColor(rating)}">★ ${r['Ratings (/5)']}</span>` : '',
-    ...lines.map(l => `<span class="meta-tag" style="border-color:${LINE_COLORS[l]}55;color:${LINE_COLORS[l]}">${l}</span>`),
-    ...connectors.map(c => `<span class="meta-tag" style="border-color:${CONNECTOR_STYLES[c].bg}55;color:${CONNECTOR_STYLES[c].bg}">${c}</span>`)
   ].join('');
+
+  // Louis's quote
+  const comment = r['Comments by Louis Sungwoo Cho'];
+  document.getElementById('surpriseQuote').innerHTML = (comment && comment !== 'TBD')
+    ? `"${comment}"<span class="surprise-quote-author">— Louis Sungwoo Cho</span>`
+    : `"A top pick on Louis's Chicago L Eats list."<span class="surprise-quote-author">— Louis Sungwoo Cho</span>`;
+
+  // Station row
+  document.getElementById('surpriseStationRow').innerHTML = `
+    <div class="surprise-station-icon">CTA</div>
+    <div class="surprise-station-name">${r['Nearest CTA L Stop [Train Station]'] || '—'}</div>`;
+
+  // Switch phases
+  document.getElementById('surpriseRollingPhase').classList.add('hidden');
+  document.getElementById('surpriseRevealPhase').classList.add('visible');
+
+  // Fire confetti!
+  fireConfetti(lines.map(l => LINE_COLORS[l]));
+}
+
+function fireConfetti(colors) {
+  const count = 60;
+  for (let i = 0; i < count; i++) {
+    setTimeout(() => {
+      const el = document.createElement('div');
+      el.className = 'confetti-particle';
+      el.style.cssText = `
+        left: ${Math.random() * 100}vw;
+        top: -10px;
+        background: ${colors[Math.floor(Math.random() * colors.length)] || '#F9E300'};
+        width: ${4 + Math.random() * 8}px;
+        height: ${4 + Math.random() * 8}px;
+        border-radius: ${Math.random() > 0.5 ? '50%' : '2px'};
+        animation-duration: ${1.2 + Math.random() * 1.8}s;
+        animation-delay: 0s;
+      `;
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 3200);
+    }, i * 30);
+  }
+}
+
+function rerollSurprise() {
+  // Reset to rolling phase and go again
+  document.getElementById('surpriseRevealPhase').classList.remove('visible');
+  document.getElementById('surpriseRollingPhase').classList.remove('hidden');
+  const dice = document.getElementById('surpriseDice');
+  dice.classList.remove('landing');
+  dice.textContent = '🎲';
+  startRolling();
 }
 
 function viewSurprise() {
@@ -342,8 +495,25 @@ function viewSurprise() {
   if (surpriseCurrent) openModal(surpriseCurrent);
 }
 
-function closeSurprise(e) { if (e.target===document.getElementById('surpriseOverlay')) closeSurpriseDirectly(); }
-function closeSurpriseDirectly() { document.getElementById('surpriseOverlay').classList.remove('open'); }
+function closeSurprise(e) {
+  if (e.target === document.getElementById('surpriseOverlay')) closeSurpriseDirectly();
+}
+function closeSurpriseDirectly() {
+  if (surpriseRolling) {
+    clearInterval(slotInterval);
+    clearInterval(diceInterval);
+    surpriseRolling = false;
+  }
+  document.getElementById('surpriseOverlay').classList.remove('open');
+  // reset for next open
+  setTimeout(() => {
+    document.getElementById('surpriseRevealPhase').classList.remove('visible');
+    document.getElementById('surpriseRollingPhase').classList.remove('hidden');
+    const dice = document.getElementById('surpriseDice');
+    dice.classList.remove('rolling', 'landing');
+    dice.textContent = '🎲';
+  }, 300);
+}
 
 // ================================================================
 // L TRAIN GALLERY SLIDES
