@@ -314,7 +314,7 @@ function openSurprise() {
 }
 
 function rollSurprise() {
-  const eligible = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) >= 3.5);
+  const eligible = restaurants.filter(r => getRatingValue(r['Ratings (/5)']) == 5.0);
   const pool = eligible.length ? eligible : restaurants;
   surpriseCurrent = pool[Math.floor(Math.random() * pool.length)];
   const r = surpriseCurrent;
@@ -349,13 +349,14 @@ function closeSurpriseDirectly() { document.getElementById('surpriseOverlay').cl
 // L TRAIN GALLERY SLIDES
 // ================================================================
 const L_TRAIN_SLIDES = [
-  { src: './photos/cta_red.jpg', caption: 'The Red Line, Chicago\'s spine, running 24/7.', line: 'Red' },
-  { src: './photos/cta_blue.jpg', caption: 'The Blue Line to O\'Hare 🛧, the major gateway to the city running 24/7.', line: 'Blue' },
+  { src: './photos/cta_red.jpg', caption: 'The Red Line, Chicago\'s spine running 24/7.', line: 'Red' },
+  { src: './photos/cta_blue.jpg', caption: 'The Blue Line to O\'Hare ✈️, the major gateway to the city running 24/7.', line: 'Blue' },
   { src: './photos/cta_brown.jpg', caption: 'The Brown Line at its terminal Kimball.', line: 'Brown' },
-  { src: './photos/cta_orange.jpg', caption: 'The Orange Line to Midway 🛧, another gateway to the city', line: 'Orange' },
-  { src: './photos/cta_green.jpg', caption: 'The Green Line through ploughing through the foggy weather!', line: 'Green' },
+  { src: './photos/cta_orange.jpg', caption: 'The Orange Line to Midway ✈️, another gateway to the city', line: 'Orange' },
+  { src: './photos/cta_green.jpg', caption: 'The Green Line at Clark/Lake!', line: 'Green' },
   { src: './photos/cta_purple.jpg', caption: 'The Purple Line Express!', line: 'Purple' },
-  { src: './photos/cta_pink.jpg', caption: 'The Pink Line, the second shortest train in the system!', line: 'Pink' }
+  { src: './photos/cta_pink.jpg', caption: 'The Pink Line, the second shortest train in the system!', line: 'Pink' },
+  { src: './photos/cta_yellow.jpg', caption: 'The Yellow Line also known as the "Skokie Swift", the shortest train in the system!', line: 'Yellow' },
 ];
 
 let lTrainCurrent = 0;
@@ -465,6 +466,7 @@ const GALLERY_SLIDES = [
 
   { src: './photos/gibsons_steak1.jpg', name: 'Gibsons Steakhouse', caption: 'Expensive but a luxurious steakhouse experience!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
 
+ { src: './photos/river_north_bistro.jpg', name: 'River North Bistro', caption: 'Great place for a Sunday brunch at River North!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
 
   { src: './photos/carmines1.jpg', name: 'Carmines', caption: 'Fresh authentic Italian pasta!', neighborhood: 'River North', line: 'Red', cuisine: 'Italian' },
