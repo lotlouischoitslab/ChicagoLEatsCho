@@ -651,7 +651,7 @@ const GALLERY_SLIDES = [
  
   { src: './photos/exchequer1.jpg', name: 'Exchequer',     caption: '$31.00 Filet Mignon? That is dope!', neighborhood: 'Loop',  line: 'Red',   cuisine: 'American' },
 
-  { src: './photos/gaslight.jpg', name: 'Gaslight Club',     caption: '$Don\'t forget to eat your steak before your flight!', neighborhood: 'O\'Hare',  line: 'Blue',   cuisine: 'European' },
+  { src: './photos/gaslight.jpg', name: 'Gaslight Club',     caption: 'Don\'t forget to eat your steak before your flight!', neighborhood: 'O\'Hare',  line: 'Blue',   cuisine: 'European' },
 
 
 
