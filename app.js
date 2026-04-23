@@ -3,10 +3,10 @@
    ================================================================ */
 
 const LINE_COLORS = {
-  Red:'#C8102E', Blue:'#00A1DE', Brown:'#62361B', Green:'#009B3A',
-  Orange:'#F9461C', Purple:'#522398', Pink:'#E27EA6', Yellow:'#F9E300'
+   Red:'#C8102E', Blue:'#00A1DE', Brown:'#62361B', Orange:'#F9461C', Green:'#009B3A',
+   Purple:'#522398', Pink:'#E27EA6', Yellow:'#F9E300'
 };
-const ALL_LINES = ['Red','Blue','Brown','Green','Orange','Purple','Pink','Yellow'];
+const ALL_LINES = ['Red','Blue','Brown','Orange','Green','Purple','Pink','Yellow'];
 const CONNECTOR_PATTERNS = {
   Amtrak: /amtrak/i,
   Metra: /metra/i,
