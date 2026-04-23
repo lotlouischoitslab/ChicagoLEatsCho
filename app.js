@@ -669,8 +669,7 @@ const GALLERY_SLIDES = [
 
 
   { src: './photos/chosun1.jpg',         name: 'Cho Sun Ok',       caption: 'Most traditional Korean restaurant in Chicago. Reminding Seoul and Korean BBQ!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
-  { src: './photos/chosun2.jpg',         name: 'Cho Sun Ok',       caption: 'Finish your meal with Cold Noodles (냉면)!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
-
+  
 
   { src: './photos/daebak1.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌박이).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
