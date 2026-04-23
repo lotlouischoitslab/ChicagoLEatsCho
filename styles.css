@@ -21,8 +21,8 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
     var(--red)    0px  100px,
     var(--blue)   100px 200px,
     var(--brown)  200px 300px,
-    var(--green)  300px 400px,
-    var(--orange) 400px 500px,
+    var(--orange)  300px 400px,
+    var(--green) 400px 500px,
     var(--purple) 500px 600px,
     var(--pink)   600px 700px,
     var(--yellow) 700px 800px
