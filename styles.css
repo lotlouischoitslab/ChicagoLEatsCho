@@ -3,8 +3,8 @@
    ================================================================ */
 
 :root {
-  --red: #C8102E; --blue: #00A1DE; --brown: #62361B; --green: #009B3A;
-  --orange: #F9461C; --purple: #522398; --pink: #E27EA6; --yellow: #F9E300;
+  --red: #C8102E; --blue: #00A1DE; --brown: #62361B; --orange: #F9461C; --green: #009B3A;
+  --purple: #522398; --pink: #E27EA6; --yellow: #F9E300;
   --bg: #0a0a0a; --surface: #141414; --surface2: #1e1e1e; --border: #2a2a2a;
   --text: #f0ede8; --muted: #888; --accent: #F9E300;
   --amtrak: #1a4fa3; --metra: #006747; --southshore: #8B0000;
