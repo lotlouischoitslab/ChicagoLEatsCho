@@ -27,12 +27,16 @@
   <div class="hero-video-wrap">
     <iframe
       class="hero-video"
-      src="https://www.youtube.com/embed/EY0L-EvejqA?autoplay=1&mute=1&loop=1&playlist=EY0L-EvejqA&controls=0&playsinline=1&rel=0"
+      src="https://www.youtube.com/embed/EY0L-EvejqA?autoplay=1&mute=1&loop=1&playlist=EY0L-EvejqA&controls=0&playsinline=1&rel=0&modestbranding=1&disablekb=1&iv_load_policy=3"
       title="Chicago L background video"
       frameborder="0"
       allow="autoplay; fullscreen"
       allowfullscreen>
     </iframe>
+    <!-- Blocks YouTube title/watermark overlays -->
+    <div style="position:absolute;top:0;left:0;width:40%;height:80px;z-index:2;background:transparent;pointer-events:all"></div>
+    <div style="position:absolute;bottom:0;left:0;right:0;height:80px;z-index:2;background:transparent;pointer-events:all"></div>
+    <div style="position:absolute;top:0;right:0;width:120px;height:80px;z-index:2;background:transparent;pointer-events:all"></div>
   </div>
   <div class="hero-overlay"></div>
 

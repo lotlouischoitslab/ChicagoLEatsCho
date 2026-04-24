@@ -35,23 +35,15 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   to   { background-position: 800px 0; }
 }
 
-/* ---- HERO with VIDEO BACKGROUND ----
-.hero {
-  position: relative; padding: 120px 40px 80px; text-align: center;
-  border-bottom: 1px solid var(--border); overflow: hidden; margin-top: 6px;
-  min-height: 520px; display: flex; flex-direction: column; align-items: center; justify-content: center;
-}
-
-
 /* ---- HERO with VIDEO BACKGROUND ---- */
 .hero {
   position: relative;
-  padding: 120px 40px 80px;
+  padding: 160px 40px 120px;
   text-align: center;
   border-bottom: 1px solid var(--border);
   overflow: hidden;
   margin-top: 6px;
-  min-height: 520px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +61,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 /* YouTube iframe background */
 .hero-video {
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
   width: 177.78vh;
   height: 56.25vw;
