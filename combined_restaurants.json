@@ -1243,5 +1243,20 @@
     "Price $": 6.0,
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Sweet and refreshing popsicles that will quench your thirst!"
+  },
+  {
+    "Index": 84,
+    "Restaurants": "PopUp Bagels",
+    "Neighborhood": "Lincoln Park",
+    "Address": "2321 N Lincoln Ave, Chicago, IL 60614",
+    "Phone Number": "(855) 747-6347",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Fullerton",
+    "L Line [Train]": "Red, Purple, Brown",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.popupbagels.com/",
+    "Price $": 15.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Chewy bagels and a long line! Be sure to get there early!"
   }
 ]
