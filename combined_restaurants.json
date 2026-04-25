@@ -113,7 +113,7 @@
     "Cuisine": "Korean",
     "Nearest CTA L Stop [Train Station]": "Irving Park",
     "L Line [Train]": "Brown",
-    "Meals": "Brunch, Lunch, Dinner",
+    "Meals": "Breakfast, Lunch, Dinner",
     "Menu/Website": "http://chosunokrestaurant.com/",
     "Price $": 40.0,
     "Ratings (/5)": 5.0,
@@ -991,6 +991,21 @@
   },
   {
     "Index": 67,
+    "Restaurants": "Breakfast House Oak Park",
+    "Neighborhood": "Oak Park",
+    "Address": "138 N Marion St, Oak Park, IL 60301",
+    "Phone Number": "(708) 665-3952",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Harlem/Lake, Oak Park [Oak Park]",
+    "L Line [Train]": "Green [Metra]",
+    "Meals": "Breakfast, Lunch",
+    "Menu/Website": "https://www.breakfasthousechicago.com/",
+    "Price $": 25.0,
+    "Ratings (/5)": 4.5,
+    "Comments by Louis Sungwoo Cho": "Great place to have breakfast and lunch at Oak Park!"
+  },
+  {
+    "Index": 68,
     "Restaurants": "Starbucks Reserve Roastery",
     "Neighborhood": "River North",
     "Address": "646 N Michigan Ave, Chicago, IL 60611",
@@ -1005,7 +1020,7 @@
     "Comments by Louis Sungwoo Cho": "Iconic café in Chicago and you must visit here."
   },
   {
-    "Index": 68,
+    "Index": 69,
     "Restaurants": "Ground Up Coffee + Bites",
     "Neighborhood": "Loop",
     "Address": "144 S Dearborn St, Chicago, IL 60603",
@@ -1020,7 +1035,7 @@
     "Comments by Louis Sungwoo Cho": "My go-to place for morning coffee"
   },
   {
-    "Index": 69,
+    "Index": 70,
     "Restaurants": "Amorino",
     "Neighborhood": "Loop",
     "Address": "38 S Michigan Ave, Chicago, IL 60603",
@@ -1035,7 +1050,7 @@
     "Comments by Louis Sungwoo Cho": "Great Gelato and Sorbetto!"
   },
   {
-    "Index": 70,
+    "Index": 71,
     "Restaurants": "Lea French Cafe Michigan Avenue",
     "Neighborhood": "Loop",
     "Address": "20 N Michigan Ave, Chicago, IL 60602",
@@ -1050,7 +1065,7 @@
     "Comments by Louis Sungwoo Cho": "Baguette Chicken Sandwich was nice"
   },
   {
-    "Index": 71,
+    "Index": 72,
     "Restaurants": "Defloured Gluten Free Bakery",
     "Neighborhood": "Andersonville",
     "Address": "1477 W Balmoral Ave, Chicago, IL 60640",
@@ -1065,7 +1080,7 @@
     "Comments by Louis Sungwoo Cho": "My favorite bakery and chocolate brownies and chocolate cookies were amazing!"
   },
   {
-    "Index": 72,
+    "Index": 73,
     "Restaurants": "Nimble Café",
     "Neighborhood": "River North",
     "Address": "114 W Chicago Ave, Chicago, IL 60654",
@@ -1080,7 +1095,7 @@
     "Comments by Louis Sungwoo Cho": "Great coffee and nice place to chill out"
   },
   {
-    "Index": 73,
+    "Index": 74,
     "Restaurants": "3 Greens Coffee & Bakery",
     "Neighborhood": "River North",
     "Address": "900 N Michigan Ave, Chicago, IL 60611",
@@ -1095,7 +1110,7 @@
     "Comments by Louis Sungwoo Cho": "Great place to drink coffee and grab bites after a run"
   },
   {
-    "Index": 74,
+    "Index": 75,
     "Restaurants": "FRÍO Gelato - Evanston",
     "Neighborhood": "Evanston",
     "Address": "1301 Chicago Ave, Evanston, IL 60201",
@@ -1110,7 +1125,7 @@
     "Comments by Louis Sungwoo Cho": "Amazing gelato with generous portions!"
   },
   {
-    "Index": 75,
+    "Index": 76,
     "Restaurants": "Philz Coffee",
     "Neighborhood": "Lincoln Park",
     "Address": "2323 N Lincoln Ave, Chicago, IL 60614",
@@ -1125,7 +1140,7 @@
     "Comments by Louis Sungwoo Cho": "Interesting pink coffee"
   },
   {
-    "Index": 76,
+    "Index": 77,
     "Restaurants": "Corner Bakery Café",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1140,7 +1155,7 @@
     "Comments by Louis Sungwoo Cho": "Sandwich was ok but not the best"
   },
   {
-    "Index": 77,
+    "Index": 78,
     "Restaurants": "Daeji Dough Company",
     "Neighborhood": "Lakeview",
     "Address": "1360 W Belmont Ave, Chicago, IL 60657",
@@ -1155,7 +1170,7 @@
     "Comments by Louis Sungwoo Cho": "Great Oolong Tea and a lot of Korean fusion pastries"
   },
   {
-    "Index": 78,
+    "Index": 79,
     "Restaurants": "The Original Rainbow Cone",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1170,7 +1185,7 @@
     "Comments by Louis Sungwoo Cho": "Devouring ice cream place I will never forget!"
   },
   {
-    "Index": 79,
+    "Index": 80,
     "Restaurants": "Jeni's Splendid Ice Cream",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1185,7 +1200,7 @@
     "Comments by Louis Sungwoo Cho": "Not the place I would personally go for ice cream"
   },
   {
-    "Index": 80,
+    "Index": 81,
     "Restaurants": "Ben & Jerry's",
     "Neighborhood": "Navy Pier",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
@@ -1200,7 +1215,7 @@
     "Comments by Louis Sungwoo Cho": "Don't forget to get ice cream here when you visit the Navy Pier!"
   },
   {
-    "Index": 81,
+    "Index": 82,
     "Restaurants": "Sweet Reserve Cafe & Bakery",
     "Neighborhood": "Skokie",
     "Address": "4845 Oakton St, Skokie, IL 60077",
@@ -1215,7 +1230,7 @@
     "Comments by Louis Sungwoo Cho": "Their peach crust pudding like dessert was really sweet and savory."
   },
   {
-    "Index": 82,
+    "Index": 83,
     "Restaurants": "International Sandwich Shop",
     "Neighborhood": "Loop",
     "Address": "1 S Franklin St, Chicago, IL 60606",
@@ -1230,7 +1245,7 @@
     "Comments by Louis Sungwoo Cho": "Extremely fresh sandwiches and a great place for breakfast and lunch!"
   },
   {
-    "Index": 83,
+    "Index": 84,
     "Restaurants": "Paleta Belly",
     "Neighborhood": "Loop",
     "Address": "75 E Washington St, Chicago, IL 60602",
@@ -1245,7 +1260,7 @@
     "Comments by Louis Sungwoo Cho": "Sweet and refreshing popsicles that will quench your thirst!"
   },
   {
-    "Index": 84,
+    "Index": 85,
     "Restaurants": "PopUp Bagels",
     "Neighborhood": "Lincoln Park",
     "Address": "2321 N Lincoln Ave, Chicago, IL 60614",
@@ -1260,7 +1275,7 @@
     "Comments by Louis Sungwoo Cho": "Chewy bagels and a long line! Be sure to get there early!"
   },
   {
-    "Index": 85,
+    "Index": 86,
     "Restaurants": "Einstein Bros Bagels",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
