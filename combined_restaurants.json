@@ -1006,6 +1006,36 @@
   },
   {
     "Index": 68,
+    "Restaurants": "Beatrix-River North",
+    "Neighborhood": "River North",
+    "Address": "519 N Clark St, Chicago, IL 60654",
+    "Phone Number": "(312) 284-1377",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Grand",
+    "L Line [Train]": "Red",
+    "Meals": "Breakfast, Lunch, Dinner",
+    "Menu/Website": "https://www.beatrixrestaurants.com/beatrix/river-north/menus/",
+    "Price $": 40.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Amazing signature kebab dish with flavorful sauce!"
+  },
+  {
+    "Index": 69,
+    "Restaurants": "Mr. Submarine Sandwiches",
+    "Neighborhood": "Loop",
+    "Address": "47 N Wells St, Chicago, IL 60606",
+    "Phone Number": "(312) 419-0008",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Brown, Orange, Purple, Pink",
+    "Meals": "Breakfast, Lunch",
+    "Menu/Website": "https://mrsubmarine.com/loop/#themenu",
+    "Price $": 9.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Sandwiches are ok with generous portions"
+  },
+  {
+    "Index": 70,
     "Restaurants": "Starbucks Reserve Roastery",
     "Neighborhood": "River North",
     "Address": "646 N Michigan Ave, Chicago, IL 60611",
@@ -1020,7 +1050,7 @@
     "Comments by Louis Sungwoo Cho": "Iconic café in Chicago and you must visit here."
   },
   {
-    "Index": 69,
+    "Index": 71,
     "Restaurants": "Ground Up Coffee + Bites",
     "Neighborhood": "Loop",
     "Address": "144 S Dearborn St, Chicago, IL 60603",
@@ -1035,7 +1065,7 @@
     "Comments by Louis Sungwoo Cho": "My go-to place for morning coffee"
   },
   {
-    "Index": 70,
+    "Index": 72,
     "Restaurants": "Amorino",
     "Neighborhood": "Loop",
     "Address": "38 S Michigan Ave, Chicago, IL 60603",
@@ -1050,7 +1080,7 @@
     "Comments by Louis Sungwoo Cho": "Great Gelato and Sorbetto!"
   },
   {
-    "Index": 71,
+    "Index": 73,
     "Restaurants": "Lea French Cafe Michigan Avenue",
     "Neighborhood": "Loop",
     "Address": "20 N Michigan Ave, Chicago, IL 60602",
@@ -1065,7 +1095,7 @@
     "Comments by Louis Sungwoo Cho": "Baguette Chicken Sandwich was nice"
   },
   {
-    "Index": 72,
+    "Index": 74,
     "Restaurants": "Defloured Gluten Free Bakery",
     "Neighborhood": "Andersonville",
     "Address": "1477 W Balmoral Ave, Chicago, IL 60640",
@@ -1080,7 +1110,7 @@
     "Comments by Louis Sungwoo Cho": "My favorite bakery and chocolate brownies and chocolate cookies were amazing!"
   },
   {
-    "Index": 73,
+    "Index": 75,
     "Restaurants": "Nimble Café",
     "Neighborhood": "River North",
     "Address": "114 W Chicago Ave, Chicago, IL 60654",
@@ -1095,7 +1125,7 @@
     "Comments by Louis Sungwoo Cho": "Great coffee and nice place to chill out"
   },
   {
-    "Index": 74,
+    "Index": 76,
     "Restaurants": "3 Greens Coffee & Bakery",
     "Neighborhood": "River North",
     "Address": "900 N Michigan Ave, Chicago, IL 60611",
@@ -1110,7 +1140,7 @@
     "Comments by Louis Sungwoo Cho": "Great place to drink coffee and grab bites after a run"
   },
   {
-    "Index": 75,
+    "Index": 77,
     "Restaurants": "FRÍO Gelato - Evanston",
     "Neighborhood": "Evanston",
     "Address": "1301 Chicago Ave, Evanston, IL 60201",
@@ -1125,7 +1155,7 @@
     "Comments by Louis Sungwoo Cho": "Amazing gelato with generous portions!"
   },
   {
-    "Index": 76,
+    "Index": 78,
     "Restaurants": "Philz Coffee",
     "Neighborhood": "Lincoln Park",
     "Address": "2323 N Lincoln Ave, Chicago, IL 60614",
@@ -1140,7 +1170,7 @@
     "Comments by Louis Sungwoo Cho": "Interesting pink coffee"
   },
   {
-    "Index": 77,
+    "Index": 79,
     "Restaurants": "Corner Bakery Café",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1155,7 +1185,7 @@
     "Comments by Louis Sungwoo Cho": "Sandwich was ok but not the best"
   },
   {
-    "Index": 78,
+    "Index": 80,
     "Restaurants": "Daeji Dough Company",
     "Neighborhood": "Lakeview",
     "Address": "1360 W Belmont Ave, Chicago, IL 60657",
@@ -1170,7 +1200,7 @@
     "Comments by Louis Sungwoo Cho": "Great Oolong Tea and a lot of Korean fusion pastries"
   },
   {
-    "Index": 79,
+    "Index": 81,
     "Restaurants": "The Original Rainbow Cone",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1185,7 +1215,7 @@
     "Comments by Louis Sungwoo Cho": "Devouring ice cream place I will never forget!"
   },
   {
-    "Index": 80,
+    "Index": 82,
     "Restaurants": "Jeni's Splendid Ice Cream",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1200,7 +1230,7 @@
     "Comments by Louis Sungwoo Cho": "Not the place I would personally go for ice cream"
   },
   {
-    "Index": 81,
+    "Index": 83,
     "Restaurants": "Ben & Jerry's",
     "Neighborhood": "Navy Pier",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
@@ -1215,7 +1245,7 @@
     "Comments by Louis Sungwoo Cho": "Don't forget to get ice cream here when you visit the Navy Pier!"
   },
   {
-    "Index": 82,
+    "Index": 84,
     "Restaurants": "Sweet Reserve Cafe & Bakery",
     "Neighborhood": "Skokie",
     "Address": "4845 Oakton St, Skokie, IL 60077",
@@ -1230,7 +1260,7 @@
     "Comments by Louis Sungwoo Cho": "Their peach crust pudding like dessert was really sweet and savory."
   },
   {
-    "Index": 83,
+    "Index": 85,
     "Restaurants": "International Sandwich Shop",
     "Neighborhood": "Loop",
     "Address": "1 S Franklin St, Chicago, IL 60606",
@@ -1245,7 +1275,7 @@
     "Comments by Louis Sungwoo Cho": "Extremely fresh sandwiches and a great place for breakfast and lunch!"
   },
   {
-    "Index": 84,
+    "Index": 86,
     "Restaurants": "Paleta Belly",
     "Neighborhood": "Loop",
     "Address": "75 E Washington St, Chicago, IL 60602",
@@ -1260,7 +1290,7 @@
     "Comments by Louis Sungwoo Cho": "Sweet and refreshing popsicles that will quench your thirst!"
   },
   {
-    "Index": 85,
+    "Index": 87,
     "Restaurants": "PopUp Bagels",
     "Neighborhood": "Lincoln Park",
     "Address": "2321 N Lincoln Ave, Chicago, IL 60614",
@@ -1275,7 +1305,7 @@
     "Comments by Louis Sungwoo Cho": "Chewy bagels and a long line! Be sure to get there early!"
   },
   {
-    "Index": 86,
+    "Index": 88,
     "Restaurants": "Einstein Bros Bagels",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1288,5 +1318,20 @@
     "Price $": 0.0,
     "Ratings (/5)": 3.0,
     "Comments by Louis Sungwoo Cho": "Bagels are descent"
+  },
+  {
+    "Index": 89,
+    "Restaurants": "Café Cremerie",
+    "Neighborhood": "River North",
+    "Address": "615 N State St, Chicago, IL 60654",
+    "Phone Number": "(312) 266-7466",
+    "Cuisine": "European",
+    "Nearest CTA L Stop [Train Station]": "Grand",
+    "L Line [Train]": "Red",
+    "Meals": "Bakery, Café, Dessert",
+    "Menu/Website": "https://www.cafecremerie.com/menu",
+    "Price $": 8.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Amazing gelato with plenty of dessert and pastry options!"
   }
 ]
