@@ -142,8 +142,36 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 }
 
 
-/* ---- SURPRISE ME BUTTON ---- */
-.surprise-wrap { display: flex; justify-content: center; margin-top: 28px; }
+/* ---- SURPRISE ME BUTTON + INSTAGRAM ---- */
+.surprise-wrap {
+  display: flex; justify-content: center; align-items: center;
+  margin-top: 28px; gap: 12px; flex-wrap: wrap;
+}
+.instagram-btn {
+  display: flex; align-items: center; gap: 7px;
+  font-family: 'Space Mono', monospace; font-size: 0.78rem; font-weight: 700;
+  color: #fff; text-decoration: none;
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  padding: 10px 20px; border-radius: 30px;
+  transition: all 0.2s; letter-spacing: 0.03em; border: none; cursor: pointer;
+}
+.instagram-btn:hover { transform: scale(1.05); opacity: 0.92; }
+
+/* ---- SCROLL INDICATOR ---- */
+.scroll-indicator {
+  position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  color: rgba(255,255,255,0.5); font-family: 'Space Mono', monospace;
+  font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase;
+  z-index: 2; animation: scrollBounce 2s ease-in-out infinite; cursor: pointer;
+}
+.scroll-indicator:hover { color: rgba(255,255,255,0.8); }
+.scroll-arrow { display: flex; }
+@keyframes scrollBounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%       { transform: translateX(-50%) translateY(6px); }
+}
+
 .surprise-btn {
   font-family: 'Space Mono', monospace; font-size: 0.82rem; font-weight: 700;
   background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
@@ -584,10 +612,30 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   100% { transform: translateY(100vh) rotate(720deg) scale(0.5); opacity: 0; }
 }
 
-/* ---- FOOTER ---- */
-footer { padding: 40px; text-align: center; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.78rem; font-family: 'Space Mono', monospace; line-height: 1.8; }
-footer strong { color: var(--accent); }
-footer a { color: var(--muted); text-decoration: underline; }
+/* ---- ENHANCED FOOTER ---- */
+footer { padding: 0; border-top: 1px solid var(--border); font-family: 'Space Mono', monospace; }
+.footer-inner {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 32px 40px; flex-wrap: wrap; gap: 20px;
+}
+.footer-logo { font-size: 1.1rem; font-weight: 700; color: var(--accent); letter-spacing: -0.02em; }
+.footer-logo span { color: var(--text); }
+.footer-tagline { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
+.footer-links { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.footer-social-link {
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'Space Mono', monospace; font-size: 0.72rem;
+  color: var(--muted); text-decoration: none;
+  padding: 7px 14px; border-radius: 20px;
+  border: 1px solid var(--border); background: var(--surface);
+  transition: all 0.15s;
+}
+.footer-social-link:hover { border-color: var(--accent); color: var(--accent); }
+.footer-bottom {
+  padding: 14px 40px; border-top: 1px solid var(--border);
+  font-size: 0.68rem; color: var(--muted); text-align: center;
+}
+.footer-bottom strong { color: var(--accent); }
 
 /* ---- GALLERY ---- */
 .gallery-section {
