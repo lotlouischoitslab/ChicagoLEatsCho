@@ -658,8 +658,7 @@ const GALLERY_SLIDES = [
 
   { src: './photos/eataly_pizza1.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   { src: './photos/eataly_pizza2.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  { src: './photos/eataly_pizza3.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  { src: './photos/eataly_pizza4.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
+  { src: './photos/beatrix1.jpg', name: 'Beatrix-River North',    caption: 'Mouth-watering Kebab with white rice!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'American' },
  
   { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.',          neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
 
