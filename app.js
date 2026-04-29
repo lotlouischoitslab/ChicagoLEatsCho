@@ -834,6 +834,37 @@ document.addEventListener('DOMContentLoaded', () => {
 // ================================================================
 // INIT
 // ================================================================
+// ================================================================
+// DARK / LIGHT MODE TOGGLE
+// ================================================================
+function toggleTheme() {
+  const body = document.body;
+  const isLight = body.classList.toggle('light-mode');
+  const icon  = document.getElementById('themeIcon');
+  const label = document.getElementById('themeLabel');
+  if (isLight) {
+    icon.textContent  = '☀️';
+    label.textContent = 'Light';
+  } else {
+    icon.textContent  = '🌙';
+    label.textContent = 'Dark';
+  }
+  // Persist preference
+  localStorage.setItem('theme', isLight ? 'light' : 'dark');
+}
+
+// Restore saved theme on load
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light') {
+    document.body.classList.add('light-mode');
+    const icon  = document.getElementById('themeIcon');
+    const label = document.getElementById('themeLabel');
+    if (icon)  icon.textContent  = '☀️';
+    if (label) label.textContent = 'Light';
+  }
+})();
+
 loadData();
 buildGallery();
 buildLTrainGallery();

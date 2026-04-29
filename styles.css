@@ -2,13 +2,70 @@
    Chicago L Eats — styles.css
    ================================================================ */
 
+/* ---- DARK MODE (default) ---- */
 :root {
   --red: #C8102E; --blue: #00A1DE; --brown: #62361B; --orange: #F9461C; --green: #009B3A;
   --purple: #522398; --pink: #E27EA6; --yellow: #F9E300;
   --bg: #0a0a0a; --surface: #141414; --surface2: #1e1e1e; --border: #2a2a2a;
   --text: #f0ede8; --muted: #888; --accent: #F9E300;
   --amtrak: #1a4fa3; --metra: #006747; --southshore: #8B0000;
+  --card-hover: #1a1a1a;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
 }
+
+/* ---- LIGHT MODE ---- */
+body.light-mode {
+  --bg: #f5f2ee; --surface: #ffffff; --surface2: #f0ece6; --border: #e0d8d0;
+  --text: #1a1410; --muted: #7a6e64; --accent: #b8860b;
+  --card-hover: #faf7f3;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+body.light-mode .hero-track {
+  opacity: 1;
+}
+body.light-mode .hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(245,242,238,0.3) 0%,
+    rgba(245,242,238,0.15) 40%,
+    rgba(245,242,238,0.7) 75%,
+    rgba(245,242,238,0.97) 100%
+  );
+}
+body.light-mode .hero h1 {
+  text-shadow: 0 0 40px rgba(184,134,11,0.3), 0 2px 12px rgba(255,255,255,0.6);
+}
+body.light-mode .hero p { color: rgba(26,20,16,0.8); text-shadow: 0 1px 4px rgba(255,255,255,0.5); }
+body.light-mode .stat-n { color: var(--accent); }
+body.light-mode .card { background: #fff; }
+body.light-mode .card:hover { background: var(--card-hover); box-shadow: var(--shadow); }
+body.light-mode .meta-tag.cuisine { border-color: #c8bdb5; color: #5a4e46; }
+body.light-mode .modal { box-shadow: var(--shadow); }
+body.light-mode .controls { background: var(--surface); }
+body.light-mode .sort-btn { color: var(--muted); }
+body.light-mode .controls input[type=text],
+body.light-mode .controls select { color: var(--text); }
+body.light-mode .map-section { background: var(--surface); }
+body.light-mode .gallery-section { background: var(--bg); }
+body.light-mode .l-train-section { background: var(--surface); }
+body.light-mode .surprise-overlay { background: rgba(200,190,180,0.85); backdrop-filter: blur(12px); }
+body.light-mode .surprise-modal { background: #fff; box-shadow: var(--shadow); }
+body.light-mode .surprise-rolling-phase,
+body.light-mode .surprise-reveal-phase { color: var(--text); }
+
+/* ---- THEME TOGGLE BUTTON ---- */
+.theme-toggle {
+  position: fixed; top: 14px; right: 16px; z-index: 1000;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 20px; padding: 5px 12px;
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'Space Mono', monospace; font-size: 0.68rem;
+  color: var(--muted); cursor: pointer; transition: all 0.2s;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.theme-toggle-icon { font-size: 0.9rem; transition: transform 0.4s; }
+body.light-mode .theme-toggle-icon { transform: rotate(180deg); }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); height: 100vh; }
 
@@ -144,23 +201,37 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 
 /* ---- SURPRISE ME BUTTON + INSTAGRAM ---- */
 .surprise-wrap {
-  display: flex; justify-content: center; align-items: center;
-  margin-top: 28px; gap: 10px; flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  gap: 10px;
+  flex-wrap: nowrap; /* NEVER stack — always side by side */
 }
 
-
+.surprise-btn {
+  font-family: 'Space Mono', monospace; font-size: 0.78rem; font-weight: 700;
+  background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
+  padding: 10px 18px; border-radius: 30px; cursor: pointer;
+  transition: all 0.2s; letter-spacing: 0.03em; white-space: nowrap;
+}
+.surprise-btn:hover { background: var(--accent); color: #000; transform: scale(1.04); }
 
 .instagram-btn {
-  font-family: 'Space Mono', monospace; font-size: 0.82rem; font-weight: 700;
+  font-family: 'Space Mono', monospace; font-size: 0.78rem; font-weight: 700;
   background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
-  padding: 10px 24px; border-radius: 30px; cursor: pointer;
-  transition: all 0.2s; letter-spacing: 0.04em;
+  padding: 10px 18px; border-radius: 30px; cursor: pointer;
+  transition: all 0.2s; letter-spacing: 0.03em; white-space: nowrap;
 }
-
 .instagram-btn:hover { background: var(--accent); color: #000; transform: scale(1.04); }
 
+/* On very small phones, allow slight shrink but never stack */
+@media (max-width: 380px) {
+  .surprise-btn, .instagram-btn { font-size: 0.68rem; padding: 9px 12px; }
+  .surprise-wrap { gap: 7px; }
+}
 
-/* ---- SCROLL INDICATOR ---- */
+
 .scroll-indicator {
   position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%);
   display: flex; flex-direction: column; align-items: center; gap: 6px;
@@ -174,14 +245,6 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   0%, 100% { transform: translateX(-50%) translateY(0); }
   50%       { transform: translateX(-50%) translateY(6px); }
 }
-
-.surprise-btn {
-  font-family: 'Space Mono', monospace; font-size: 0.82rem; font-weight: 700;
-  background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
-  padding: 10px 24px; border-radius: 30px; cursor: pointer;
-  transition: all 0.2s; letter-spacing: 0.04em;
-}
-.surprise-btn:hover { background: var(--accent); color: #000; transform: scale(1.04); }
 
 /* ---- MAP SECTION ---- */
 .map-section {
@@ -753,8 +816,9 @@ footer { padding: 0; border-top: 1px solid var(--border); font-family: 'Space Mo
   .l-train-section { padding: 32px 16px; }
 }
 @media (max-width: 640px) {
-  .hero { padding: 60px 20px 40px; }
-  .hero-stats { gap: 20px; }
+  .hero { padding: 40px 20px; height: calc(100vh - 6px); min-height: 500px; }
+  .hero-stats { gap: 16px; }
+  .hero-stats .stat-n { font-size: 1.5rem; }
   .controls { padding: 14px 16px; }
   .lines-legend { padding: 14px 16px; }
   .map-section { padding: 24px 16px; }
@@ -764,4 +828,7 @@ footer { padding: 0; border-top: 1px solid var(--border); font-family: 'Space Mo
   .grid { grid-template-columns: 1fr; }
   .modal-body, .modal-hero { padding-left: 18px; padding-right: 18px; }
   .surprise-modal { padding: 28px 18px; }
+  .footer-inner { padding: 24px 20px; }
+  .footer-bottom { padding: 12px 20px; }
+  .theme-toggle { top: 10px; right: 10px; }
 }
