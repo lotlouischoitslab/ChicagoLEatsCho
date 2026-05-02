@@ -9,12 +9,13 @@ file_path = '../../02Chicago_Life/Recommended_Restaurants/Louis_Chicago_Restaura
 # 1. Load the data
 res_df = pd.read_excel(file_path, sheet_name='Restaurants')
 bak_df = pd.read_excel(file_path, sheet_name='Bakeries_Cafe')
+bar_df = pd.read_excel(file_path, sheet_name='Bar')
 
 # 2. FIX: Rename the column in the bakery dataframe to match the restaurant dataframe
 bak_df = bak_df.rename(columns={'Bakery/Café': 'Restaurants'})
 
 # 3. Combine them
-combined_df = pd.concat([res_df, bak_df], ignore_index=True)
+combined_df = pd.concat([res_df, bak_df, bar_df], ignore_index=True)
 
 
 # ... (after your concat line) ...
