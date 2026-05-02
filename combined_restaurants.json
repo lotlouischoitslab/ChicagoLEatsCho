@@ -1363,5 +1363,20 @@
     "Price $": 8.0,
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Amazing gelato with plenty of dessert and pastry options!"
+  },
+  {
+    "Index": 92,
+    "Restaurants": "Goddess and the Baker, 33 S Wabash-Millennium Park",
+    "Neighborhood": "Loop",
+    "Address": "33 S Wabash Ave, Chicago, IL 60603",
+    "Phone Number": "(312)-877-5176",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Bakery, Café, Dessert",
+    "Menu/Website": "https://www.goddessandthebaker.com/",
+    "Price $": 13.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Smooth ciabatta bread chicken club sandwich that made my day with an amazing view of the Loop L structure!"
   }
 ]
