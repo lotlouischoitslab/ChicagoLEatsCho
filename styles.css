@@ -403,8 +403,37 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 .card-comment { font-size: 0.8rem; color: var(--muted); line-height: 1.5; font-style: italic; border-left: 2px solid var(--border); padding-left: 10px; }
 .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
 .card-hood { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.card-footer-links { display: flex; align-items: center; gap: 8px; }
 .card-link { font-family: 'Space Mono', monospace; font-size: 0.68rem; color: var(--accent); text-decoration: none; }
 .card-link:hover { text-decoration: underline; }
+
+/* Instagram button on card */
+.card-ig-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-family: 'Space Mono', monospace; font-size: 0.65rem; font-weight: 700;
+  padding: 3px 8px; border-radius: 12px; text-decoration: none;
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #fff; transition: opacity 0.15s, transform 0.15s;
+  line-height: 1;
+}
+.card-ig-btn:hover { opacity: 0.88; transform: scale(1.05); }
+
+/* Modal CTA row — side by side when both exist */
+.modal-cta-row {
+  display: flex; flex-direction: column; gap: 10px; margin-top: 4px;
+}
+.modal-cta {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  text-align: center; background: var(--accent); color: #0d0b09;
+  text-decoration: none; font-family: 'Space Mono', monospace; font-weight: 700;
+  font-size: 0.85rem; padding: 14px; border-radius: 10px;
+}
+.modal-cta:hover { opacity: 0.88; }
+.modal-cta-ig {
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #fff;
+}
+.modal-cta-ig:hover { opacity: 0.9; }
 .no-results { padding: 80px 40px; text-align: center; color: var(--muted); font-family: 'Space Mono', monospace; font-size: 0.85rem; }
 
 /* ---- MODAL ---- */
@@ -446,12 +475,6 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   font-family: 'Space Mono', monospace; font-size: 0.72rem; font-weight: 700;
   padding: 5px 12px; border-radius: 20px;
 }
-.modal-cta {
-  display: block; text-align: center; background: var(--accent); color: #000;
-  text-decoration: none; font-family: 'Space Mono', monospace; font-weight: 700;
-  font-size: 0.85rem; padding: 14px; border-radius: 10px; margin-top: 4px;
-}
-.modal-cta:hover { opacity: 0.88; }
 
 /* ================================================================
    CINEMATIC SURPRISE ME MODAL
