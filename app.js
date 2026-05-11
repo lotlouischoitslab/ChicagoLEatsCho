@@ -650,6 +650,8 @@ const GALLERY_SLIDES = [
 
  { src: './photos/river_north_bistro.jpg', name: 'River North Bistro', caption: 'Great place for a Sunday brunch at River North!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
+  { src: './photos/lou1.jpg', name: 'Lou Malnati\'s',     caption: 'Authentic Chicago-style Deep Dish Pizza!', neighborhood: 'Varies',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American, Italian' },
+
 
   { src: './photos/carmines1.jpg', name: 'Carmines', caption: 'Fresh authentic Italian pasta!', neighborhood: 'River North', line: 'Red', cuisine: 'Italian' },
   { src: './photos/luxbar1.jpg', name: 'Luxbar', caption: 'Steak and Eggs brunch you will never forget!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
@@ -658,12 +660,11 @@ const GALLERY_SLIDES = [
   { src: './photos/charlie_martin1.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
   { src: './photos/charlie_martin2.jpg', name: 'Charlie Martin', caption: 'Crispy Steak Frites!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
-  { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Make sure to eat Steak and Eggs after finishing your business meeting!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
-  { src: './photos/roanoke2.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
+  
+  { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
  
-  { src: './photos/exchequer1.jpg', name: 'Exchequer',     caption: '$31.00 Filet Mignon? That is dope!', neighborhood: 'Loop',  line: 'Red',   cuisine: 'American' },
-
-  { src: './photos/gaslight.jpg', name: 'Gaslight Club',     caption: 'Don\'t forget to eat your steak before your flight!', neighborhood: 'O\'Hare',  line: 'Blue',   cuisine: 'European' },
+ 
+  { src: './photos/porcellino1.jpg', name: 'Il Porcellino',     caption: 'Delicious hand-made thick pasta with Italian sausage!', neighborhood: 'River North',  line: 'Brown, Purple',   cuisine: 'Italian' },
 
 
 
@@ -672,11 +673,11 @@ const GALLERY_SLIDES = [
   { src: './photos/eataly_pizza2.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
   { src: './photos/beatrix1.jpg', name: 'Beatrix-River North',    caption: 'Mouth-watering Kebab with white rice!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'American' },
  
-  { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.',          neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
+  { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Tuesday–Saturday nights. Unmissable.', neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
 
-  { src: './photos/brunchery1.jpg', name: 'The Brunchery',     caption: 'Amazing Steak & Eggs Brunch on Clark Street.', neighborhood: 'Lincoln Park',  line: 'Red',   cuisine: 'American' },
+  { src: './photos/marq1.jpg', name: 'The Marq',     caption: 'Sizzling Steak Frites for dinner is the best!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
 
-  { src: './photos/vu_rooftop1.jpg', name: 'VU Rooftop',        caption: 'Korean-style skirt steak with a view of the South Loop.',        neighborhood: 'South Loop',    line: 'Green', cuisine: 'American' },
+  { src: './photos/goddess1.jpg', name: 'Goddes and the Baker',        caption: 'Great chicken club sandwich and amazing options!', neighborhood: 'Loop',    line: 'Red, Blue, Brown, Orange, Green, Purple, Pink', cuisine: 'American' },
 
 
   { src: './photos/chosun1.jpg',         name: 'Cho Sun Ok',       caption: 'Most traditional Korean restaurant in Chicago. Reminding Seoul and Korean BBQ!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
@@ -686,8 +687,8 @@ const GALLERY_SLIDES = [
   { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌박이).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   { src: './photos/daebak3.jpg',         name: 'Daebak Korean BBQ', caption: 'Finish off with marinated Galbi (양념갈비).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
   
-   
-  { src: './photos/perilla1.jpg', name: 'Perilla', caption: 'Fusion Korean American Steakhouse you do not want to miss!', neighborhood: 'Loop', line: 'Red, Green, Brown, Orange, Purple, Pink', cuisine: 'Korean, American' },
+ 
+
 ];
 
 const LINE_COLORS_GALLERY = {
