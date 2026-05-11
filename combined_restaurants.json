@@ -102,7 +102,7 @@
     "Address": "225 N Michigan Ave, Chicago, IL 60601",
     "Phone Number": "(312) 698-7111",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
     "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.sweetwatertavernandgrille.com/",
@@ -278,7 +278,7 @@
     "Address": "221 N Columbus Dr, Chicago, IL 60601",
     "Phone Number": "(312) 477-0234",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
     "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://www.firelakechicago.com/",
@@ -598,8 +598,8 @@
     "Address": "185 N Wabash Ave, Chicago, IL 60601",
     "Phone Number": "(312) 345-1710",
     "Cuisine": "British",
-    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
-    "L Line [Train]": "Red, Orange, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
     "Meals": "Lunch, Dinner, Bar",
     "Menu/Website": "https://www.elephantcastle.com/en/menus/food.html",
     "Price $": 17.0,
@@ -1510,7 +1510,7 @@
     "Address": "75 E Washington St, Chicago, IL 60602",
     "Phone Number": "",
     "Cuisine": "Mexican",
-    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
     "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
     "Meals": "Café",
     "Menu/Website": "",
@@ -1633,6 +1633,22 @@
   },
   {
     "Index": 103,
+    "Restaurants": "Tiny Tapp & Tiny Café",
+    "Neighborhood": "Loop",
+    "Address": "55 W Riverwalk, Chicago, IL 60601",
+    "Phone Number": "(773) 967-0102",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Café",
+    "Menu/Website": "https://www.tinytapp.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Chilling while drinking coffee in front of the Riverwalk!",
+    "Instagram": "https://www.instagram.com/p/DYLgz9-FfBV/"
+  },
+  {
+    "Index": 104,
     "Restaurants": "Pilot Project Brewing - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2140 N Milwaukee Ave, Chicago, IL 60647",
@@ -1648,7 +1664,7 @@
     "Instagram": "https://www.instagram.com/p/DX4a_i3FRqh/?img_index=1"
   },
   {
-    "Index": 104,
+    "Index": 105,
     "Restaurants": "The Reverly",
     "Neighborhood": "Lincoln Square",
     "Address": "3403 N Damen Ave, Chicago, IL 60657",
@@ -1664,7 +1680,7 @@
     "Instagram": ""
   },
   {
-    "Index": 105,
+    "Index": 106,
     "Restaurants": "Bar Moxy",
     "Neighborhood": "River North",
     "Address": "530 N La Salle Dr, Chicago, IL 60654",
@@ -1680,7 +1696,7 @@
     "Instagram": ""
   },
   {
-    "Index": 106,
+    "Index": 107,
     "Restaurants": "Franklin Tap",
     "Neighborhood": "Loop",
     "Address": "325 S Franklin St, Chicago, IL, 60606",
@@ -1696,7 +1712,7 @@
     "Instagram": ""
   },
   {
-    "Index": 107,
+    "Index": 108,
     "Restaurants": "Haymarket Pub & Brewery",
     "Neighborhood": "West Loop",
     "Address": "737 W Randolph St, Chicago, IL 60661",
@@ -1712,7 +1728,7 @@
     "Instagram": ""
   },
   {
-    "Index": 108,
+    "Index": 109,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 w hubbard st chicago, IL 60654",
@@ -1728,7 +1744,7 @@
     "Instagram": ""
   },
   {
-    "Index": 109,
+    "Index": 110,
     "Restaurants": "Marz Community Brewing Company",
     "Neighborhood": "McKinley Park",
     "Address": "3630 S Iron St, Chicago, IL 60609",
@@ -1744,7 +1760,7 @@
     "Instagram": "https://www.instagram.com/p/DYIouBElcuC/?img_index=1"
   },
   {
-    "Index": 110,
+    "Index": 111,
     "Restaurants": "Shakers on Clark",
     "Neighborhood": "Lakeview",
     "Address": "3162 N Clark St, Chicago, IL 60657",
