@@ -1665,6 +1665,22 @@
   },
   {
     "Index": 105,
+    "Restaurants": "Hannah's Bretzel",
+    "Neighborhood": "Loop",
+    "Address": "66 W Randolph St, Chicago, IL 60601",
+    "Phone Number": "",
+    "Cuisine": "German",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Merchandise Mart [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Bakery",
+    "Menu/Website": "http://www.hannahsbretzel.com/food/",
+    "Price $": 11.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Crispy German style pretzel sandwiches!",
+    "Instagram": "https://www.instagram.com/p/DYXkAThlbBo/?img_index=1"
+  },
+  {
+    "Index": 106,
     "Restaurants": "Pilot Project Brewing - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2140 N Milwaukee Ave, Chicago, IL 60647",
@@ -1680,7 +1696,7 @@
     "Instagram": "https://www.instagram.com/p/DX4a_i3FRqh/?img_index=1"
   },
   {
-    "Index": 106,
+    "Index": 107,
     "Restaurants": "The Reverly",
     "Neighborhood": "Lincoln Square",
     "Address": "3403 N Damen Ave, Chicago, IL 60657",
@@ -1696,7 +1712,7 @@
     "Instagram": ""
   },
   {
-    "Index": 107,
+    "Index": 108,
     "Restaurants": "Bar Moxy",
     "Neighborhood": "River North",
     "Address": "530 N La Salle Dr, Chicago, IL 60654",
@@ -1712,7 +1728,7 @@
     "Instagram": ""
   },
   {
-    "Index": 108,
+    "Index": 109,
     "Restaurants": "Franklin Tap",
     "Neighborhood": "Loop",
     "Address": "325 S Franklin St, Chicago, IL, 60606",
@@ -1728,7 +1744,7 @@
     "Instagram": ""
   },
   {
-    "Index": 109,
+    "Index": 110,
     "Restaurants": "Haymarket Pub & Brewery",
     "Neighborhood": "West Loop",
     "Address": "737 W Randolph St, Chicago, IL 60661",
@@ -1744,7 +1760,7 @@
     "Instagram": ""
   },
   {
-    "Index": 110,
+    "Index": 111,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 w hubbard st chicago, IL 60654",
@@ -1760,7 +1776,7 @@
     "Instagram": ""
   },
   {
-    "Index": 111,
+    "Index": 112,
     "Restaurants": "Marz Community Brewing Company",
     "Neighborhood": "McKinley Park",
     "Address": "3630 S Iron St, Chicago, IL 60609",
@@ -1776,7 +1792,7 @@
     "Instagram": "https://www.instagram.com/p/DYIouBElcuC/?img_index=1"
   },
   {
-    "Index": 112,
+    "Index": 113,
     "Restaurants": "Shakers on Clark",
     "Neighborhood": "Lakeview",
     "Address": "3162 N Clark St, Chicago, IL 60657",
@@ -1792,7 +1808,7 @@
     "Instagram": "https://www.instagram.com/p/DYLY80HFQeo/?img_index=1"
   },
   {
-    "Index": 113,
+    "Index": 114,
     "Restaurants": "Dovetail Brewery",
     "Neighborhood": "Lincoln Square",
     "Address": "1800 W Belle Plaine Ave, Chicago, IL 60613",
