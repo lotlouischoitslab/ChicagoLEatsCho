@@ -913,54 +913,6 @@
   },
   {
     "Index": 58,
-    "Restaurants": "Kaufman's Bagel & Delicatessen",
-    "Neighborhood": "Skokie",
-    "Address": "4905 Dempster St, Skokie, IL 60077",
-    "Phone Number": "(847) 677-6190",
-    "Cuisine": "Jewish",
-    "Nearest CTA L Stop [Train Station]": "Dempster-Skokie",
-    "L Line [Train]": "Yellow",
-    "Meals": "Breakfast, Lunch",
-    "Menu/Website": "https://kaufmans.restaurants-world.net/",
-    "Price $": 14.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The bagel sandwich was okay, and there are many kosher meal options.",
-    "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
-  },
-  {
-    "Index": 59,
-    "Restaurants": "Subway",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.subway.com/en-us",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Decent sandwiches when you need something quick and convenient.",
-    "Instagram": ""
-  },
-  {
-    "Index": 60,
-    "Restaurants": "Potbelly Sandwiches",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.potbelly.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Decent sandwiches and a reliable casual option.",
-    "Instagram": ""
-  },
-  {
-    "Index": 61,
     "Restaurants": "Hub 51",
     "Neighborhood": "O'Hare",
     "Address": "Chicago O'Hare International Airport Terminal 5, 10000 W O'Hare Ave, Chicago, IL 60666",
@@ -976,7 +928,7 @@
     "Instagram": ""
   },
   {
-    "Index": 62,
+    "Index": 59,
     "Restaurants": "Summer House Santa Monica",
     "Neighborhood": "O'Hare",
     "Address": "Chicago O'Hare International Airport Terminal 2, 10000 Ohare Way, Chicago, IL 60666",
@@ -992,7 +944,7 @@
     "Instagram": ""
   },
   {
-    "Index": 63,
+    "Index": 60,
     "Restaurants": "Luke's Italian Beef",
     "Neighborhood": "Loop",
     "Address": "215 W Jackson Blvd, Chicago, IL 60606",
@@ -1008,7 +960,7 @@
     "Instagram": ""
   },
   {
-    "Index": 64,
+    "Index": 61,
     "Restaurants": "Breakfast House Oak Park",
     "Neighborhood": "Oak Park",
     "Address": "138 N Marion St, Oak Park, IL 60301",
@@ -1024,7 +976,7 @@
     "Instagram": "https://www.instagram.com/p/DX4aUu2lRS_/"
   },
   {
-    "Index": 65,
+    "Index": 62,
     "Restaurants": "Beatrix-River North",
     "Neighborhood": "River North",
     "Address": "519 N Clark St, Chicago, IL 60654",
@@ -1040,23 +992,7 @@
     "Instagram": "https://www.instagram.com/p/DXrVcCUkTVp/"
   },
   {
-    "Index": 66,
-    "Restaurants": "Mr. Submarine Sandwiches",
-    "Neighborhood": "Loop",
-    "Address": "47 N Wells St, Chicago, IL 60606",
-    "Phone Number": "(312) 419-0008",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
-    "L Line [Train]": "Brown, Orange, Purple, Pink",
-    "Meals": "Breakfast, Lunch",
-    "Menu/Website": "https://mrsubmarine.com/loop/#themenu",
-    "Price $": 9.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Good sandwiches with generous portions.",
-    "Instagram": ""
-  },
-  {
-    "Index": 67,
+    "Index": 63,
     "Restaurants": "The 101 Bar, Grill & Rooftop",
     "Neighborhood": "River North",
     "Address": "101 E Erie St, Chicago, IL 60611",
@@ -1072,7 +1008,7 @@
     "Instagram": "https://www.instagram.com/p/DYAAcwKlTqJ/"
   },
   {
-    "Index": 68,
+    "Index": 64,
     "Restaurants": "Cindy's Rooftop",
     "Neighborhood": "Loop",
     "Address": "12 S Michigan Ave, Chicago, IL 60603",
@@ -1088,7 +1024,7 @@
     "Instagram": "https://www.instagram.com/p/DXsXrlLFQlT/?img_index=1"
   },
   {
-    "Index": 69,
+    "Index": 65,
     "Restaurants": "Leña Brava",
     "Neighborhood": "West Loop",
     "Address": "900 W Randolph St, Chicago, IL 60607",
@@ -1104,7 +1040,7 @@
     "Instagram": "https://www.instagram.com/p/DX2Nl9dFW3I/?img_index=1"
   },
   {
-    "Index": 70,
+    "Index": 66,
     "Restaurants": "About Last Knife",
     "Neighborhood": "Loop",
     "Address": "168 N Michigan Ave, Chicago, IL 60601",
@@ -1120,7 +1056,7 @@
     "Instagram": ""
   },
   {
-    "Index": 71,
+    "Index": 67,
     "Restaurants": "Il Porcellino",
     "Neighborhood": "River North",
     "Address": "59 W Hubbard St #2, Chicago, IL 60654",
@@ -1136,7 +1072,7 @@
     "Instagram": "https://www.instagram.com/p/DX5Y0wjldAz/"
   },
   {
-    "Index": 72,
+    "Index": 68,
     "Restaurants": "The Grill on 21",
     "Neighborhood": "Loop",
     "Address": "208 S LaSalle St, Chicago, IL 60604",
@@ -1152,7 +1088,7 @@
     "Instagram": "https://www.instagram.com/p/DYCg4KKlR2F/"
   },
   {
-    "Index": 73,
+    "Index": 69,
     "Restaurants": "The Marq",
     "Neighborhood": "Loop",
     "Address": "60 W Adams St, Chicago, IL 60603",
@@ -1168,7 +1104,7 @@
     "Instagram": "https://www.instagram.com/p/DYGATg8FSLU/"
   },
   {
-    "Index": 74,
+    "Index": 70,
     "Restaurants": "Quartino Ristorante",
     "Neighborhood": "River North",
     "Address": "626 N State St, Chicago, IL 60654",
@@ -1184,7 +1120,7 @@
     "Instagram": "https://www.instagram.com/p/DYInWTclU8T/"
   },
   {
-    "Index": 75,
+    "Index": 71,
     "Restaurants": "Phoenix Restaurant",
     "Neighborhood": "Cermak-Chinatown",
     "Address": "2131 S Archer Ave, Chicago, IL 60616",
@@ -1200,7 +1136,7 @@
     "Instagram": "https://www.instagram.com/p/DYInvwklTRw/"
   },
   {
-    "Index": 76,
+    "Index": 72,
     "Restaurants": "Lou Malnati's",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1216,7 +1152,7 @@
     "Instagram": "https://www.instagram.com/p/DYLXtLNlYGv/"
   },
   {
-    "Index": 77,
+    "Index": 73,
     "Restaurants": "Kim’s Home Cooking",
     "Neighborhood": "Albany Park",
     "Address": "4829 N Kedzie Ave, Chicago, IL 60625",
@@ -1232,7 +1168,7 @@
     "Instagram": "https://www.instagram.com/p/DYVqySPlb7q/?img_index=1"
   },
   {
-    "Index": 78,
+    "Index": 74,
     "Restaurants": "Venteux Brasserie, Cafe & Oyster Bar",
     "Neighborhood": "Loop",
     "Address": "224 N Michigan Ave, Chicago, IL 60601",
@@ -1248,7 +1184,7 @@
     "Instagram": "https://www.instagram.com/p/DYaH9ExlfMq/?img_index=1"
   },
   {
-    "Index": 79,
+    "Index": 75,
     "Restaurants": "La Grande Boucherie",
     "Neighborhood": "River North",
     "Address": "431 N Dearborn St, Chicago, IL 60654",
@@ -1264,7 +1200,7 @@
     "Instagram": "https://www.instagram.com/p/DYcsXJZlfG2/?img_index=1"
   },
   {
-    "Index": 80,
+    "Index": 76,
     "Restaurants": "Starbucks Reserve Roastery",
     "Neighborhood": "River North",
     "Address": "646 N Michigan Ave, Chicago, IL 60611",
@@ -1280,7 +1216,7 @@
     "Instagram": "https://www.instagram.com/p/DYaJEe3FcG1/?img_index=1"
   },
   {
-    "Index": 81,
+    "Index": 77,
     "Restaurants": "Ground Up Coffee + Bites",
     "Neighborhood": "Loop",
     "Address": "144 S Dearborn St, Chicago, IL 60603",
@@ -1296,7 +1232,7 @@
     "Instagram": "https://www.instagram.com/p/DX6xyxNlWwV/"
   },
   {
-    "Index": 82,
+    "Index": 78,
     "Restaurants": "Amorino",
     "Neighborhood": "Loop",
     "Address": "38 S Michigan Ave, Chicago, IL 60603",
@@ -1312,7 +1248,7 @@
     "Instagram": ""
   },
   {
-    "Index": 83,
+    "Index": 79,
     "Restaurants": "Lea French Cafe Michigan Avenue",
     "Neighborhood": "Loop",
     "Address": "20 N Michigan Ave, Chicago, IL 60602",
@@ -1328,7 +1264,7 @@
     "Instagram": "https://www.instagram.com/p/DXsWcMTFekh/"
   },
   {
-    "Index": 84,
+    "Index": 80,
     "Restaurants": "Defloured Gluten Free Bakery",
     "Neighborhood": "Andersonville",
     "Address": "1477 W Balmoral Ave, Chicago, IL 60640",
@@ -1344,7 +1280,7 @@
     "Instagram": ""
   },
   {
-    "Index": 85,
+    "Index": 81,
     "Restaurants": "Nimble Café",
     "Neighborhood": "River North",
     "Address": "114 W Chicago Ave, Chicago, IL 60654",
@@ -1360,7 +1296,7 @@
     "Instagram": ""
   },
   {
-    "Index": 86,
+    "Index": 82,
     "Restaurants": "3 Greens Coffee & Bakery",
     "Neighborhood": "River North",
     "Address": "900 N Michigan Ave, Chicago, IL 60611",
@@ -1376,7 +1312,7 @@
     "Instagram": ""
   },
   {
-    "Index": 87,
+    "Index": 83,
     "Restaurants": "FRÍO Gelato - Evanston",
     "Neighborhood": "Evanston",
     "Address": "1301 Chicago Ave, Evanston, IL 60201",
@@ -1392,7 +1328,7 @@
     "Instagram": "https://www.instagram.com/p/DX-d67nlUO7/?img_index=1"
   },
   {
-    "Index": 88,
+    "Index": 84,
     "Restaurants": "Philz Coffee",
     "Neighborhood": "Lincoln Park",
     "Address": "2323 N Lincoln Ave, Chicago, IL 60614",
@@ -1408,7 +1344,7 @@
     "Instagram": ""
   },
   {
-    "Index": 89,
+    "Index": 85,
     "Restaurants": "Corner Bakery Café",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1424,7 +1360,7 @@
     "Instagram": ""
   },
   {
-    "Index": 90,
+    "Index": 86,
     "Restaurants": "Daeji Dough Company",
     "Neighborhood": "Lakeview",
     "Address": "1360 W Belmont Ave, Chicago, IL 60657",
@@ -1440,7 +1376,7 @@
     "Instagram": ""
   },
   {
-    "Index": 91,
+    "Index": 87,
     "Restaurants": "The Original Rainbow Cone",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1456,7 +1392,7 @@
     "Instagram": "https://www.instagram.com/p/DYaIcZNg3ry/"
   },
   {
-    "Index": 92,
+    "Index": 88,
     "Restaurants": "Jeni's Splendid Ice Cream",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1472,7 +1408,7 @@
     "Instagram": ""
   },
   {
-    "Index": 93,
+    "Index": 89,
     "Restaurants": "Ben & Jerry's",
     "Neighborhood": "Navy Pier",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
@@ -1488,7 +1424,7 @@
     "Instagram": "https://www.instagram.com/p/DX5M2HiFYsT/"
   },
   {
-    "Index": 94,
+    "Index": 90,
     "Restaurants": "Sweet Reserve Cafe & Bakery",
     "Neighborhood": "Skokie",
     "Address": "4845 Oakton St, Skokie, IL 60077",
@@ -1501,10 +1437,10 @@
     "Price $": 7.0,
     "Ratings (/5)": 4.0,
     "Comments by Louis Sungwoo Cho": "The peach-crust pudding dessert was sweet, rich, and satisfying.",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYc09d8BWRD/"
   },
   {
-    "Index": 95,
+    "Index": 91,
     "Restaurants": "International Sandwich Shop",
     "Neighborhood": "Loop",
     "Address": "1 S Franklin St, Chicago, IL 60606",
@@ -1520,7 +1456,7 @@
     "Instagram": "https://www.instagram.com/p/DXsbnzHlYuZ/"
   },
   {
-    "Index": 96,
+    "Index": 92,
     "Restaurants": "Paleta Belly",
     "Neighborhood": "Loop",
     "Address": "75 E Washington St, Chicago, IL 60602",
@@ -1536,7 +1472,7 @@
     "Instagram": ""
   },
   {
-    "Index": 97,
+    "Index": 93,
     "Restaurants": "PopUp Bagels",
     "Neighborhood": "Lincoln Park",
     "Address": "2321 N Lincoln Ave, Chicago, IL 60614",
@@ -1552,7 +1488,7 @@
     "Instagram": "https://www.instagram.com/p/DXsdBiXlc8w/?img_index=1"
   },
   {
-    "Index": 98,
+    "Index": 94,
     "Restaurants": "Einstein Bros Bagels",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1568,7 +1504,7 @@
     "Instagram": ""
   },
   {
-    "Index": 99,
+    "Index": 95,
     "Restaurants": "Café Cremerie",
     "Neighborhood": "River North",
     "Address": "615 N State St, Chicago, IL 60654",
@@ -1584,7 +1520,7 @@
     "Instagram": "https://www.instagram.com/p/DYISoIKlZIj/"
   },
   {
-    "Index": 100,
+    "Index": 96,
     "Restaurants": "Goddess and the Baker-Millenium",
     "Neighborhood": "Loop",
     "Address": "33 S Wabash Ave, Chicago, IL 60603",
@@ -1600,7 +1536,7 @@
     "Instagram": "https://www.instagram.com/p/DX1igmyFZAr/?img_index=1"
   },
   {
-    "Index": 101,
+    "Index": 97,
     "Restaurants": "The Bagel Spot",
     "Neighborhood": "Loop",
     "Address": "105 W Madison St Lower level, Chicago, IL 60602",
@@ -1616,7 +1552,7 @@
     "Instagram": ""
   },
   {
-    "Index": 102,
+    "Index": 98,
     "Restaurants": "Lizzano Focacceria & Spritzeria",
     "Neighborhood": "Loop",
     "Address": "636 N Wells St, Chicago, IL 60654",
@@ -1632,7 +1568,7 @@
     "Instagram": "https://www.instagram.com/p/DYFFY0AlfOP/"
   },
   {
-    "Index": 103,
+    "Index": 99,
     "Restaurants": "La Colombe Workshop",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -1648,7 +1584,7 @@
     "Instagram": "https://www.instagram.com/p/DYLYYgDFXWo/"
   },
   {
-    "Index": 104,
+    "Index": 100,
     "Restaurants": "Tiny Tapp & Tiny Café",
     "Neighborhood": "Loop",
     "Address": "55 W Riverwalk, Chicago, IL 60601",
@@ -1664,7 +1600,7 @@
     "Instagram": "https://www.instagram.com/p/DYLgz9-FfBV/"
   },
   {
-    "Index": 105,
+    "Index": 101,
     "Restaurants": "Halsted Deli",
     "Neighborhood": "Loop",
     "Address": "203 N La Salle Dr, Chicago, IL 60601",
@@ -1680,7 +1616,7 @@
     "Instagram": "https://www.instagram.com/p/DYQVE6aFd9N/?img_index=1"
   },
   {
-    "Index": 106,
+    "Index": 102,
     "Restaurants": "Hannah's Bretzel",
     "Neighborhood": "Loop",
     "Address": "66 W Randolph St, Chicago, IL 60601",
@@ -1696,7 +1632,7 @@
     "Instagram": "https://www.instagram.com/p/DYXkAThlbBo/?img_index=1"
   },
   {
-    "Index": 107,
+    "Index": 103,
     "Restaurants": "Corey's NYC Bagel Deli",
     "Neighborhood": "River North",
     "Address": "515 N Dearborn St, Chicago, IL 60654",
@@ -1704,7 +1640,7 @@
     "Cuisine": "American",
     "Nearest CTA L Stop [Train Station]": "Grand",
     "L Line [Train]": "Red",
-    "Meals": "Breakfast, Lunch",
+    "Meals": "Bakery, Café",
     "Menu/Website": "https://coreysbagels.com/",
     "Price $": 14.0,
     "Ratings (/5)": 5.0,
@@ -1712,7 +1648,7 @@
     "Instagram": "https://www.instagram.com/p/DYcpgXUFQWA/?img_index=1"
   },
   {
-    "Index": 108,
+    "Index": 104,
     "Restaurants": "TARY",
     "Neighborhood": "River North",
     "Address": "111 W Illinois St, Chicago, IL 60654",
@@ -1720,12 +1656,76 @@
     "Cuisine": "Kazakh",
     "Nearest CTA L Stop [Train Station]": "Grand",
     "L Line [Train]": "Red",
-    "Meals": "Breakfast, Lunch",
+    "Meals": "Bakery, Café",
     "Menu/Website": "https://tary-6851f04c9ac2b.square.site/?location_id=LKC0R19TSEG63&fulfillment=PICKUP",
     "Price $": 5.0,
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Signature espresso drinks, Tary tea, pastries, and a cozy River North café bringing a little taste of Kazakhstan to downtown Chicago.",
     "Instagram": "https://www.instagram.com/p/DYcr5pelWKu/?img_index=1"
+  },
+  {
+    "Index": 105,
+    "Restaurants": "Kaufman's Bagel & Delicatessen",
+    "Neighborhood": "Skokie",
+    "Address": "4905 Dempster St, Skokie, IL 60077",
+    "Phone Number": "(847) 677-6190",
+    "Cuisine": "Jewish",
+    "Nearest CTA L Stop [Train Station]": "Dempster-Skokie",
+    "L Line [Train]": "Yellow",
+    "Meals": "Bakery, Café",
+    "Menu/Website": "https://kaufmans.restaurants-world.net/",
+    "Price $": 14.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The bagel sandwich was okay, and there are many kosher meal options.",
+    "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
+  },
+  {
+    "Index": 106,
+    "Restaurants": "Potbelly Sandwiches",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.potbelly.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Decent sandwiches and a reliable casual option.",
+    "Instagram": ""
+  },
+  {
+    "Index": 107,
+    "Restaurants": "Subway",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.subway.com/en-us",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Decent sandwiches when you need something quick and convenient.",
+    "Instagram": ""
+  },
+  {
+    "Index": 108,
+    "Restaurants": "Mr. Submarine Sandwiches",
+    "Neighborhood": "Loop",
+    "Address": "47 N Wells St, Chicago, IL 60606",
+    "Phone Number": "(312) 419-0008",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Brown, Orange, Purple, Pink",
+    "Meals": "Bakery",
+    "Menu/Website": "https://mrsubmarine.com/loop/#themenu",
+    "Price $": 9.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Good sandwiches with generous portions.",
+    "Instagram": ""
   },
   {
     "Index": 109,
@@ -1782,14 +1782,14 @@
     "Address": "325 S Franklin St, Chicago, IL, 60606",
     "Phone Number": "(312) 212-3262",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Jackson, Quincy, LaSalle/Van Buren [Chicago Union Station], [LaSalle St]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Nearest CTA L Stop [Train Station]": "Quincy, LaSalle/Van Buren [Chicago Union Station], [LaSalle St]",
+    "L Line [Train]": "Brown, Orange, Purple, Pink [Amtrak, Metra]",
     "Meals": "Bar",
     "Menu/Website": "https://www.franklintap.com/",
     "Price $": 0.0,
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Great choice of drinks and bites. Always a great place to network with professionals and friends!",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYc0P4VMzXm/"
   },
   {
     "Index": 113,
