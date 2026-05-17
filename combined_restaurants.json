@@ -1838,5 +1838,53 @@
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
     "Instagram": "https://www.instagram.com/p/DYV3xY0lerA/?img_index=1"
+  },
+  {
+    "Index": 116,
+    "Restaurants": "Declan’s Irish Pub",
+    "Neighborhood": "Old Town",
+    "Address": "1240 N Wells St, Chicago, IL 60610",
+    "Phone Number": "(312) 642-5522",
+    "Cuisine": "Irish",
+    "Nearest CTA L Stop [Train Station]": "Clark/Division",
+    "L Line [Train]": "Red",
+    "Meals": "Bar",
+    "Menu/Website": "https://declansirishpub.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
+    "Instagram": "https://www.instagram.com/p/DYbAINuPdJi/"
+  },
+  {
+    "Index": 117,
+    "Restaurants": "Jake Melnick’s Corner Tap",
+    "Neighborhood": "River North",
+    "Address": "41 E Superior St, Chicago, IL 60611",
+    "Phone Number": "(312) 266-0400",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Chicago",
+    "L Line [Train]": "Red",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.jakemelnicks.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
+    "Instagram": "https://www.instagram.com/p/DYbAlbqMllv/"
+  },
+  {
+    "Index": 118,
+    "Restaurants": "Double Clutch Brewing Company",
+    "Neighborhood": "Evanston",
+    "Address": "2121 Ashland Ave, Evanston, IL 60201",
+    "Phone Number": "(224) 999-6850",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Noyes, Foster, [Evanston Davis Street] \n",
+    "L Line [Train]": "Purple [Metra]",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.doubleclutchbrewing.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "One of the best breweries in Evanston!",
+    "Instagram": "https://www.instagram.com/p/DYbBZoWlQ9q/?img_index=1"
   }
 ]
