@@ -173,7 +173,7 @@
     "Price $": 30.0,
     "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "The steak brunch was tasty, but the portion size was a bit small.",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYgOGH9xNQ-/"
   },
   {
     "Index": 12,
@@ -1085,7 +1085,7 @@
     "Price $": 20.0,
     "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "The burger was a bit too greasy for me, even though it was recommended. Other menu items looked more promising.",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYgOXoYhGBU/"
   },
   {
     "Index": 69,
@@ -1709,7 +1709,7 @@
     "Price $": 0.0,
     "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "Decent sandwiches and a reliable casual option.",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYf1lvOB9AS/"
   },
   {
     "Index": 108,
@@ -1918,5 +1918,37 @@
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "One of the best breweries in Evanston!",
     "Instagram": "https://www.instagram.com/p/DYbBZoWlQ9q/?img_index=1"
+  },
+  {
+    "Index": 121,
+    "Restaurants": "The Getaway",
+    "Neighborhood": "Lincoln Square",
+    "Address": "4530 N Lincoln Ave, Chicago, IL 60625",
+    "Phone Number": "(773) 654-1302",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Western",
+    "L Line [Train]": "Brown",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.thegetawaychicago.com/",
+    "Price $": 11.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Cocktails are nice here!",
+    "Instagram": "https://www.instagram.com/p/DYf89ZiFSJ0/?img_index=1"
+  },
+  {
+    "Index": 122,
+    "Restaurants": "Wild Goose Bar & Grill",
+    "Neighborhood": "Lincoln Square",
+    "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
+    "Phone Number": "(773) 281-7112",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Western",
+    "L Line [Train]": "Brown",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.wildgoosebar.com/",
+    "Price $": 20.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Bar vibe is good but the food was ok",
+    "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   }
 ]
