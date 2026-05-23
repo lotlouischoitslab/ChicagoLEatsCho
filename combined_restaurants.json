@@ -491,9 +491,9 @@
     "Meals": "Lunch, Dinner",
     "Menu/Website": "https://giordanos.com/",
     "Price $": 0.0,
-    "Ratings (/5)": 2.5,
+    "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "A famous Chicago deep-dish spot, but it is not really my personal favorite.",
-    "Instagram": ""
+    "Instagram": "https://www.instagram.com/p/DYqQBwTt3Gt/"
   },
   {
     "Index": 32,
@@ -1633,6 +1633,22 @@
   },
   {
     "Index": 103,
+    "Restaurants": "Dollop Coffee - Loop",
+    "Neighborhood": "Loop",
+    "Address": "55 W Monroe St, Chicago, IL 60603",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Café",
+    "Menu/Website": "https://www.dollopcoffee.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "hicago-roasted coffee, pastries, seasonal drinks, and a cozy Loop café vibe that feels perfect for a quick caffeine break or casual downtown meetup.",
+    "Instagram": "https://www.instagram.com/p/DYpJ2yHhOSO/"
+  },
+  {
+    "Index": 104,
     "Restaurants": "FRÍO Gelato - Evanston",
     "Neighborhood": "Evanston",
     "Address": "1301 Chicago Ave, Evanston, IL 60201",
@@ -1648,7 +1664,7 @@
     "Instagram": "https://www.instagram.com/p/DX-d67nlUO7/?img_index=1"
   },
   {
-    "Index": 104,
+    "Index": 105,
     "Restaurants": "Café Cremerie",
     "Neighborhood": "River North",
     "Address": "615 N State St, Chicago, IL 60654",
@@ -1664,7 +1680,7 @@
     "Instagram": "https://www.instagram.com/p/DYISoIKlZIj/"
   },
   {
-    "Index": 105,
+    "Index": 106,
     "Restaurants": "Lea French Cafe Michigan Avenue",
     "Neighborhood": "Loop",
     "Address": "20 N Michigan Ave, Chicago, IL 60602",
@@ -1680,7 +1696,7 @@
     "Instagram": "https://www.instagram.com/p/DXsWcMTFekh/"
   },
   {
-    "Index": 106,
+    "Index": 107,
     "Restaurants": "Hannah's Bretzel",
     "Neighborhood": "Loop",
     "Address": "66 W Randolph St, Chicago, IL 60601",
@@ -1696,7 +1712,7 @@
     "Instagram": "https://www.instagram.com/p/DYXkAThlbBo/?img_index=1"
   },
   {
-    "Index": 107,
+    "Index": 108,
     "Restaurants": "Amorino",
     "Neighborhood": "Loop",
     "Address": "38 S Michigan Ave, Chicago, IL 60603",
@@ -1712,7 +1728,7 @@
     "Instagram": ""
   },
   {
-    "Index": 108,
+    "Index": 109,
     "Restaurants": "Lizzano Focacceria & Spritzeria",
     "Neighborhood": "Loop",
     "Address": "636 N Wells St, Chicago, IL 60654",
@@ -1728,7 +1744,7 @@
     "Instagram": "https://www.instagram.com/p/DYFFY0AlfOP/"
   },
   {
-    "Index": 109,
+    "Index": 110,
     "Restaurants": "Kaufman's Bagel & Delicatessen",
     "Neighborhood": "Skokie",
     "Address": "4905 Dempster St, Skokie, IL 60077",
@@ -1744,7 +1760,7 @@
     "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
   },
   {
-    "Index": 110,
+    "Index": 111,
     "Restaurants": "TARY",
     "Neighborhood": "River North",
     "Address": "111 W Illinois St, Chicago, IL 60654",
@@ -1760,7 +1776,7 @@
     "Instagram": "https://www.instagram.com/p/DYcr5pelWKu/?img_index=1"
   },
   {
-    "Index": 111,
+    "Index": 112,
     "Restaurants": "Daeji Dough Company",
     "Neighborhood": "Lakeview",
     "Address": "1360 W Belmont Ave, Chicago, IL 60657",
@@ -1776,7 +1792,7 @@
     "Instagram": ""
   },
   {
-    "Index": 112,
+    "Index": 113,
     "Restaurants": "Paleta Belly",
     "Neighborhood": "Loop",
     "Address": "75 E Washington St, Chicago, IL 60602",
@@ -1792,7 +1808,7 @@
     "Instagram": ""
   },
   {
-    "Index": 113,
+    "Index": 114,
     "Restaurants": "Pilot Project Brewing - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2140 N Milwaukee Ave, Chicago, IL 60647",
@@ -1808,7 +1824,7 @@
     "Instagram": "https://www.instagram.com/p/DX4a_i3FRqh/?img_index=1"
   },
   {
-    "Index": 114,
+    "Index": 115,
     "Restaurants": "The Reverly",
     "Neighborhood": "Lincoln Square",
     "Address": "3403 N Damen Ave, Chicago, IL 60657",
@@ -1824,7 +1840,7 @@
     "Instagram": ""
   },
   {
-    "Index": 115,
+    "Index": 116,
     "Restaurants": "Bar Moxy",
     "Neighborhood": "River North",
     "Address": "530 N La Salle Dr, Chicago, IL 60654",
@@ -1840,7 +1856,7 @@
     "Instagram": ""
   },
   {
-    "Index": 116,
+    "Index": 117,
     "Restaurants": "Franklin Tap",
     "Neighborhood": "Loop",
     "Address": "325 S Franklin St, Chicago, IL, 60606",
@@ -1856,7 +1872,7 @@
     "Instagram": "https://www.instagram.com/p/DYc0P4VMzXm/"
   },
   {
-    "Index": 117,
+    "Index": 118,
     "Restaurants": "Haymarket Pub & Brewery",
     "Neighborhood": "West Loop",
     "Address": "737 W Randolph St, Chicago, IL 60661",
@@ -1872,7 +1888,7 @@
     "Instagram": ""
   },
   {
-    "Index": 118,
+    "Index": 119,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 w hubbard st chicago, IL 60654",
@@ -1888,7 +1904,7 @@
     "Instagram": ""
   },
   {
-    "Index": 119,
+    "Index": 120,
     "Restaurants": "Marz Community Brewing Company",
     "Neighborhood": "McKinley Park",
     "Address": "3630 S Iron St, Chicago, IL 60609",
@@ -1904,7 +1920,7 @@
     "Instagram": "https://www.instagram.com/p/DYIouBElcuC/?img_index=1"
   },
   {
-    "Index": 120,
+    "Index": 121,
     "Restaurants": "Shakers on Clark",
     "Neighborhood": "Lakeview",
     "Address": "3162 N Clark St, Chicago, IL 60657",
@@ -1920,7 +1936,7 @@
     "Instagram": "https://www.instagram.com/p/DYLY80HFQeo/?img_index=1"
   },
   {
-    "Index": 121,
+    "Index": 122,
     "Restaurants": "Dovetail Brewery",
     "Neighborhood": "Lincoln Square",
     "Address": "1800 W Belle Plaine Ave, Chicago, IL 60613",
@@ -1934,22 +1950,6 @@
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
     "Instagram": "https://www.instagram.com/p/DYV3xY0lerA/?img_index=1"
-  },
-  {
-    "Index": 122,
-    "Restaurants": "Declan’s Irish Pub",
-    "Neighborhood": "Old Town",
-    "Address": "1240 N Wells St, Chicago, IL 60610",
-    "Phone Number": "(312) 642-5522",
-    "Cuisine": "Irish",
-    "Nearest CTA L Stop [Train Station]": "Clark/Division",
-    "L Line [Train]": "Red",
-    "Meals": "Bar",
-    "Menu/Website": "https://declansirishpub.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
-    "Instagram": "https://www.instagram.com/p/DYbAINuPdJi/"
   },
   {
     "Index": 123,
@@ -2030,5 +2030,21 @@
     "Ratings (/5)": 5.0,
     "Comments by Louis Sungwoo Cho": "Amazing view on top of the Chicago 360 John Hancock Center with great cocktails!",
     "Instagram": "https://www.instagram.com/p/DYlql8zDoaL/?img_index=1"
+  },
+  {
+    "Index": 128,
+    "Restaurants": "Declan’s Irish Pub",
+    "Neighborhood": "Old Town",
+    "Address": "1240 N Wells St, Chicago, IL 60610",
+    "Phone Number": "(312) 642-5522",
+    "Cuisine": "Irish",
+    "Nearest CTA L Stop [Train Station]": "Clark/Division",
+    "L Line [Train]": "Red",
+    "Meals": "Bar",
+    "Menu/Website": "https://declansirishpub.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great beer options and a nice place to hang out with friends!",
+    "Instagram": "https://www.instagram.com/p/DYbAINuPdJi/"
   }
 ]
