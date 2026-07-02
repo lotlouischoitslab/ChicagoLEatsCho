@@ -3025,6 +3025,22 @@
   },
   {
     "Index": 190,
+    "Restaurants": "Henrietta",
+    "Neighborhood": "Loop",
+    "Address": "151 W Adams St, Chicago, IL 60603",
+    "Phone Number": "(312) 660-8866",
+    "Cuisine": "Italian",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.henriettachicago.com/",
+    "Price $": 11.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Moody bar energy, stylish drinks, and one of the best spots for a polished nightcap right inside JW Marriott Hotel in the Chicago Loop.",
+    "Instagram": "https://www.instagram.com/p/DaRl0tFFTZE/?hl=en"
+  },
+  {
+    "Index": 191,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -3040,7 +3056,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 191,
+    "Index": 192,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -3056,7 +3072,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 192,
+    "Index": 193,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -3072,7 +3088,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 193,
+    "Index": 194,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -3088,7 +3104,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 194,
+    "Index": 195,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
