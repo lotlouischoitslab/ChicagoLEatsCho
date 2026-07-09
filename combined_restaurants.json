@@ -3239,7 +3239,7 @@
     "Phone Number": "(312) 427-3170",
     "Cuisine": "American, German",
     "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink",
     "Meals": "Bar",
     "Menu/Website": "https://www.theberghoff.com/",
     "Price $": 20.0,
@@ -3294,5 +3294,21 @@
     "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "Cocktails, beer, quick bites, and a convenient downtown spot right by Chicago Union Station. Perfect for a pre-train drink, post-work meetup, or casual Loop hangout.",
     "Instagram": "https://www.instagram.com/p/DaOyxBjpAH3/?hl=en"
+  },
+  {
+    "Index": 207,
+    "Restaurants": "Monk's Pub",
+    "Neighborhood": "Loop",
+    "Address": "205 W Lake St, Chicago, IL 60606",
+    "Phone Number": "(312) 357-6665",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Pink, Purple",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.monks-chicago.com/",
+    "Price $": 9.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Cold drinks, classic downtown bar energy, and great deals that hit perfectly on a hot Chicago summer day. Easy Loop spot for cooling off, grabbing food, and hanging out with friends.",
+    "Instagram": "https://www.instagram.com/p/DajbaeVh090/?hl=en"
   }
 ]
