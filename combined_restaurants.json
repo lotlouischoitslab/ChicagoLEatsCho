@@ -2657,7 +2657,7 @@
   },
   {
     "Index": 167,
-    "Restaurants": "Fairgrounds Craft Coffee & Tea",
+    "Restaurants": "Fairgrounds Craft Coffee & Tea - Loop",
     "Neighborhood": "Loop",
     "Address": "12 S Michigan Ave, Chicago, IL 60603",
     "Phone Number": "(312) 919-8257",
@@ -2769,22 +2769,6 @@
   },
   {
     "Index": 174,
-    "Restaurants": "Fairgrounds Craft Coffee & Tea — Loop",
-    "Neighborhood": "Loop",
-    "Address": "12 S Michigan Ave, Chicago, IL 60603",
-    "Phone Number": "(312) 919-8257",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wabash [Millenium]",
-    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Café",
-    "Menu/Website": "https://fairgrounds.cafe/",
-    "Price $": 4.74,
-    "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Craft coffee, matcha, teas, seasonal drinks, and cozy café energy that feels perfect for a downtown caffeine break or casual meetup.",
-    "Instagram": "https://www.instagram.com/p/DaVprWCSFH4/"
-  },
-  {
-    "Index": 175,
     "Restaurants": "Sweet Reserve Cafe & Bakery",
     "Neighborhood": "Skokie",
     "Address": "4845 Oakton St, Skokie, IL 60077",
@@ -2800,7 +2784,7 @@
     "Instagram": "https://www.instagram.com/p/DYc09d8BWRD/"
   },
   {
-    "Index": 176,
+    "Index": 175,
     "Restaurants": "Mr. Submarine Sandwiches",
     "Neighborhood": "Loop",
     "Address": "47 N Wells St, Chicago, IL 60606",
@@ -2816,7 +2800,7 @@
     "Instagram": "https://www.instagram.com/p/DZtCclhhBKl/?hl=en"
   },
   {
-    "Index": 177,
+    "Index": 176,
     "Restaurants": "Pear Chef",
     "Neighborhood": "Loop",
     "Address": "170 W Washington St, Chicago, IL 60602",
@@ -2832,7 +2816,7 @@
     "Instagram": "https://www.instagram.com/p/DZqLnq6pcTt/?hl=en"
   },
   {
-    "Index": 178,
+    "Index": 177,
     "Restaurants": "Corner Bakery Café",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -2848,7 +2832,7 @@
     "Instagram": ""
   },
   {
-    "Index": 179,
+    "Index": 178,
     "Restaurants": "Potbelly Sandwiches",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -2864,7 +2848,7 @@
     "Instagram": "https://www.instagram.com/p/DYf1lvOB9AS/"
   },
   {
-    "Index": 180,
+    "Index": 179,
     "Restaurants": "Subway",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -2880,7 +2864,7 @@
     "Instagram": ""
   },
   {
-    "Index": 181,
+    "Index": 180,
     "Restaurants": "Kaufman's Bagel & Delicatessen",
     "Neighborhood": "Skokie",
     "Address": "4905 Dempster St, Skokie, IL 60077",
@@ -2896,7 +2880,7 @@
     "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
   },
   {
-    "Index": 182,
+    "Index": 181,
     "Restaurants": "Happy Monday Coffee - Loop",
     "Neighborhood": "Loop",
     "Address": "30 E Adams St Chicago IL 60603",
@@ -2912,7 +2896,7 @@
     "Instagram": "https://www.instagram.com/p/DY7Pmi1O3hX/"
   },
   {
-    "Index": 183,
+    "Index": 182,
     "Restaurants": "The Bagel Spot",
     "Neighborhood": "Loop",
     "Address": "105 W Madison St Lower level, Chicago, IL 60602",
@@ -2928,7 +2912,7 @@
     "Instagram": ""
   },
   {
-    "Index": 184,
+    "Index": 183,
     "Restaurants": "Einstein Bros Bagels",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -2944,7 +2928,7 @@
     "Instagram": "https://www.instagram.com/p/DZBHH8snUau/"
   },
   {
-    "Index": 185,
+    "Index": 184,
     "Restaurants": "Jeni's Splendid Ice Cream",
     "Neighborhood": "Various Neighborhoods",
     "Address": "Various Addresses",
@@ -2960,7 +2944,7 @@
     "Instagram": ""
   },
   {
-    "Index": 186,
+    "Index": 185,
     "Restaurants": "New Wave Coffee",
     "Neighborhood": "Logan Square",
     "Address": "2557 N Milwaukee Ave, Chicago, IL 60647",
@@ -2976,7 +2960,7 @@
     "Instagram": "https://www.instagram.com/p/DatAK79FXTn/?hl=en&img_index=1"
   },
   {
-    "Index": 187,
+    "Index": 186,
     "Restaurants": "Pretty Cool Ice Cream",
     "Neighborhood": "Logan Square",
     "Address": "2353 N California Ave, Chicago, IL 60647",
@@ -2992,7 +2976,7 @@
     "Instagram": "https://www.instagram.com/p/DatPXZ4FXCB/?hl=en&img_index=1"
   },
   {
-    "Index": 188,
+    "Index": 187,
     "Restaurants": "Ava's Italian Ice",
     "Neighborhood": "Wicker Park",
     "Address": "2353 N California Ave, Chicago, IL 60647",
@@ -3008,7 +2992,7 @@
     "Instagram": "https://www.instagram.com/p/DatP2lpScAG/?hl=en"
   },
   {
-    "Index": 189,
+    "Index": 188,
     "Restaurants": "Pilot Project Brewing - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2140 N Milwaukee Ave, Chicago, IL 60647",
@@ -3024,7 +3008,7 @@
     "Instagram": "https://www.instagram.com/p/DX4a_i3FRqh/?img_index=1"
   },
   {
-    "Index": 190,
+    "Index": 189,
     "Restaurants": "The Reverly",
     "Neighborhood": "Lincoln Square",
     "Address": "3403 N Damen Ave, Chicago, IL 60657",
@@ -3040,7 +3024,7 @@
     "Instagram": ""
   },
   {
-    "Index": 191,
+    "Index": 190,
     "Restaurants": "Bar Moxy",
     "Neighborhood": "River North",
     "Address": "530 N La Salle Dr, Chicago, IL 60654",
@@ -3056,7 +3040,7 @@
     "Instagram": ""
   },
   {
-    "Index": 192,
+    "Index": 191,
     "Restaurants": "Franklin Tap",
     "Neighborhood": "Loop",
     "Address": "325 S Franklin St, Chicago, IL, 60606",
@@ -3072,7 +3056,7 @@
     "Instagram": "https://www.instagram.com/p/DYc0P4VMzXm/"
   },
   {
-    "Index": 193,
+    "Index": 192,
     "Restaurants": "Haymarket Pub & Brewery",
     "Neighborhood": "West Loop",
     "Address": "737 W Randolph St, Chicago, IL 60661",
@@ -3088,7 +3072,7 @@
     "Instagram": ""
   },
   {
-    "Index": 194,
+    "Index": 193,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 w hubbard st chicago, IL 60654",
@@ -3104,7 +3088,7 @@
     "Instagram": ""
   },
   {
-    "Index": 195,
+    "Index": 194,
     "Restaurants": "Marz Community Brewing Company",
     "Neighborhood": "McKinley Park",
     "Address": "3630 S Iron St, Chicago, IL 60609",
@@ -3120,7 +3104,7 @@
     "Instagram": "https://www.instagram.com/p/DYIouBElcuC/?img_index=1"
   },
   {
-    "Index": 196,
+    "Index": 195,
     "Restaurants": "Shakers on Clark",
     "Neighborhood": "Lakeview",
     "Address": "3162 N Clark St, Chicago, IL 60657",
@@ -3136,7 +3120,7 @@
     "Instagram": "https://www.instagram.com/p/DYLY80HFQeo/?img_index=1"
   },
   {
-    "Index": 197,
+    "Index": 196,
     "Restaurants": "Dovetail Brewery",
     "Neighborhood": "Lincoln Square",
     "Address": "1800 W Belle Plaine Ave, Chicago, IL 60613",
@@ -3152,7 +3136,7 @@
     "Instagram": "https://www.instagram.com/p/DYV3xY0lerA/?img_index=1"
   },
   {
-    "Index": 198,
+    "Index": 197,
     "Restaurants": "Jake Melnick’s Corner Tap",
     "Neighborhood": "River North",
     "Address": "41 E Superior St, Chicago, IL 60611",
@@ -3168,7 +3152,7 @@
     "Instagram": "https://www.instagram.com/p/DYbAlbqMllv/"
   },
   {
-    "Index": 199,
+    "Index": 198,
     "Restaurants": "Double Clutch Brewing Company",
     "Neighborhood": "Evanston",
     "Address": "2121 Ashland Ave, Evanston, IL 60201",
@@ -3184,7 +3168,7 @@
     "Instagram": "https://www.instagram.com/p/DYbBZoWlQ9q/?img_index=1"
   },
   {
-    "Index": 200,
+    "Index": 199,
     "Restaurants": "The Getaway",
     "Neighborhood": "Lincoln Square",
     "Address": "4530 N Lincoln Ave, Chicago, IL 60625",
@@ -3200,7 +3184,7 @@
     "Instagram": "https://www.instagram.com/p/DYf89ZiFSJ0/?img_index=1"
   },
   {
-    "Index": 201,
+    "Index": 200,
     "Restaurants": "CloudBar at 360 CHICAGO",
     "Neighborhood": "River North",
     "Address": "875 N Michigan Ave 94th floor, Chicago, IL 60611",
@@ -3216,7 +3200,7 @@
     "Instagram": "https://www.instagram.com/p/DYlql8zDoaL/?img_index=1"
   },
   {
-    "Index": 202,
+    "Index": 201,
     "Restaurants": "Declan’s Irish Pub",
     "Neighborhood": "Old Town",
     "Address": "1240 N Wells St, Chicago, IL 60610",
@@ -3232,7 +3216,7 @@
     "Instagram": "https://www.instagram.com/p/DYbAINuPdJi/"
   },
   {
-    "Index": 203,
+    "Index": 202,
     "Restaurants": "Reunion by Chef Art Smith",
     "Neighborhood": "Navy Pier",
     "Address": "Navy Pier, 600 E Grand Ave, Chicago, IL 60611",
@@ -3248,7 +3232,7 @@
     "Instagram": "https://www.instagram.com/p/DYtTEKQlfxD/?img_index=1"
   },
   {
-    "Index": 204,
+    "Index": 203,
     "Restaurants": "Timothy O’Toole’s",
     "Neighborhood": "River North",
     "Address": "622 N Fairbanks Ct, Chicago, IL 60611",
@@ -3264,7 +3248,7 @@
     "Instagram": "https://www.instagram.com/p/DY0q6oEFcvC/?img_index=1"
   },
   {
-    "Index": 205,
+    "Index": 204,
     "Restaurants": "Vintage Bar",
     "Neighborhood": "West Loop",
     "Address": "1449 W Taylor St, Chicago, IL 60607",
@@ -3280,7 +3264,7 @@
     "Instagram": "https://www.instagram.com/p/DY6El0dFZPd/?img_index=1"
   },
   {
-    "Index": 206,
+    "Index": 205,
     "Restaurants": "Midwest Coast Brewing",
     "Neighborhood": "West Loop",
     "Address": "2137 W Walnut St, Chicago, IL 60612",
@@ -3296,7 +3280,7 @@
     "Instagram": "https://www.instagram.com/p/DZlVlRsMYmH/?hl=en"
   },
   {
-    "Index": 207,
+    "Index": 206,
     "Restaurants": "AIRE Rooftop Bar",
     "Neighborhood": "Loop",
     "Address": "100 W Monroe St, 24th Floor, Chicago, IL 60603",
@@ -3312,7 +3296,7 @@
     "Instagram": "https://www.instagram.com/p/DZ1EZb3FQCM/?hl=en&img_index=1"
   },
   {
-    "Index": 208,
+    "Index": 207,
     "Restaurants": "The Beer Temple",
     "Neighborhood": "Avondale",
     "Address": "3173 N Elston Ave, Chicago, IL 60618",
@@ -3328,7 +3312,7 @@
     "Instagram": "https://www.instagram.com/p/DZ_ZIXeFX8W/?hl=en&img_index=1"
   },
   {
-    "Index": 209,
+    "Index": 208,
     "Restaurants": "Hopsmith Chicago",
     "Neighborhood": "River North",
     "Address": "15 W Division St, Chicago, IL 60610",
@@ -3344,7 +3328,7 @@
     "Instagram": "https://www.instagram.com/p/DaB_YFQFbMP/?hl=en&img_index=1"
   },
   {
-    "Index": 210,
+    "Index": 209,
     "Restaurants": "Pancho’s Rooftop Cantina",
     "Neighborhood": "South Loop",
     "Address": "327 S Plymouth Ct, Chicago, IL 60604",
@@ -3360,7 +3344,7 @@
     "Instagram": "https://www.instagram.com/p/DaMKlY-FZX2/?img_index=1"
   },
   {
-    "Index": 211,
+    "Index": 210,
     "Restaurants": "Henrietta",
     "Neighborhood": "Loop",
     "Address": "151 W Adams St, Chicago, IL 60603",
@@ -3376,7 +3360,7 @@
     "Instagram": "https://www.instagram.com/p/DaRl0tFFTZE/?hl=en"
   },
   {
-    "Index": 212,
+    "Index": 211,
     "Restaurants": "Vol. 39",
     "Neighborhood": "Loop",
     "Address": "39 S LaSalle St, Chicago, IL 60603",
@@ -3392,7 +3376,7 @@
     "Instagram": "https://www.instagram.com/p/DaT9z7xjDIO/?img_index=1"
   },
   {
-    "Index": 213,
+    "Index": 212,
     "Restaurants": "Brehon Pub",
     "Neighborhood": "River North",
     "Address": "731 N Wells St, Chicago, IL 60654",
@@ -3408,7 +3392,7 @@
     "Instagram": "https://www.instagram.com/p/DaebvujP4Df/?hl=en"
   },
   {
-    "Index": 214,
+    "Index": 213,
     "Restaurants": "Monk's Pub",
     "Neighborhood": "Loop",
     "Address": "205 W Lake St, Chicago, IL 60606",
@@ -3424,7 +3408,7 @@
     "Instagram": "https://www.instagram.com/p/DajbaeVh090/?hl=en"
   },
   {
-    "Index": 215,
+    "Index": 214,
     "Restaurants": "Azul",
     "Neighborhood": "West Town",
     "Address": "1177 N Elston Ave, Chicago, IL 60642",
@@ -3440,7 +3424,7 @@
     "Instagram": "https://www.instagram.com/p/Dasuh3vlU5W/?img_index=1"
   },
   {
-    "Index": 216,
+    "Index": 215,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -3456,7 +3440,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 217,
+    "Index": 216,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -3472,7 +3456,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 218,
+    "Index": 217,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -3488,7 +3472,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 219,
+    "Index": 218,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -3504,7 +3488,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 220,
+    "Index": 219,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
