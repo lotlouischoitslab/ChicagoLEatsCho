@@ -3825,6 +3825,22 @@
   },
   {
     "Index": 240,
+    "Restaurants": "Black Barrel Tavern",
+    "Neighborhood": "West Loop",
+    "Address": "1061 W Madison St, Chicago, IL 60607",
+    "Phone Number": "(773) 280-5500",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Morgan",
+    "L Line [Train]": "Green, Pink",
+    "Meals": "Bar",
+    "Menu/Website": "https://blackbarreltavern.shop/",
+    "Price $": 6.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great drinks, easy West Loop energy, and a fun place to connect over Chicago neighborhoods, transit, housing, and stronger communities.",
+    "Instagram": "https://www.instagram.com/p/DbW4MjdFWGU/?hl=en&img_index=1"
+  },
+  {
+    "Index": 241,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -3840,7 +3856,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 241,
+    "Index": 242,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -3856,7 +3872,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 242,
+    "Index": 243,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -3872,7 +3888,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 243,
+    "Index": 244,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -3888,7 +3904,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 244,
+    "Index": 245,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
