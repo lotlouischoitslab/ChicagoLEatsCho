@@ -217,7 +217,7 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
   letter-spacing: 0.1em;
   margin-top: 4px;
   font-weight: 400;
-  white-space: nowrap;
+  white-space: nowrap; 
 }
 
 
