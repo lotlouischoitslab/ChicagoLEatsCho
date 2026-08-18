@@ -4433,6 +4433,22 @@
   },
   {
     "Index": 278,
+    "Restaurants": "London House Rooftop Bar",
+    "Neighborhood": "Loop",
+    "Address": "85 E Wacker Dr, Chicago, IL 60601",
+    "Phone Number": "(312) 357-1200",
+    "Cuisine": "British",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Pink, Purple [Metra, South Shore]",
+    "Meals": "Bar",
+    "Menu/Website": "https://londonhousechicago.com/rooftop/",
+    "Price $": 16.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great drinks, beautiful river views, and one of the most iconic rooftop settings in downtown Chicago. A perfect spot for skyline photos, evening vibes, and a polished night out.",
+    "Instagram": "https://www.instagram.com/p/DcKZubdPPxB/?hl=en"
+  },
+  {
+    "Index": 279,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -4448,7 +4464,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 279,
+    "Index": 280,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -4464,7 +4480,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 280,
+    "Index": 281,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -4480,7 +4496,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 281,
+    "Index": 282,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -4496,7 +4512,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 282,
+    "Index": 283,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
