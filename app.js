@@ -641,6 +641,12 @@ function toggleLTrainPause() {
   // Only Display 5 Star Items otherwise it's going to be too much
 
 const GALLERY_SLIDES = [ 
+    { src: './photos/bavattes.jpg', name: 'Bavattes', caption: 'Finally tried Bavette’s Bar and Boeuf after everyone kept telling me to go and yeah, they were right. Amazing dinner, classic steakhouse energy, and one of those River North spots that absolutely lives up to the hype.', neighborhood: 'River North', line: 'Brown, Purple', cuisine: 'American' },
+
+    { src: './photos/tre_dita.jpg', name: 'Tre Dita', caption: 'Elegant pastas, beautiful downtown views, and a polished Lakeshore East atmosphere that makes the whole night feel special. A perfect spot for a refined Italian dinner in Chicago.', neighborhood: 'Loop', line: 'Red, Blue, Orange, Green, Purple, Pink, Brown', cuisine: 'Italian' },
+
+
+
   { src: './photos/sweetwater1.jpg', name: 'Sweet Water Tavern and Grill', caption: 'Devouring dishes you want to order every item', neighborhood: 'Loop', line: 'Brown', cuisine: 'Italian' },
 
   { src: './photos/gene_georgetti1.jpg', name: 'Gene & Georgetti', caption: 'The steak itself is a legendary dinner. Worth every single penny.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
