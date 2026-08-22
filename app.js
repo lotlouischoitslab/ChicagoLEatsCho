@@ -647,53 +647,47 @@ const GALLERY_SLIDES = [
 
 
 
-  { src: './photos/sweetwater1.jpg', name: 'Sweet Water Tavern and Grill', caption: 'Devouring dishes you want to order every item', neighborhood: 'Loop', line: 'Brown', cuisine: 'Italian' },
+  { src: './photos/sweetwater.jpg', name: 'Sweet Water Tavern and Grill', caption: 'Devouring dishes you want to order every item', neighborhood: 'Loop', line: 'Brown', cuisine: 'Italian' },
 
-  { src: './photos/gene_georgetti1.jpg', name: 'Gene & Georgetti', caption: 'The steak itself is a legendary dinner. Worth every single penny.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
-  { src: './photos/monteverde1.jpg', name: 'Monteverde Restaurant & Pastificio', caption: 'Authentic Italian Spaghetti in the West Loop Fulton Market!', neighborhood: 'West Loop', line: 'Green, Pink', cuisine: 'Italian' },
+  { src: './photos/gene_georgetti.jpg', name: 'Gene & Georgetti', caption: 'The steak itself is a legendary dinner. Worth every single penny.', neighborhood: 'River North', line: 'Brown', cuisine: 'Italian' },
+  { src: './photos/monteverde.jpg', name: 'Monteverde Restaurant & Pastificio', caption: 'Authentic Italian Spaghetti in the West Loop Fulton Market!', neighborhood: 'West Loop', line: 'Green, Pink', cuisine: 'Italian' },
 
-  { src: './photos/gibsons_steak1.jpg', name: 'Gibsons Steakhouse', caption: 'Expensive but a luxurious steakhouse experience!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
+  { src: './photos/gibsons_steak.jpg', name: 'Gibsons Steakhouse', caption: 'Expensive but a luxurious steakhouse experience!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
 
  { src: './photos/river_north_bistro.jpg', name: 'River North Bistro', caption: 'Great place for a Sunday brunch at River North!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
 
-  { src: './photos/lou1.jpg', name: 'Lou Malnati\'s',     caption: 'Authentic Chicago-style Deep Dish Pizza!', neighborhood: 'Varies',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American, Italian' },
+  { src: './photos/lou.jpg', name: 'Lou Malnati\'s',     caption: 'Authentic Chicago-style Deep Dish Pizza!', neighborhood: 'Varies',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American, Italian' },
 
 
-  { src: './photos/carmines1.jpg', name: 'Carmines', caption: 'Fresh authentic Italian pasta!', neighborhood: 'River North', line: 'Red', cuisine: 'Italian' },
-  { src: './photos/luxbar1.jpg', name: 'Luxbar', caption: 'Steak and Eggs brunch you will never forget!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
-  { src: './photos/tavern_rush1.jpg', name: 'Tavern on Rush', caption: 'Crispy Steak Frites!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
+  { src: './photos/carmines.jpg', name: 'Carmines', caption: 'Fresh authentic Italian pasta!', neighborhood: 'River North', line: 'Red', cuisine: 'Italian' },
+  { src: './photos/luxbar.jpg', name: 'Luxbar', caption: 'Steak and Eggs brunch you will never forget!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
+  { src: './photos/tavern_rush.jpg', name: 'Tavern on Rush', caption: 'Crispy Steak Frites!', neighborhood: 'Near North Side', line: 'Red', cuisine: 'American' },
   
-  { src: './photos/charlie_martin1.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
-  { src: './photos/charlie_martin2.jpg', name: 'Charlie Martin', caption: 'Crispy Steak Frites!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
-
+  { src: './photos/charlie_martin.jpg', name: 'Charlie Martin', caption: 'Cool Shrimp Cocktail!', neighborhood: 'River North', line: 'Red', cuisine: 'American' },
+   
   
-  { src: './photos/roanoke1.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
+  { src: './photos/roanoke.jpg', name: 'Roanoke',     caption: 'Consultants! Make sure your clients do not miss out Steak and Eggs!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
  
  
-  { src: './photos/porcellino1.jpg', name: 'Il Porcellino',     caption: 'Delicious hand-made thick pasta with Italian sausage!', neighborhood: 'River North',  line: 'Brown, Purple',   cuisine: 'Italian' },
+  { src: './photos/porcellino.jpg', name: 'Il Porcellino',     caption: 'Delicious hand-made thick pasta with Italian sausage!', neighborhood: 'River North',  line: 'Brown, Purple',   cuisine: 'Italian' },
 
 
 
 
-  { src: './photos/eataly_pizza1.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  { src: './photos/eataly_pizza2.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
-  { src: './photos/beatrix1.jpg', name: 'Beatrix-River North',    caption: 'Mouth-watering Kebab with white rice!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'American' },
+  { src: './photos/eataly_pizza.jpg', name: 'Eataly Chicago',    caption: 'Authentic Neopolitan-style pizza? You definitely should be here!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'Italian' },
+   
+  { src: './photos/beatrix.jpg', name: 'Beatrix-River North',    caption: 'Mouth-watering Kebab with white rice!',   neighborhood: 'River North',   line: 'Red',   cuisine: 'American' },
  
-  { src: './photos/hawksmoor1.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Monday–Saturday nights. Unmissable.', neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
+  { src: './photos/hawksmoor.jpg', name: 'Hawksmoor Chicago', caption: 'Steak Frites on Monday–Saturday nights. Unmissable.', neighborhood: 'River North',   line: 'Brown', cuisine: 'British' },
 
-  { src: './photos/marq1.jpg', name: 'The Marq',     caption: 'Sizzling Steak Frites for dinner is the best!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
-
-  { src: './photos/goddess1.jpg', name: 'Goddes and the Baker',        caption: 'Great chicken club sandwich and amazing options!', neighborhood: 'Loop',    line: 'Red, Blue, Brown, Orange, Green, Purple, Pink', cuisine: 'American' },
+  { src: './photos/marq.jpg', name: 'The Marq',     caption: 'Sizzling Steak Frites for dinner is the best!', neighborhood: 'Loop',  line: 'Red, Blue, Brown, Orange, Green, Purple, Pink',   cuisine: 'American' },
 
 
-  { src: './photos/chosun1.jpg',         name: 'Cho Sun Ok',       caption: 'Most traditional Korean restaurant in Chicago. Reminding Seoul and Korean BBQ!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
+  { src: './photos/chosun.jpg',         name: 'Cho Sun Ok',       caption: 'Most traditional Korean restaurant in Chicago. Reminding Seoul and Korean BBQ!', neighborhood: 'Lincoln Square', line: 'Brown', cuisine: 'Korean' },
   
 
-  { src: './photos/daebak1.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  { src: './photos/daebak2.jpg',         name: 'Daebak Korean BBQ', caption: 'Devouring Chadol Bagi (차돌박이).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  { src: './photos/daebak3.jpg',         name: 'Daebak Korean BBQ', caption: 'Finish off with marinated Galbi (양념갈비).', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
-  
- 
+  { src: './photos/daebak.jpg',         name: 'Daebak Korean BBQ', caption: 'Best authentic Korean BBQ in Chicago. Worth every penny.', neighborhood: 'Wicker Park', line: 'Blue', cuisine: 'Korean' },
+
 
 ];
 
