@@ -1937,6 +1937,22 @@
   },
   {
     "Index": 122,
+    "Restaurants": "Aba",
+    "Neighborhood": "West Loop",
+    "Address": "302 N Green St 3rd Floor, Chicago, IL 60607",
+    "Phone Number": "(773) 645-1400",
+    "Cuisine": "Mediterranean",
+    "Nearest CTA L Stop [Train Station]": "Morgan/Lake",
+    "L Line [Train]": "Green, Pink",
+    "Meals": "Breakfast, Lunch, Dinner",
+    "Menu/Website": "https://www.abarestaurants.com/chicago",
+    "Price $": 30.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Amazing Mediterranean food at Aba in Fulton Market! Everything was fresh, flavorful, and beautifully presented and such a great spot for a stylish dinner in the West Loop.",
+    "Instagram": "https://www.instagram.com/p/Ddxi6AsMwY2/?hl=en"
+  },
+  {
+    "Index": 123,
     "Restaurants": "Breakfast House Oak Park",
     "Neighborhood": "Oak Park",
     "Address": "138 N Marion St, Oak Park, IL 60301",
@@ -1952,7 +1968,7 @@
     "Instagram": "https://www.instagram.com/p/DX4aUu2lRS_/"
   },
   {
-    "Index": 123,
+    "Index": 124,
     "Restaurants": "Mastro Steakhouse",
     "Neighborhood": "River North",
     "Address": "520 N Dearborn St, Chicago, IL 60654",
@@ -1968,7 +1984,7 @@
     "Instagram": "https://www.instagram.com/p/DXsZ07slWq5/?img_index=1"
   },
   {
-    "Index": 124,
+    "Index": 125,
     "Restaurants": "Miller's Pub",
     "Neighborhood": "Loop",
     "Address": "134 S Wabash Ave, Chicago, IL 60603",
@@ -1984,7 +2000,7 @@
     "Instagram": "https://www.instagram.com/p/DXseqKllQB3/?img_index=1"
   },
   {
-    "Index": 125,
+    "Index": 126,
     "Restaurants": "Seville Chicago",
     "Neighborhood": "Loop",
     "Address": "243 S Franklin St, Chicago, IL 60606",
@@ -2000,7 +2016,7 @@
     "Instagram": "https://www.instagram.com/p/DXsazVrFSFX/?img_index=1"
   },
   {
-    "Index": 126,
+    "Index": 127,
     "Restaurants": "Kyu Ramen - Downtown Chicago",
     "Neighborhood": "River North",
     "Address": "6 W Hubbard St, Chicago, IL 60654",
@@ -2016,7 +2032,7 @@
     "Instagram": "https://www.instagram.com/p/DX3EstplSXc/?img_index=1"
   },
   {
-    "Index": 127,
+    "Index": 128,
     "Restaurants": "Kindling Downtown Cookout & Cocktails",
     "Neighborhood": "Loop",
     "Address": "202 S Franklin St, Chicago, IL 60606",
@@ -2032,7 +2048,7 @@
     "Instagram": "https://www.instagram.com/p/Da6gqDeEe7s/?hl=en&img_index=1"
   },
   {
-    "Index": 128,
+    "Index": 129,
     "Restaurants": "Hing Kee",
     "Neighborhood": "Cermak-Chinatown",
     "Address": "2140 S Archer Ave, Chicago, IL 60616",
@@ -2048,7 +2064,23 @@
     "Instagram": "https://www.instagram.com/p/DcXUpa6RsvW/"
   },
   {
-    "Index": 129,
+    "Index": 130,
+    "Restaurants": "Solette",
+    "Neighborhood": "Loop",
+    "Address": "225 W Randolph St, Chicago, IL 60606",
+    "Phone Number": "(312) 805-5662",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells [Ogilvie Transportation Center]",
+    "L Line [Train]": "Orange, Purple, Pink, Brown [Metra]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://dinesolette.com/",
+    "Price $": 37.0,
+    "Ratings (/5)": 4.5,
+    "Comments by Louis Sungwoo Cho": "Great steak at Solette in downtown Chicago! Perfectly cooked, flavorful, and such a satisfying meal in a stylish modern setting in the Loop.",
+    "Instagram": "https://www.instagram.com/p/DdwKsIrM71v/?hl=en"
+  },
+  {
+    "Index": 131,
     "Restaurants": "Millennium Hall",
     "Neighborhood": "Loop",
     "Address": "11 N Michigan Ave, Chicago, IL 60602",
@@ -2064,7 +2096,7 @@
     "Instagram": "https://www.instagram.com/p/DYcdgfWp9do/"
   },
   {
-    "Index": 130,
+    "Index": 132,
     "Restaurants": "Hub 51",
     "Neighborhood": "O'Hare",
     "Address": "Chicago O'Hare International Airport Terminal 5, 10000 W O'Hare Ave, Chicago, IL 60666",
@@ -2080,7 +2112,7 @@
     "Instagram": ""
   },
   {
-    "Index": 131,
+    "Index": 133,
     "Restaurants": "Summer House Santa Monica",
     "Neighborhood": "O'Hare",
     "Address": "Chicago O'Hare International Airport Terminal 2, 10000 Ohare Way, Chicago, IL 60666",
@@ -2096,7 +2128,7 @@
     "Instagram": ""
   },
   {
-    "Index": 132,
+    "Index": 134,
     "Restaurants": "The Evie",
     "Neighborhood": "River North",
     "Address": "537 N Michigan Ave Ste 200, Chicago, IL 60611",
@@ -2112,7 +2144,7 @@
     "Instagram": ""
   },
   {
-    "Index": 133,
+    "Index": 135,
     "Restaurants": "Cafecito - River North",
     "Neighborhood": "River North",
     "Address": "215 E Chestnut St, Chicago, IL 60611",
@@ -2128,7 +2160,7 @@
     "Instagram": "https://www.instagram.com/p/DX3F2XIlZWs/"
   },
   {
-    "Index": 134,
+    "Index": 136,
     "Restaurants": "Venteux Brasserie, Cafe & Oyster Bar",
     "Neighborhood": "Loop",
     "Address": "224 N Michigan Ave, Chicago, IL 60601",
@@ -2144,7 +2176,7 @@
     "Instagram": "https://www.instagram.com/p/DYaH9ExlfMq/?img_index=1"
   },
   {
-    "Index": 135,
+    "Index": 137,
     "Restaurants": "La Bella Trattoria",
     "Neighborhood": "Loop",
     "Address": "120 W Monroe St, Chicago, IL 60603",
@@ -2160,7 +2192,7 @@
     "Instagram": "https://www.instagram.com/p/DX4ZfbYFYRT/"
   },
   {
-    "Index": 136,
+    "Index": 138,
     "Restaurants": "Ikigai Sushi & Izakaya",
     "Neighborhood": "Gold Coast",
     "Address": "372 W Chicago Ave, Chicago, IL 60654",
@@ -2176,7 +2208,7 @@
     "Instagram": "https://www.instagram.com/p/DX4YJ3MFRvj/?img_index=1"
   },
   {
-    "Index": 137,
+    "Index": 139,
     "Restaurants": "Luke's Lobster - City Hall",
     "Neighborhood": "Loop",
     "Address": "134 N LaSalle St, Chicago, IL 60602",
@@ -2192,7 +2224,7 @@
     "Instagram": "https://www.instagram.com/p/DZGCyb4hNBa/"
   },
   {
-    "Index": 138,
+    "Index": 140,
     "Restaurants": "Torchio Pasta Bar",
     "Neighborhood": "River North",
     "Address": "738 N Wells St, Chicago, IL 60654",
@@ -2208,7 +2240,7 @@
     "Instagram": "https://www.instagram.com/p/DZ80BmIPcw_/?hl=en"
   },
   {
-    "Index": 139,
+    "Index": 141,
     "Restaurants": "Crying Tiger",
     "Neighborhood": "River North",
     "Address": "51 W Hubbard St, Chicago, IL 60654",
@@ -2224,7 +2256,7 @@
     "Instagram": "https://www.instagram.com/p/DabpizARXyj/?hl=en"
   },
   {
-    "Index": 140,
+    "Index": 142,
     "Restaurants": "Delmonico",
     "Neighborhood": "Loop",
     "Address": "111 W Washington St, Chicago, IL 60602",
@@ -2240,7 +2272,7 @@
     "Instagram": "https://www.instagram.com/p/DbEPSd5FedW/?img_index=1"
   },
   {
-    "Index": 141,
+    "Index": 143,
     "Restaurants": "Matilda",
     "Neighborhood": "River North",
     "Address": "535 N Wells St, Chicago, IL 60654",
@@ -2256,423 +2288,7 @@
     "Instagram": "https://www.instagram.com/p/DdUjx4blTSm/?hl=en&img_index=1"
   },
   {
-    "Index": 142,
-    "Restaurants": "Dave's Italian Kitchen",
-    "Neighborhood": "Evanston",
-    "Address": "815 Noyes St, Evanston, IL 60201",
-    "Phone Number": "(847) 864-6000",
-    "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "Noyes",
-    "L Line [Train]": "Purple",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.davesnewkitchen.com/",
-    "Price $": 14.75,
-    "Ratings (/5)": 3.8,
-    "Comments by Louis Sungwoo Cho": "Hearty pasta, classic comfort dishes, and cozy Evanston neighborhood energy right by the Purple Line.",
-    "Instagram": "https://www.instagram.com/p/Da1Z3TvhRaH/?hl=en"
-  },
-  {
-    "Index": 143,
-    "Restaurants": "Protein Bar & Kitchen - LaSalle",
-    "Neighborhood": "Loop",
-    "Address": "37 S LaSalle St, Chicago, IL 60603",
-    "Phone Number": "(312) 801-9309\n",
-    "Cuisine": "Fusion",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
-    "Meals": "Lunch",
-    "Menu/Website": "https://www.theproteinbar.com/",
-    "Price $": 14.0,
-    "Ratings (/5)": 3.7,
-    "Comments by Louis Sungwoo Cho": "The miso salmon bowl was fresh, flavorful, and such a strong workday meal when you want something filling but not too heavy.",
-    "Instagram": "https://www.instagram.com/p/DbCCaFOPyNA/"
-  },
-  {
     "Index": 144,
-    "Restaurants": "FireLake Grill House and Cocktail Bar",
-    "Neighborhood": "Loop",
-    "Address": "221 N Columbus Dr, Chicago, IL 60601",
-    "Phone Number": "(312) 477-0234",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
-    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.firelakechicago.com/",
-    "Price $": 30.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The steak brunch was tasty, but the portion size was a bit small.",
-    "Instagram": "https://www.instagram.com/p/DYgOGH9xNQ-/"
-  },
-  {
-    "Index": 145,
-    "Restaurants": "90th Meridian",
-    "Neighborhood": "Loop",
-    "Address": "231 S LaSalle St #108, Chicago, IL 60604",
-    "Phone Number": "(312) 929-3948",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Jackson, Quincy [Chicago Union Station]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.90thmeridian.com/",
-    "Price $": 30.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The lunch was okay — convenient, but not especially memorable.",
-    "Instagram": "https://www.instagram.com/p/DX9X7p0lS_d/?img_index=1"
-  },
-  {
-    "Index": 146,
-    "Restaurants": "Chicago Firehouse Restaurant",
-    "Neighborhood": "South Loop",
-    "Address": "1401 S Michigan Ave, Chicago, IL 60605",
-    "Phone Number": "(312) 786-1401",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Roosevelt",
-    "L Line [Train]": "Red, Green, Orange",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.chicagofirehouse.com/#",
-    "Price $": 20.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The burger was a bit too greasy for me, even though it was recommended. Other menu items looked more promising.",
-    "Instagram": "https://www.instagram.com/p/DYgOXoYhGBU/"
-  },
-  {
-    "Index": 147,
-    "Restaurants": "Giordanno's",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://giordanos.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "A famous Chicago deep-dish spot, but it is not really my personal favorite.",
-    "Instagram": "https://www.instagram.com/p/DYqQBwTt3Gt/"
-  },
-  {
-    "Index": 148,
-    "Restaurants": "Luke's Italian Beef",
-    "Neighborhood": "Loop",
-    "Address": "215 W Jackson Blvd, Chicago, IL 60606",
-    "Phone Number": "(312) 939-4204",
-    "Cuisine": "American, Italian",
-    "Nearest CTA L Stop [Train Station]": "Jackson, Quincy [Chicago Union Station]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://lukeschicago.com/",
-    "Price $": 10.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "An interesting spot to try a classic Chicago-style Italian beef.",
-    "Instagram": "https://www.instagram.com/p/DcMLJyuMYKQ/?hl=en"
-  },
-  {
-    "Index": 149,
-    "Restaurants": "Bar Sol Navy Pier Chicago",
-    "Neighborhood": "Navy Pier",
-    "Address": "Navy Pier, 700 E Grand Ave, Chicago, IL 60611",
-    "Phone Number": "(312) 285-2768",
-    "Cuisine": "Latin",
-    "Nearest CTA L Stop [Train Station]": "Grand/State",
-    "L Line [Train]": "Red",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://barsolnavypier.com/",
-    "Price $": 40.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The grilled salmon was nice, but the rice was mediocre.",
-    "Instagram": "https://www.instagram.com/p/DXsaHceFatx/"
-  },
-  {
-    "Index": 150,
-    "Restaurants": "BenjYehuda - LaSalle",
-    "Neighborhood": "Loop",
-    "Address": "10 S LaSalle St #2400, Chicago, IL 60603",
-    "Phone Number": "(312) 726-9653",
-    "Cuisine": "Mediterranean ",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
-    "L Line [Train]": "Brown, Orange, Purple, Pink",
-    "Meals": "Lunch",
-    "Menu/Website": "https://benjyehuda.com/",
-    "Price $": 14.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The chicken bowl was okay — convenient, but not a standout.",
-    "Instagram": "https://www.instagram.com/p/DaN1zrIORsq/?hl=en"
-  },
-  {
-    "Index": 151,
-    "Restaurants": "Chipotle Mexican Grill — Madison LaSalle",
-    "Neighborhood": "Loop",
-    "Address": "10 S LaSalle St, Chicago, IL 60603",
-    "Phone Number": "",
-    "Cuisine": "Mexican",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
-    "Meals": "Lunch",
-    "Menu/Website": "https://www.chipotle.com/home",
-    "Price $": 13.52,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Quick, filling, and honestly one of those reliable workday meals every downtown office worker understands. Burrito bowls, lunch rush energy, and the classic “I need something fast but solid” vibe.",
-    "Instagram": "https://www.instagram.com/p/Db9YGChQJSO/?hl=en"
-  },
-  {
-    "Index": 152,
-    "Restaurants": "The KTM Kitchen",
-    "Neighborhood": "Loop",
-    "Address": "120 W Madison St, Chicago, IL 60602",
-    "Phone Number": "(312) 285-2244",
-    "Cuisine": "Indian, Nepali",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://thektmkitchen.com/",
-    "Price $": 20.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The chicken skewers were ok.",
-    "Instagram": "https://www.instagram.com/p/DY0qn5juBrq/"
-  },
-  {
-    "Index": 153,
-    "Restaurants": "San Soo Gab San",
-    "Neighborhood": "Albany Park",
-    "Address": "5247 N Western Ave, Chicago, IL 60625",
-    "Phone Number": "(773) 334-1589",
-    "Cuisine": "Korean",
-    "Nearest CTA L Stop [Train Station]": "Western",
-    "L Line [Train]": "Brown",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "",
-    "Price $": 50.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Grilled BBQ was nice but the side dishes were not seasoned well.",
-    "Instagram": "https://www.instagram.com/p/DZ0xjx8AVkR/?hl=en"
-  },
-  {
-    "Index": 154,
-    "Restaurants": "Remington's",
-    "Neighborhood": "Loop",
-    "Address": "20 N Michigan Ave, Chicago, IL 60602",
-    "Phone Number": "(312) 782-6000",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.remingtonschicago.com/menus/",
-    "Price $": 18.95,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "The burger was not my favorite.",
-    "Instagram": ""
-  },
-  {
-    "Index": 155,
-    "Restaurants": "Gage Chicago",
-    "Neighborhood": "Loop",
-    "Address": "24 S Michigan Ave, Chicago, IL 60603",
-    "Phone Number": "(312) 372-4243",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe Washington/Wabash [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://thegagechicago.com/",
-    "Price $": 25.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "The Gage Stack sandwich was okay.",
-    "Instagram": "https://www.instagram.com/p/DXsdT_mlUZ7/"
-  },
-  {
-    "Index": 156,
-    "Restaurants": "RPM Seafood",
-    "Neighborhood": "River North",
-    "Address": "317 N Clark St, Chicago, IL 60654",
-    "Phone Number": "(312) 900-9035",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Merchandise Mart [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.rpmrestaurants.com/rpm-seafood-chicago/",
-    "Price $": 44.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Beautiful setting, but the meal felt expensive for the portion size.",
-    "Instagram": "https://www.instagram.com/p/DYF-2rBlSf8/"
-  },
-  {
-    "Index": 157,
-    "Restaurants": "STK Steakhouse",
-    "Neighborhood": "River North",
-    "Address": "9 W Kinzie St, Chicago, IL 60654",
-    "Phone Number": "(312) 340-5636",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Grand/State, Merchandise Mart",
-    "L Line [Train]": "Red, Purple, Brown",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://stksteakhouse.com/en-us/location/chicago/",
-    "Price $": 50.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Stylish atmosphere, but the portion size felt too small for the price.",
-    "Instagram": "https://www.instagram.com/p/DX4ZGS-lW87/"
-  },
-  {
-    "Index": 158,
-    "Restaurants": "Noodles and Company",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "Fusion",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.noodles.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Some noodle dishes are good, while others are just okay.",
-    "Instagram": ""
-  },
-  {
-    "Index": 159,
-    "Restaurants": "Lotus Banh Mi - Chicago Loop",
-    "Neighborhood": "Loop",
-    "Address": "200 W Adams St, Chicago, IL 60606",
-    "Phone Number": "(312) 877-5980",
-    "Cuisine": "Vietnamese",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
-    "Meals": "Lunch",
-    "Menu/Website": "https://lotusbanhmi.com/200-adams-menu/",
-    "Price $": 13.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "The pho noodles were okay, but not the best I have had.",
-    "Instagram": ""
-  },
-  {
-    "Index": 160,
-    "Restaurants": "Lula Cafe",
-    "Neighborhood": "Logan Square",
-    "Address": "2537 N Kedzie Blvd, Chicago, IL 60647",
-    "Phone Number": "(773) 489-9554",
-    "Cuisine": "American ",
-    "Nearest CTA L Stop [Train Station]": "Logan Square",
-    "L Line [Train]": "Blue",
-    "Meals": "Breakfast, Lunch, Dinner",
-    "Menu/Website": "https://www.lulacafe.com/",
-    "Price $": 20.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "The recommended menu wasn't my favorite.",
-    "Instagram": "https://www.instagram.com/p/DZyTIX-htEi/?hl=en"
-  },
-  {
-    "Index": 161,
-    "Restaurants": "Mexican Radio",
-    "Neighborhood": "Loop",
-    "Address": "100 W Monroe St, Chicago, IL 60603",
-    "Phone Number": "(312) 877-5713",
-    "Cuisine": "Mexican",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.mexicanradiochicago.com/",
-    "Price $": 15.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Lunch deal was nice but the menu items were not as flavorful",
-    "Instagram": "https://www.instagram.com/p/DalQD8DFdcD/?hl=en&img_index=1"
-  },
-  {
-    "Index": 162,
-    "Restaurants": "Fatback + The Green Butcher",
-    "Neighborhood": "Loop",
-    "Address": "176 W Wacker Dr, Chicago, IL 60601",
-    "Phone Number": "(312) 448-8288",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Merchandise Mart ",
-    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
-    "Meals": "Lunch",
-    "Menu/Website": "https://www.fatbackbutcher.com/",
-    "Price $": 28.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Artisan sandwiches, fresh salads, and that great Loop office-lunch energy right by the Chicago Riverwalk. A great downtown spot when you want something quick but chef-driven.",
-    "Instagram": "https://www.instagram.com/p/DcbgzBuhyEa/?hl=en"
-  },
-  {
-    "Index": 163,
-    "Restaurants": "Flatt Top Grill",
-    "Neighborhood": "Loop",
-    "Address": "30 S Wabash Ave, Chicago, IL 60603",
-    "Phone Number": "(312) 726-8400",
-    "Cuisine": "Asian Fusion",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash  [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.flattopgrill.com/",
-    "Price $": 23.0,
-    "Ratings (/5)": 2.5,
-    "Comments by Louis Sungwoo Cho": "An all-you-can-eat grill concept, but the overall experience was not the best.",
-    "Instagram": ""
-  },
-  {
-    "Index": 164,
-    "Restaurants": "The 101 Bar, Grill & Rooftop",
-    "Neighborhood": "River North",
-    "Address": "101 E Erie St, Chicago, IL 60611",
-    "Phone Number": "(312) 626-4568",
-    "Cuisine": "Mediterranean",
-    "Nearest CTA L Stop [Train Station]": "Grand/State",
-    "L Line [Train]": "Red",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.the101chicago.com/",
-    "Price $": 40.0,
-    "Ratings (/5)": 2.5,
-    "Comments by Louis Sungwoo Cho": "The steak was too watery, and the fries were too greasy for my taste.",
-    "Instagram": "https://www.instagram.com/p/DYAAcwKlTqJ/"
-  },
-  {
-    "Index": 165,
-    "Restaurants": "Acanto",
-    "Neighborhood": "Loop",
-    "Address": "18 S Michigan Ave, Chicago, IL 60603",
-    "Phone Number": "(312) 578-0763",
-    "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.acantochicago.com/",
-    "Price $": 20.0,
-    "Ratings (/5)": 2.0,
-    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
-    "Instagram": ""
-  },
-  {
-    "Index": 166,
-    "Restaurants": "Italian Village",
-    "Neighborhood": "Loop",
-    "Address": "71 W Monroe St, Chicago, IL 60603",
-    "Phone Number": "(312) 332-7005",
-    "Cuisine": "Italian",
-    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
-    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
-    "Meals": "Lunch, Dinner",
-    "Menu/Website": "https://www.thevillage-chicago.com/",
-    "Price $": 20.0,
-    "Ratings (/5)": 1.0,
-    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
-    "Instagram": ""
-  },
-  {
-    "Index": 167,
-    "Restaurants": "The Halal Guys LaSalle",
-    "Neighborhood": "Loop",
-    "Address": "100 N LaSalle St, Chicago, IL 60602",
-    "Phone Number": "",
-    "Cuisine": "Middle Eastern",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
-    "L Line [Train]": "Orange, Purple, Pink, Brown",
-    "Meals": "Lunch",
-    "Menu/Website": "",
-    "Price $": 15.0,
-    "Ratings (/5)": 1.0,
-    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
-    "Instagram": "https://www.instagram.com/p/DcOn543u_SW/?hl=en"
-  },
-  {
-    "Index": 168,
     "Restaurants": "Daisies",
     "Neighborhood": "Logan Square",
     "Address": "2375 N Milwaukee Ave, Chicago, IL 60647",
@@ -2688,7 +2304,423 @@
     "Instagram": "https://www.instagram.com/p/DdhzpjXFcxM/?img_index=1"
   },
   {
+    "Index": 145,
+    "Restaurants": "Dave's Italian Kitchen",
+    "Neighborhood": "Evanston",
+    "Address": "815 Noyes St, Evanston, IL 60201",
+    "Phone Number": "(847) 864-6000",
+    "Cuisine": "Italian",
+    "Nearest CTA L Stop [Train Station]": "Noyes",
+    "L Line [Train]": "Purple",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.davesnewkitchen.com/",
+    "Price $": 14.75,
+    "Ratings (/5)": 3.8,
+    "Comments by Louis Sungwoo Cho": "Hearty pasta, classic comfort dishes, and cozy Evanston neighborhood energy right by the Purple Line.",
+    "Instagram": "https://www.instagram.com/p/Da1Z3TvhRaH/?hl=en"
+  },
+  {
+    "Index": 146,
+    "Restaurants": "Protein Bar & Kitchen - LaSalle",
+    "Neighborhood": "Loop",
+    "Address": "37 S LaSalle St, Chicago, IL 60603",
+    "Phone Number": "(312) 801-9309\n",
+    "Cuisine": "Fusion",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Lunch",
+    "Menu/Website": "https://www.theproteinbar.com/",
+    "Price $": 14.0,
+    "Ratings (/5)": 3.7,
+    "Comments by Louis Sungwoo Cho": "The miso salmon bowl was fresh, flavorful, and such a strong workday meal when you want something filling but not too heavy.",
+    "Instagram": "https://www.instagram.com/p/DbCCaFOPyNA/"
+  },
+  {
+    "Index": 147,
+    "Restaurants": "FireLake Grill House and Cocktail Bar",
+    "Neighborhood": "Loop",
+    "Address": "221 N Columbus Dr, Chicago, IL 60601",
+    "Phone Number": "(312) 477-0234",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "State/Lake, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.firelakechicago.com/",
+    "Price $": 30.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The steak brunch was tasty, but the portion size was a bit small.",
+    "Instagram": "https://www.instagram.com/p/DYgOGH9xNQ-/"
+  },
+  {
+    "Index": 148,
+    "Restaurants": "90th Meridian",
+    "Neighborhood": "Loop",
+    "Address": "231 S LaSalle St #108, Chicago, IL 60604",
+    "Phone Number": "(312) 929-3948",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Jackson, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.90thmeridian.com/",
+    "Price $": 30.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The lunch was okay — convenient, but not especially memorable.",
+    "Instagram": "https://www.instagram.com/p/DX9X7p0lS_d/?img_index=1"
+  },
+  {
+    "Index": 149,
+    "Restaurants": "Chicago Firehouse Restaurant",
+    "Neighborhood": "South Loop",
+    "Address": "1401 S Michigan Ave, Chicago, IL 60605",
+    "Phone Number": "(312) 786-1401",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Roosevelt",
+    "L Line [Train]": "Red, Green, Orange",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.chicagofirehouse.com/#",
+    "Price $": 20.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The burger was a bit too greasy for me, even though it was recommended. Other menu items looked more promising.",
+    "Instagram": "https://www.instagram.com/p/DYgOXoYhGBU/"
+  },
+  {
+    "Index": 150,
+    "Restaurants": "Giordanno's",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://giordanos.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "A famous Chicago deep-dish spot, but it is not really my personal favorite.",
+    "Instagram": "https://www.instagram.com/p/DYqQBwTt3Gt/"
+  },
+  {
+    "Index": 151,
+    "Restaurants": "Luke's Italian Beef",
+    "Neighborhood": "Loop",
+    "Address": "215 W Jackson Blvd, Chicago, IL 60606",
+    "Phone Number": "(312) 939-4204",
+    "Cuisine": "American, Italian",
+    "Nearest CTA L Stop [Train Station]": "Jackson, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://lukeschicago.com/",
+    "Price $": 10.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "An interesting spot to try a classic Chicago-style Italian beef.",
+    "Instagram": "https://www.instagram.com/p/DcMLJyuMYKQ/?hl=en"
+  },
+  {
+    "Index": 152,
+    "Restaurants": "Bar Sol Navy Pier Chicago",
+    "Neighborhood": "Navy Pier",
+    "Address": "Navy Pier, 700 E Grand Ave, Chicago, IL 60611",
+    "Phone Number": "(312) 285-2768",
+    "Cuisine": "Latin",
+    "Nearest CTA L Stop [Train Station]": "Grand/State",
+    "L Line [Train]": "Red",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://barsolnavypier.com/",
+    "Price $": 40.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The grilled salmon was nice, but the rice was mediocre.",
+    "Instagram": "https://www.instagram.com/p/DXsaHceFatx/"
+  },
+  {
+    "Index": 153,
+    "Restaurants": "BenjYehuda - LaSalle",
+    "Neighborhood": "Loop",
+    "Address": "10 S LaSalle St #2400, Chicago, IL 60603",
+    "Phone Number": "(312) 726-9653",
+    "Cuisine": "Mediterranean ",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Brown, Orange, Purple, Pink",
+    "Meals": "Lunch",
+    "Menu/Website": "https://benjyehuda.com/",
+    "Price $": 14.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The chicken bowl was okay — convenient, but not a standout.",
+    "Instagram": "https://www.instagram.com/p/DaN1zrIORsq/?hl=en"
+  },
+  {
+    "Index": 154,
+    "Restaurants": "Chipotle Mexican Grill — Madison LaSalle",
+    "Neighborhood": "Loop",
+    "Address": "10 S LaSalle St, Chicago, IL 60603",
+    "Phone Number": "",
+    "Cuisine": "Mexican",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
+    "Meals": "Lunch",
+    "Menu/Website": "https://www.chipotle.com/home",
+    "Price $": 13.52,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Quick, filling, and honestly one of those reliable workday meals every downtown office worker understands. Burrito bowls, lunch rush energy, and the classic “I need something fast but solid” vibe.",
+    "Instagram": "https://www.instagram.com/p/Db9YGChQJSO/?hl=en"
+  },
+  {
+    "Index": 155,
+    "Restaurants": "The KTM Kitchen",
+    "Neighborhood": "Loop",
+    "Address": "120 W Madison St, Chicago, IL 60602",
+    "Phone Number": "(312) 285-2244",
+    "Cuisine": "Indian, Nepali",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://thektmkitchen.com/",
+    "Price $": 20.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The chicken skewers were ok.",
+    "Instagram": "https://www.instagram.com/p/DY0qn5juBrq/"
+  },
+  {
+    "Index": 156,
+    "Restaurants": "San Soo Gab San",
+    "Neighborhood": "Albany Park",
+    "Address": "5247 N Western Ave, Chicago, IL 60625",
+    "Phone Number": "(773) 334-1589",
+    "Cuisine": "Korean",
+    "Nearest CTA L Stop [Train Station]": "Western",
+    "L Line [Train]": "Brown",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "",
+    "Price $": 50.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Grilled BBQ was nice but the side dishes were not seasoned well.",
+    "Instagram": "https://www.instagram.com/p/DZ0xjx8AVkR/?hl=en"
+  },
+  {
+    "Index": 157,
+    "Restaurants": "Remington's",
+    "Neighborhood": "Loop",
+    "Address": "20 N Michigan Ave, Chicago, IL 60602",
+    "Phone Number": "(312) 782-6000",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.remingtonschicago.com/menus/",
+    "Price $": 18.95,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "The burger was not my favorite.",
+    "Instagram": ""
+  },
+  {
+    "Index": 158,
+    "Restaurants": "Gage Chicago",
+    "Neighborhood": "Loop",
+    "Address": "24 S Michigan Ave, Chicago, IL 60603",
+    "Phone Number": "(312) 372-4243",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe Washington/Wabash [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://thegagechicago.com/",
+    "Price $": 25.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "The Gage Stack sandwich was okay.",
+    "Instagram": "https://www.instagram.com/p/DXsdT_mlUZ7/"
+  },
+  {
+    "Index": 159,
+    "Restaurants": "RPM Seafood",
+    "Neighborhood": "River North",
+    "Address": "317 N Clark St, Chicago, IL 60654",
+    "Phone Number": "(312) 900-9035",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Merchandise Mart [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.rpmrestaurants.com/rpm-seafood-chicago/",
+    "Price $": 44.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Beautiful setting, but the meal felt expensive for the portion size.",
+    "Instagram": "https://www.instagram.com/p/DYF-2rBlSf8/"
+  },
+  {
+    "Index": 160,
+    "Restaurants": "STK Steakhouse",
+    "Neighborhood": "River North",
+    "Address": "9 W Kinzie St, Chicago, IL 60654",
+    "Phone Number": "(312) 340-5636",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Grand/State, Merchandise Mart",
+    "L Line [Train]": "Red, Purple, Brown",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://stksteakhouse.com/en-us/location/chicago/",
+    "Price $": 50.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Stylish atmosphere, but the portion size felt too small for the price.",
+    "Instagram": "https://www.instagram.com/p/DX4ZGS-lW87/"
+  },
+  {
+    "Index": 161,
+    "Restaurants": "Noodles and Company",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "Fusion",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.noodles.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Some noodle dishes are good, while others are just okay.",
+    "Instagram": ""
+  },
+  {
+    "Index": 162,
+    "Restaurants": "Lotus Banh Mi - Chicago Loop",
+    "Neighborhood": "Loop",
+    "Address": "200 W Adams St, Chicago, IL 60606",
+    "Phone Number": "(312) 877-5980",
+    "Cuisine": "Vietnamese",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
+    "Meals": "Lunch",
+    "Menu/Website": "https://lotusbanhmi.com/200-adams-menu/",
+    "Price $": 13.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "The pho noodles were okay, but not the best I have had.",
+    "Instagram": ""
+  },
+  {
+    "Index": 163,
+    "Restaurants": "Lula Cafe",
+    "Neighborhood": "Logan Square",
+    "Address": "2537 N Kedzie Blvd, Chicago, IL 60647",
+    "Phone Number": "(773) 489-9554",
+    "Cuisine": "American ",
+    "Nearest CTA L Stop [Train Station]": "Logan Square",
+    "L Line [Train]": "Blue",
+    "Meals": "Breakfast, Lunch, Dinner",
+    "Menu/Website": "https://www.lulacafe.com/",
+    "Price $": 20.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "The recommended menu wasn't my favorite.",
+    "Instagram": "https://www.instagram.com/p/DZyTIX-htEi/?hl=en"
+  },
+  {
+    "Index": 164,
+    "Restaurants": "Mexican Radio",
+    "Neighborhood": "Loop",
+    "Address": "100 W Monroe St, Chicago, IL 60603",
+    "Phone Number": "(312) 877-5713",
+    "Cuisine": "Mexican",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Quincy [Chicago Union Station]",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink [Amtrak, Metra]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.mexicanradiochicago.com/",
+    "Price $": 15.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Lunch deal was nice but the menu items were not as flavorful",
+    "Instagram": "https://www.instagram.com/p/DalQD8DFdcD/?hl=en&img_index=1"
+  },
+  {
+    "Index": 165,
+    "Restaurants": "Fatback + The Green Butcher",
+    "Neighborhood": "Loop",
+    "Address": "176 W Wacker Dr, Chicago, IL 60601",
+    "Phone Number": "(312) 448-8288",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Merchandise Mart ",
+    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
+    "Meals": "Lunch",
+    "Menu/Website": "https://www.fatbackbutcher.com/",
+    "Price $": 28.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Artisan sandwiches, fresh salads, and that great Loop office-lunch energy right by the Chicago Riverwalk. A great downtown spot when you want something quick but chef-driven.",
+    "Instagram": "https://www.instagram.com/p/DcbgzBuhyEa/?hl=en"
+  },
+  {
+    "Index": 166,
+    "Restaurants": "Flatt Top Grill",
+    "Neighborhood": "Loop",
+    "Address": "30 S Wabash Ave, Chicago, IL 60603",
+    "Phone Number": "(312) 726-8400",
+    "Cuisine": "Asian Fusion",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash  [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.flattopgrill.com/",
+    "Price $": 23.0,
+    "Ratings (/5)": 2.5,
+    "Comments by Louis Sungwoo Cho": "An all-you-can-eat grill concept, but the overall experience was not the best.",
+    "Instagram": ""
+  },
+  {
+    "Index": 167,
+    "Restaurants": "The 101 Bar, Grill & Rooftop",
+    "Neighborhood": "River North",
+    "Address": "101 E Erie St, Chicago, IL 60611",
+    "Phone Number": "(312) 626-4568",
+    "Cuisine": "Mediterranean",
+    "Nearest CTA L Stop [Train Station]": "Grand/State",
+    "L Line [Train]": "Red",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.the101chicago.com/",
+    "Price $": 40.0,
+    "Ratings (/5)": 2.5,
+    "Comments by Louis Sungwoo Cho": "The steak was too watery, and the fries were too greasy for my taste.",
+    "Instagram": "https://www.instagram.com/p/DYAAcwKlTqJ/"
+  },
+  {
+    "Index": 168,
+    "Restaurants": "Acanto",
+    "Neighborhood": "Loop",
+    "Address": "18 S Michigan Ave, Chicago, IL 60603",
+    "Phone Number": "(312) 578-0763",
+    "Cuisine": "Italian",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.acantochicago.com/",
+    "Price $": 20.0,
+    "Ratings (/5)": 2.0,
+    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
+    "Instagram": ""
+  },
+  {
     "Index": 169,
+    "Restaurants": "Italian Village",
+    "Neighborhood": "Loop",
+    "Address": "71 W Monroe St, Chicago, IL 60603",
+    "Phone Number": "(312) 332-7005",
+    "Cuisine": "Italian",
+    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
+    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
+    "Meals": "Lunch, Dinner",
+    "Menu/Website": "https://www.thevillage-chicago.com/",
+    "Price $": 20.0,
+    "Ratings (/5)": 1.0,
+    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
+    "Instagram": ""
+  },
+  {
+    "Index": 170,
+    "Restaurants": "The Halal Guys LaSalle",
+    "Neighborhood": "Loop",
+    "Address": "100 N LaSalle St, Chicago, IL 60602",
+    "Phone Number": "",
+    "Cuisine": "Middle Eastern",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Orange, Purple, Pink, Brown",
+    "Meals": "Lunch",
+    "Menu/Website": "",
+    "Price $": 15.0,
+    "Ratings (/5)": 1.0,
+    "Comments by Louis Sungwoo Cho": "Not one I would personally recommend.",
+    "Instagram": "https://www.instagram.com/p/DcOn543u_SW/?hl=en"
+  },
+  {
+    "Index": 171,
     "Restaurants": "Defloured Gluten Free Bakery",
     "Neighborhood": "Andersonville",
     "Address": "1477 W Balmoral Ave, Chicago, IL 60640",
@@ -2704,7 +2736,7 @@
     "Instagram": "https://www.instagram.com/p/Dc6g3wHFUWl/?hl=en&img_index=1"
   },
   {
-    "Index": 170,
+    "Index": 172,
     "Restaurants": "Philz Coffee - Lincoln Park",
     "Neighborhood": "Lincoln Park",
     "Address": "2323 N Lincoln Ave, Chicago, IL 60614",
@@ -2720,7 +2752,7 @@
     "Instagram": ""
   },
   {
-    "Index": 171,
+    "Index": 173,
     "Restaurants": "PopUp Bagels",
     "Neighborhood": "Lincoln Park",
     "Address": "2321 N Lincoln Ave, Chicago, IL 60614",
@@ -2736,7 +2768,7 @@
     "Instagram": "https://www.instagram.com/p/DXsdBiXlc8w/?img_index=1"
   },
   {
-    "Index": 172,
+    "Index": 174,
     "Restaurants": "Ground Up Coffee + Bites - Dearborn",
     "Neighborhood": "Loop",
     "Address": "144 S Dearborn St, Chicago, IL 60603",
@@ -2752,7 +2784,7 @@
     "Instagram": "https://www.instagram.com/p/DX6xyxNlWwV/"
   },
   {
-    "Index": 173,
+    "Index": 175,
     "Restaurants": "International Sandwich Shop",
     "Neighborhood": "Loop",
     "Address": "1 S Franklin St, Chicago, IL 60606",
@@ -2768,7 +2800,7 @@
     "Instagram": "https://www.instagram.com/p/DXsbnzHlYuZ/"
   },
   {
-    "Index": 174,
+    "Index": 176,
     "Restaurants": "Goddess and the Baker-Millenium",
     "Neighborhood": "Loop",
     "Address": "33 S Wabash Ave, Chicago, IL 60603",
@@ -2784,7 +2816,7 @@
     "Instagram": "https://www.instagram.com/p/DX1igmyFZAr/?img_index=1"
   },
   {
-    "Index": 175,
+    "Index": 177,
     "Restaurants": "Tiny Tapp & Tiny Café",
     "Neighborhood": "Loop",
     "Address": "55 W Riverwalk, Chicago, IL 60601",
@@ -2800,7 +2832,7 @@
     "Instagram": "https://www.instagram.com/p/DYLgz9-FfBV/"
   },
   {
-    "Index": 176,
+    "Index": 178,
     "Restaurants": "Halsted Deli - Clark/Lake",
     "Neighborhood": "Loop",
     "Address": "203 N La Salle Dr, Chicago, IL 60601",
@@ -2816,7 +2848,7 @@
     "Instagram": "https://www.instagram.com/p/DYQVE6aFd9N/?img_index=1"
   },
   {
-    "Index": 177,
+    "Index": 179,
     "Restaurants": "Ben & Jerry's - Navy Pier",
     "Neighborhood": "Navy Pier",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
@@ -2832,7 +2864,7 @@
     "Instagram": "https://www.instagram.com/p/DX5M2HiFYsT/"
   },
   {
-    "Index": 178,
+    "Index": 180,
     "Restaurants": "Starbucks Reserve Roastery",
     "Neighborhood": "River North",
     "Address": "646 N Michigan Ave, Chicago, IL 60611",
@@ -2848,7 +2880,7 @@
     "Instagram": "https://www.instagram.com/p/DYaJEe3FcG1/?img_index=1"
   },
   {
-    "Index": 179,
+    "Index": 181,
     "Restaurants": "Nimble Café",
     "Neighborhood": "River North",
     "Address": "114 W Chicago Ave, Chicago, IL 60654",
@@ -2864,7 +2896,7 @@
     "Instagram": ""
   },
   {
-    "Index": 180,
+    "Index": 182,
     "Restaurants": "3 Greens Coffee & Bakery",
     "Neighborhood": "River North",
     "Address": "900 N Michigan Ave, Chicago, IL 60611",
@@ -2880,7 +2912,7 @@
     "Instagram": "https://www.instagram.com/p/DZBBzUyFVQA/?img_index=1"
   },
   {
-    "Index": 181,
+    "Index": 183,
     "Restaurants": "Corey's NYC Bagel Deli",
     "Neighborhood": "River North",
     "Address": "515 N Dearborn St, Chicago, IL 60654",
@@ -2896,7 +2928,7 @@
     "Instagram": "https://www.instagram.com/p/DYcpgXUFQWA/?img_index=1"
   },
   {
-    "Index": 182,
+    "Index": 184,
     "Restaurants": "The Original Rainbow Cone - Loop",
     "Neighborhood": "Loop",
     "Address": "72 E Randolph St, Chicago, IL 60601",
@@ -2912,7 +2944,7 @@
     "Instagram": "https://www.instagram.com/p/DYaIcZNg3ry/"
   },
   {
-    "Index": 183,
+    "Index": 185,
     "Restaurants": "La Colombe Workshop - Gold Coast",
     "Neighborhood": "Gold Coast",
     "Address": "4 E Elm St, Chicago, IL 60611",
@@ -2928,7 +2960,7 @@
     "Instagram": "https://www.instagram.com/p/DYLYYgDFXWo/"
   },
   {
-    "Index": 184,
+    "Index": 186,
     "Restaurants": "Holy Bagels Co.",
     "Neighborhood": "Loop",
     "Address": "22 E Randolph St, Chicago, IL 60601",
@@ -2944,7 +2976,7 @@
     "Instagram": "https://www.instagram.com/p/DYk6Tiplfw7/?img_index=1"
   },
   {
-    "Index": 185,
+    "Index": 187,
     "Restaurants": "All Too Well - Loop",
     "Neighborhood": "Loop",
     "Address": "15 W Washington St, Chicago, IL 60602",
@@ -2960,7 +2992,7 @@
     "Instagram": "https://www.instagram.com/p/DYny-9uFcyH/?img_index=1"
   },
   {
-    "Index": 186,
+    "Index": 188,
     "Restaurants": "Dollop Coffee - Loop",
     "Neighborhood": "Loop",
     "Address": "55 W Monroe St, Chicago, IL 60603",
@@ -2976,7 +3008,7 @@
     "Instagram": "https://www.instagram.com/p/DYpJ2yHhOSO/"
   },
   {
-    "Index": 187,
+    "Index": 189,
     "Restaurants": "FRÍO Gelato - Evanston",
     "Neighborhood": "Evanston",
     "Address": "1301 Chicago Ave, Evanston, IL 60201",
@@ -2992,7 +3024,7 @@
     "Instagram": "https://www.instagram.com/p/DX-d67nlUO7/?img_index=1"
   },
   {
-    "Index": 188,
+    "Index": 190,
     "Restaurants": "Café Cremerie",
     "Neighborhood": "River North",
     "Address": "615 N State St, Chicago, IL 60654",
@@ -3008,7 +3040,7 @@
     "Instagram": "https://www.instagram.com/p/DYISoIKlZIj/"
   },
   {
-    "Index": 189,
+    "Index": 191,
     "Restaurants": "Lea French Cafe Michigan Avenue",
     "Neighborhood": "Loop",
     "Address": "20 N Michigan Ave, Chicago, IL 60602",
@@ -3024,7 +3056,7 @@
     "Instagram": "https://www.instagram.com/p/DXsWcMTFekh/"
   },
   {
-    "Index": 190,
+    "Index": 192,
     "Restaurants": "Hannah's Bretzel",
     "Neighborhood": "Loop",
     "Address": "66 W Randolph St, Chicago, IL 60601",
@@ -3040,7 +3072,7 @@
     "Instagram": "https://www.instagram.com/p/DYXkAThlbBo/?img_index=1"
   },
   {
-    "Index": 191,
+    "Index": 193,
     "Restaurants": "Amorino",
     "Neighborhood": "Loop",
     "Address": "38 S Michigan Ave, Chicago, IL 60603",
@@ -3056,7 +3088,7 @@
     "Instagram": "https://www.instagram.com/p/DZ80VV7lQJY/?hl=en&img_index=1"
   },
   {
-    "Index": 192,
+    "Index": 194,
     "Restaurants": "Lizzano Focacceria & Spritzeria",
     "Neighborhood": "Loop",
     "Address": "200 N Michigan Ave, Chicago, IL 60601",
@@ -3072,7 +3104,7 @@
     "Instagram": "https://www.instagram.com/p/DYFFY0AlfOP/"
   },
   {
-    "Index": 193,
+    "Index": 195,
     "Restaurants": "TARY",
     "Neighborhood": "River North",
     "Address": "111 W Illinois St, Chicago, IL 60654",
@@ -3088,7 +3120,7 @@
     "Instagram": "https://www.instagram.com/p/DYcr5pelWKu/?img_index=1"
   },
   {
-    "Index": 194,
+    "Index": 196,
     "Restaurants": "Daeji Dough Company",
     "Neighborhood": "Lakeview",
     "Address": "1360 W Belmont Ave, Chicago, IL 60657",
@@ -3104,7 +3136,7 @@
     "Instagram": ""
   },
   {
-    "Index": 195,
+    "Index": 197,
     "Restaurants": "Paleta Belly",
     "Neighborhood": "Loop",
     "Address": "75 E Washington St, Chicago, IL 60602",
@@ -3120,7 +3152,7 @@
     "Instagram": "https://www.instagram.com/p/Da_lknvlbo4/?hl=en&img_index=1"
   },
   {
-    "Index": 196,
+    "Index": 198,
     "Restaurants": "Ice Cream Shoppe",
     "Neighborhood": "Lincoln Park",
     "Address": "2021 N Stockton Dr, Chicago, IL 60614",
@@ -3136,7 +3168,7 @@
     "Instagram": "https://www.instagram.com/p/DYxjBuulfOr/?img_index=1"
   },
   {
-    "Index": 197,
+    "Index": 199,
     "Restaurants": "Annette's Italian Ice",
     "Neighborhood": "Lincoln Park",
     "Address": "2009 N Bissell St, Chicago, IL 60614",
@@ -3152,7 +3184,7 @@
     "Instagram": "https://www.instagram.com/p/DYxmfFLFY4Y/?img_index=1"
   },
   {
-    "Index": 198,
+    "Index": 200,
     "Restaurants": "Maison Parisienne - Armitage",
     "Neighborhood": "Lincoln Park",
     "Address": "901 W Armitage Ave, Chicago, IL 60614",
@@ -3168,7 +3200,7 @@
     "Instagram": "https://www.instagram.com/p/DYxrgvHlc4B/?img_index=1"
   },
   {
-    "Index": 199,
+    "Index": 201,
     "Restaurants": "AMRI Juice Bar",
     "Neighborhood": "Navy Pier",
     "Address": "Navy Pier, 700 E Grand Ave, Chicago, IL 60611",
@@ -3184,7 +3216,7 @@
     "Instagram": "https://www.instagram.com/p/DY3MESCJPgw/"
   },
   {
-    "Index": 200,
+    "Index": 202,
     "Restaurants": "Kilwins Navy Pier",
     "Neighborhood": "Navy Pier",
     "Address": "Navy Pier, 700 E Grand Ave, Chicago, IL 60611",
@@ -3200,7 +3232,7 @@
     "Instagram": "https://www.instagram.com/p/DY8nVbwvl34/"
   },
   {
-    "Index": 201,
+    "Index": 203,
     "Restaurants": "Tilly Bagel Shop - South Loop",
     "Neighborhood": "South Loop",
     "Address": "1001 S State St, Chicago, IL 60605",
@@ -3216,7 +3248,7 @@
     "Instagram": "https://www.instagram.com/p/DY9-17XlXYk/?img_index=1"
   },
   {
-    "Index": 202,
+    "Index": 204,
     "Restaurants": "Mario's Italian Lemonade",
     "Neighborhood": "Little Italy",
     "Address": "1068 W Taylor St, Chicago, IL 60607",
@@ -3232,7 +3264,7 @@
     "Instagram": "https://www.instagram.com/p/DY_G4hPFbp3/?img_index=1"
   },
   {
-    "Index": 203,
+    "Index": 205,
     "Restaurants": "Foxtrot - Wicker Park",
     "Neighborhood": "Wicker Park",
     "Address": "1722 W Division St, Chicago, IL 60622",
@@ -3248,7 +3280,7 @@
     "Instagram": "https://www.instagram.com/p/DZAm5h_FV2I/?img_index=1"
   },
   {
-    "Index": 204,
+    "Index": 206,
     "Restaurants": "Alliance Bakery - Wicker Park",
     "Neighborhood": "Wicker Park",
     "Address": "1736 W Division St, Chicago, IL 60622",
@@ -3264,7 +3296,7 @@
     "Instagram": "https://www.instagram.com/p/DZAmdbUPaTW/"
   },
   {
-    "Index": 205,
+    "Index": 207,
     "Restaurants": "Sarima Café",
     "Neighborhood": "Wicker Park",
     "Address": "1924 W North Ave, Chicago, IL 60622",
@@ -3280,7 +3312,7 @@
     "Instagram": "https://www.instagram.com/p/DZQBDIthXnU/"
   },
   {
-    "Index": 206,
+    "Index": 208,
     "Restaurants": "Van Leeuwen Ice Cream — Wicker Park",
     "Neighborhood": "Wicker Park",
     "Address": "1636 N Milwaukee Ave, Chicago, IL 60647",
@@ -3296,7 +3328,7 @@
     "Instagram": "https://www.instagram.com/p/DZQl2JJBoTd/"
   },
   {
-    "Index": 207,
+    "Index": 209,
     "Restaurants": "Moka & Co",
     "Neighborhood": "West Loop",
     "Address": "239 S Halsted St, Chicago, IL 60661",
@@ -3312,7 +3344,7 @@
     "Instagram": "https://www.instagram.com/p/DZTC8Kppj2g/"
   },
   {
-    "Index": 208,
+    "Index": 210,
     "Restaurants": "Mojo Café-LaSalle",
     "Neighborhood": "Loop",
     "Address": "190 S LaSalle St, Chicago, IL 60603",
@@ -3328,7 +3360,7 @@
     "Instagram": "https://www.instagram.com/p/DZnf28hO2zo/?hl=en"
   },
   {
-    "Index": 209,
+    "Index": 211,
     "Restaurants": "Intelligentsia Coffee — Millennium Park",
     "Neighborhood": "Loop",
     "Address": "53 E Randolph St, Chicago, IL 60601",
@@ -3344,7 +3376,7 @@
     "Instagram": "https://www.instagram.com/p/DZiU2Cpld3a/?hl=en&img_index=1"
   },
   {
-    "Index": 210,
+    "Index": 212,
     "Restaurants": "Café Pisolino",
     "Neighborhood": "Loop",
     "Address": "71 W Monroe St Main Floor, Chicago, IL 60603",
@@ -3360,7 +3392,7 @@
     "Instagram": "https://www.instagram.com/p/DZxhGdJlWbn/?hl=en&img_index=1"
   },
   {
-    "Index": 211,
+    "Index": 213,
     "Restaurants": "Logan Vegan",
     "Neighborhood": "Logan Square",
     "Address": "2535 N Kedzie Blvd, Chicago, IL 60647",
@@ -3376,7 +3408,7 @@
     "Instagram": "https://www.instagram.com/p/DZyZF-nla8j/?hl=en&img_index=1"
   },
   {
-    "Index": 212,
+    "Index": 214,
     "Restaurants": "Paper Tiger",
     "Neighborhood": "Lincoln Park",
     "Address": "628 W Webster Ave, Chicago, IL 60614",
@@ -3392,7 +3424,7 @@
     "Instagram": "https://www.instagram.com/p/DZ2q-CJlcv1/?hl=en&img_index=1"
   },
   {
-    "Index": 213,
+    "Index": 215,
     "Restaurants": "Brü Chicago - West Loop",
     "Neighborhood": "West Loop",
     "Address": "555 W Madison St, Chicago, IL 60661",
@@ -3408,7 +3440,7 @@
     "Instagram": "https://www.instagram.com/p/DaF9aFzM_A0/?hl=en"
   },
   {
-    "Index": 214,
+    "Index": 216,
     "Restaurants": "Dark Matter Coffee - Chicago Union Station",
     "Neighborhood": "West Loop",
     "Address": "601 W Jackson Blvd, Chicago, IL 60661",
@@ -3424,7 +3456,7 @@
     "Instagram": "https://www.instagram.com/p/DaIfnA6leZ8/?hl=en&img_index=1"
   },
   {
-    "Index": 215,
+    "Index": 217,
     "Restaurants": "Van Leeuwen - Sears Tower",
     "Neighborhood": "Loop",
     "Address": "Sears Tower / Willis Tower\n233 S Wacker Dr, Chicago, IL 60606",
@@ -3440,7 +3472,7 @@
     "Instagram": "https://www.instagram.com/p/DaOy9OkFWLv/?hl=en&img_index=1"
   },
   {
-    "Index": 216,
+    "Index": 218,
     "Restaurants": "Fairgrounds Craft Coffee & Tea - Loop",
     "Neighborhood": "Loop",
     "Address": "12 S Michigan Ave, Chicago, IL 60603",
@@ -3456,7 +3488,7 @@
     "Instagram": "https://www.instagram.com/p/DaVprWCSFH4/"
   },
   {
-    "Index": 217,
+    "Index": 219,
     "Restaurants": "Wormhole Coffee",
     "Neighborhood": "Wicker Park",
     "Address": "1462 N Milwaukee Ave, Chicago, IL 60622",
@@ -3472,7 +3504,7 @@
     "Instagram": "https://www.instagram.com/p/DaYN6o4layP/?img_index=1"
   },
   {
-    "Index": 218,
+    "Index": 220,
     "Restaurants": "Pedestrian Coffee - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2642 N Milwaukee Ave, Chicago, IL 60647",
@@ -3488,7 +3520,7 @@
     "Instagram": "https://www.instagram.com/p/DaYaokSRNUR/"
   },
   {
-    "Index": 219,
+    "Index": 221,
     "Restaurants": "Snow Dragon Shavery - Navy Pier",
     "Neighborhood": "Navy Pier",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
@@ -3504,7 +3536,7 @@
     "Instagram": "https://www.instagram.com/p/DabFwc3MO3D/?hl=en"
   },
   {
-    "Index": 220,
+    "Index": 222,
     "Restaurants": "Caffè Umbria — River North",
     "Neighborhood": "River North",
     "Address": "346 N Clark St, Chicago, IL 60654",
@@ -3520,7 +3552,7 @@
     "Instagram": "https://www.instagram.com/p/DabGEU6zlsb/?hl=en"
   },
   {
-    "Index": 221,
+    "Index": 223,
     "Restaurants": "Sterling Café",
     "Neighborhood": "Loop",
     "Address": "125 S Clark St, Chicago, IL 60603",
@@ -3536,7 +3568,7 @@
     "Instagram": "https://www.instagram.com/p/DakvZA4Ji0A/?hl=en"
   },
   {
-    "Index": 222,
+    "Index": 224,
     "Restaurants": "Fairgrounds Craft Coffee & Tea — River North",
     "Neighborhood": "River North",
     "Address": "306 W Erie St, Chicago, IL 60654",
@@ -3552,7 +3584,7 @@
     "Instagram": "https://www.instagram.com/p/DaqNglNPvFN/?hl=en"
   },
   {
-    "Index": 223,
+    "Index": 225,
     "Restaurants": "New Wave Coffee",
     "Neighborhood": "Logan Square",
     "Address": "2557 N Milwaukee Ave, Chicago, IL 60647",
@@ -3568,7 +3600,7 @@
     "Instagram": "https://www.instagram.com/p/DatAK79FXTn/?hl=en&img_index=1"
   },
   {
-    "Index": 224,
+    "Index": 226,
     "Restaurants": "Pretty Cool Ice Cream",
     "Neighborhood": "Logan Square",
     "Address": "2353 N California Ave, Chicago, IL 60647",
@@ -3584,7 +3616,7 @@
     "Instagram": "https://www.instagram.com/p/DatPXZ4FXCB/?hl=en&img_index=1"
   },
   {
-    "Index": 225,
+    "Index": 227,
     "Restaurants": "Ava's Italian Ice",
     "Neighborhood": "Wicker Park",
     "Address": "1814 N Western Ave, Chicago, IL 60647",
@@ -3600,7 +3632,7 @@
     "Instagram": "https://www.instagram.com/p/DatP2lpScAG/?hl=en"
   },
   {
-    "Index": 226,
+    "Index": 228,
     "Restaurants": "Postcard Café",
     "Neighborhood": "West Loop",
     "Address": "170 N Morgan St, Chicago, IL 60607",
@@ -3616,7 +3648,7 @@
     "Instagram": "https://www.instagram.com/p/Da8809mFfZI/?img_index=1"
   },
   {
-    "Index": 227,
+    "Index": 229,
     "Restaurants": "Equinox Body Energy Club - Loop",
     "Neighborhood": "Loop",
     "Address": "200 W Monroe St, Chicago, IL 60606",
@@ -3632,7 +3664,7 @@
     "Instagram": "https://www.instagram.com/p/DbEgeSENVyB/"
   },
   {
-    "Index": 228,
+    "Index": 230,
     "Restaurants": "Cone Gourmet Ice Cream",
     "Neighborhood": "West Loop",
     "Address": "1047 W Madison St, Chicago, IL 60607",
@@ -3648,7 +3680,7 @@
     "Instagram": "https://www.instagram.com/p/DbMlMgXFYDH/?hl=en&img_index=1"
   },
   {
-    "Index": 229,
+    "Index": 231,
     "Restaurants": "Ice Cream Social - The Langham Chicago",
     "Neighborhood": "River North",
     "Address": "330 N Wabash Ave, Chicago, IL 60611",
@@ -3664,7 +3696,7 @@
     "Instagram": "https://www.instagram.com/p/DbO2rNVlc-f/?hl=en&img_index=1"
   },
   {
-    "Index": 230,
+    "Index": 232,
     "Restaurants": "Oud Coffee & Café - River North",
     "Neighborhood": "River North",
     "Address": "714 N Wells St, Chicago, IL 60654",
@@ -3680,7 +3712,7 @@
     "Instagram": "https://www.instagram.com/p/DbO_YyNlfKv/?hl=en&img_index=1"
   },
   {
-    "Index": 231,
+    "Index": 233,
     "Restaurants": "Hello Kitty Café",
     "Neighborhood": "Loop",
     "Address": "360 N Michigan Ave, Chicago, IL 60601",
@@ -3696,7 +3728,7 @@
     "Instagram": "https://www.instagram.com/p/DbcKyjxFUCR/?hl=en&img_index=1"
   },
   {
-    "Index": 232,
+    "Index": 234,
     "Restaurants": "Spoken Café",
     "Neighborhood": "Lincoln Square",
     "Address": "1812 W Montrose Ave, Chicago, IL 60613",
@@ -3712,7 +3744,7 @@
     "Instagram": "https://www.instagram.com/p/DbgaNO_FcgK/?hl=en&img_index=1"
   },
   {
-    "Index": 233,
+    "Index": 235,
     "Restaurants": "Hero Coffee & Bagel Bar",
     "Neighborhood": "Loop",
     "Address": "22 E Jackson Blvd, Chicago, IL 60604",
@@ -3728,7 +3760,7 @@
     "Instagram": "https://www.instagram.com/p/DbtgZYOlcaC/?hl=en&img_index=1"
   },
   {
-    "Index": 234,
+    "Index": 236,
     "Restaurants": "Bagel & Bean",
     "Neighborhood": "Loop",
     "Address": "111 W Jackson Blvd, Chicago, IL 60604",
@@ -3744,7 +3776,7 @@
     "Instagram": "https://www.instagram.com/p/DbttgRZQkGk/?hl=en"
   },
   {
-    "Index": 235,
+    "Index": 237,
     "Restaurants": "Oromo Cafe",
     "Neighborhood": "Lincoln Square",
     "Address": "4703 N Lincoln Ave, Chicago, IL 60625",
@@ -3760,7 +3792,7 @@
     "Instagram": "https://www.instagram.com/p/Dby58jwlYrQ/?hl=en&img_index=1"
   },
   {
-    "Index": 236,
+    "Index": 238,
     "Restaurants": "Vaca’s Creamery — Lincoln Square",
     "Neighborhood": "Lincoln Square",
     "Address": "2324 W Giddings St, Chicago, IL 60625",
@@ -3776,7 +3808,7 @@
     "Instagram": "https://www.instagram.com/p/DbzA2ulFcY8/?hl=en&img_index=1"
   },
   {
-    "Index": 237,
+    "Index": 239,
     "Restaurants": "Queen B",
     "Neighborhood": "Lakeview",
     "Address": "3072 N Lincoln Ave, Chicago, IL 60657",
@@ -3792,7 +3824,7 @@
     "Instagram": "https://www.instagram.com/p/Db0wGtYlUd2/?hl=en&img_index=1"
   },
   {
-    "Index": 238,
+    "Index": 240,
     "Restaurants": "Doppio Coffee House",
     "Neighborhood": "Lakeview",
     "Address": "3054 N Greenview Ave, Chicago, IL 60657",
@@ -3808,7 +3840,7 @@
     "Instagram": "https://www.instagram.com/p/Db0y6YHPifb/?hl=en"
   },
   {
-    "Index": 239,
+    "Index": 241,
     "Restaurants": "Groundswell Coffee — Fine Arts Building",
     "Neighborhood": "South Loop",
     "Address": "410 S Michigan Ave, Chicago, IL 60605",
@@ -3824,7 +3856,7 @@
     "Instagram": "https://www.instagram.com/p/Db3KeG_FS97/?img_index=1"
   },
   {
-    "Index": 240,
+    "Index": 242,
     "Restaurants": "Cafe Deko",
     "Neighborhood": "South Loop",
     "Address": "715 S Dearborn St, Chicago, IL 60605",
@@ -3840,7 +3872,7 @@
     "Instagram": "https://www.instagram.com/p/Db5qImWlZaZ/?img_index=1"
   },
   {
-    "Index": 241,
+    "Index": 243,
     "Restaurants": "Big Shoulders Coffee — Chicago Board of Trade",
     "Neighborhood": "Loop",
     "Address": "141 W Jackson Blvd, Chicago, IL 60604",
@@ -3856,7 +3888,7 @@
     "Instagram": "https://www.instagram.com/p/Db8TOy5taEO/?hl=en"
   },
   {
-    "Index": 242,
+    "Index": 244,
     "Restaurants": "Necessary and Sufficient coffee - South Loop",
     "Neighborhood": "South Loop",
     "Address": "728 S Dearborn St, Chicago, IL 60605",
@@ -3872,7 +3904,7 @@
     "Instagram": "https://www.instagram.com/p/Db-07lCFWzY/?hl=en&img_index=1"
   },
   {
-    "Index": 243,
+    "Index": 245,
     "Restaurants": "Loop Coffee",
     "Neighborhood": "West Loop",
     "Address": "810 W Washington Blvd, Chicago, IL 60607",
@@ -3888,7 +3920,7 @@
     "Instagram": "https://www.instagram.com/p/DcEWxMyFR7d/?hl=en&img_index=1"
   },
   {
-    "Index": 244,
+    "Index": 246,
     "Restaurants": "HH Bagels",
     "Neighborhood": "West Loop",
     "Address": "164 N Peoria St, Chicago, IL 60607",
@@ -3904,7 +3936,7 @@
     "Instagram": "https://www.instagram.com/p/DcEdYmbuQyN/?hl=en"
   },
   {
-    "Index": 245,
+    "Index": 247,
     "Restaurants": "Sugar Bliss",
     "Neighborhood": "Loop",
     "Address": "122 S Wabash Ave, Chicago, IL 60603",
@@ -3920,7 +3952,7 @@
     "Instagram": "https://www.instagram.com/p/DcFCTFvFXeQ/?hl=en&img_index=1"
   },
   {
-    "Index": 246,
+    "Index": 248,
     "Restaurants": "Cupitol Coffee and Eatery Streeterville",
     "Neighborhood": "River North",
     "Address": "455 E Illinois St, Chicago, IL 60611",
@@ -3936,7 +3968,7 @@
     "Instagram": "https://www.instagram.com/p/DcFD8jsFf91/?hl=en&img_index=1"
   },
   {
-    "Index": 247,
+    "Index": 249,
     "Restaurants": "Icons Coffee",
     "Neighborhood": "Loop",
     "Address": "Old Dearborn Bank Building, 52 E Lake St, Chicago, IL 60601",
@@ -3952,7 +3984,7 @@
     "Instagram": "https://www.instagram.com/p/DcJMc11T9Vw/?hl=en"
   },
   {
-    "Index": 248,
+    "Index": 250,
     "Restaurants": "Sweet Home Gelato",
     "Neighborhood": "Loop",
     "Address": "151 W Riverwalk, Chicago, IL 60601",
@@ -3968,7 +4000,7 @@
     "Instagram": "https://www.instagram.com/p/DcHs2pwlY22/?hl=en&img_index=1"
   },
   {
-    "Index": 249,
+    "Index": 251,
     "Restaurants": "Veteran Roasters Café",
     "Neighborhood": "Loop",
     "Address": "161 N Clark St, Suite 140, Chicago, IL 60601",
@@ -3984,7 +4016,7 @@
     "Instagram": "https://www.instagram.com/p/DcLwNSaABma/?hl=en"
   },
   {
-    "Index": 250,
+    "Index": 252,
     "Restaurants": "Convene Cafe Monroe",
     "Neighborhood": "Loop",
     "Address": "311 W Monroe St, Chicago, IL 60606",
@@ -4000,7 +4032,7 @@
     "Instagram": "https://www.instagram.com/p/DcOVKZwFbPB/?hl=en&img_index=1"
   },
   {
-    "Index": 251,
+    "Index": 253,
     "Restaurants": "Brewlée Coffee on Adams",
     "Neighborhood": "Loop",
     "Address": "200 W Adams St, Chicago, IL 60606",
@@ -4016,7 +4048,7 @@
     "Instagram": "https://www.instagram.com/p/DcQ-tR9hIQA/?hl=en"
   },
   {
-    "Index": 252,
+    "Index": 254,
     "Restaurants": "Gotham Bagels South Loop",
     "Neighborhood": "South Loop",
     "Address": "521 S Dearborn St, Unit B, Chicago, IL 60605",
@@ -4032,7 +4064,7 @@
     "Instagram": "https://www.instagram.com/p/DcWhdAgypZr/?hl=en"
   },
   {
-    "Index": 253,
+    "Index": 255,
     "Restaurants": "Joy Yee Chinatown",
     "Neighborhood": "Cermak-Chinatown",
     "Address": "2139 S China Pl, Chicago, IL 60616",
@@ -4048,7 +4080,7 @@
     "Instagram": "https://www.instagram.com/p/DcXVItNBY4D/"
   },
   {
-    "Index": 254,
+    "Index": 256,
     "Restaurants": "Mindy’s Bakery",
     "Neighborhood": "Wicker Park",
     "Address": "1623 N Milwaukee Ave, Chicago, IL 60647",
@@ -4064,7 +4096,7 @@
     "Instagram": "https://www.instagram.com/p/DcZMOqAlXRF/?hl=en&img_index=1"
   },
   {
-    "Index": 255,
+    "Index": 257,
     "Restaurants": "Kafe Mera",
     "Neighborhood": "River North",
     "Address": "300 N LaSalle Dr, Lobby, Chicago, IL 60654",
@@ -4080,7 +4112,7 @@
     "Instagram": "https://www.instagram.com/p/DcdxxL9MVl6/?hl=en"
   },
   {
-    "Index": 256,
+    "Index": 258,
     "Restaurants": "River Roux",
     "Neighborhood": "Loop",
     "Address": "110 N Wacker Dr, Lower Level 1, Chicago, IL 60606",
@@ -4096,7 +4128,7 @@
     "Instagram": "https://www.instagram.com/p/DcgZ3EHleOp/?hl=en&img_index=1"
   },
   {
-    "Index": 257,
+    "Index": 259,
     "Restaurants": "Cafe Tabeeb",
     "Neighborhood": "South Loop",
     "Address": "712 S Wells St, Chicago, IL 60607",
@@ -4112,7 +4144,7 @@
     "Instagram": "https://www.instagram.com/p/Dci2cNAFed1/?hl=en&img_index=1"
   },
   {
-    "Index": 258,
+    "Index": 260,
     "Restaurants": "Levain Bakery - West Loop",
     "Neighborhood": "West Loop",
     "Address": "840 W Randolph St, Chicago, IL 60607",
@@ -4128,7 +4160,7 @@
     "Instagram": "https://www.instagram.com/p/Dcovj3xveN4/?hl=en"
   },
   {
-    "Index": 259,
+    "Index": 261,
     "Restaurants": "Sawada Coffee",
     "Neighborhood": "West Loop",
     "Address": "112 N Green St, Chicago, IL 60607",
@@ -4144,7 +4176,7 @@
     "Instagram": "https://www.instagram.com/p/DcovQTtla9D/?hl=en&img_index=1"
   },
   {
-    "Index": 260,
+    "Index": 262,
     "Restaurants": "Ralph’s Coffee",
     "Neighborhood": "River North",
     "Address": "750 N Michigan Ave, Chicago, IL 60611",
@@ -4160,7 +4192,7 @@
     "Instagram": "https://www.instagram.com/p/DcrCk0pFToy/?img_index=1"
   },
   {
-    "Index": 261,
+    "Index": 263,
     "Restaurants": "BIGGBY Coffee Lake St",
     "Neighborhood": "Loop",
     "Address": "200 W Lake St, Chicago, IL 60606",
@@ -4176,7 +4208,7 @@
     "Instagram": "https://www.instagram.com/p/Dcwh0ulBkXu/?hl=en"
   },
   {
-    "Index": 262,
+    "Index": 264,
     "Restaurants": "Con Azucar Cafe South Loop",
     "Neighborhood": "South Loop",
     "Address": "801 S Financial Pl, Chicago, IL 60605",
@@ -4192,7 +4224,7 @@
     "Instagram": "https://www.instagram.com/p/DcyTb8jFZhM/?hl=en&img_index=1"
   },
   {
-    "Index": 263,
+    "Index": 265,
     "Restaurants": "Espresso and Milk on Wacker",
     "Neighborhood": "Loop",
     "Address": "222 W Wacker Dr, Chicago, IL 60606",
@@ -4208,7 +4240,7 @@
     "Instagram": "https://www.instagram.com/p/Dc0-Y_2FXAK/?img_index=1"
   },
   {
-    "Index": 264,
+    "Index": 266,
     "Restaurants": "Lockwood Express",
     "Neighborhood": "Loop",
     "Address": "15 E Monroe St, Chicago, IL 60603",
@@ -4224,7 +4256,7 @@
     "Instagram": "https://www.instagram.com/p/Dc3lTT_ts1R/?hl=en"
   },
   {
-    "Index": 265,
+    "Index": 267,
     "Restaurants": "The Bagelers Coffeehouse",
     "Neighborhood": "Lincoln Park",
     "Address": "2461 N Lincoln Ave, Chicago, IL 60614",
@@ -4240,7 +4272,7 @@
     "Instagram": "https://www.instagram.com/p/Dc6STyvFVRd/?hl=en&img_index=1"
   },
   {
-    "Index": 266,
+    "Index": 268,
     "Restaurants": "Swadesi Café",
     "Neighborhood": "West Loop",
     "Address": "328 S Jefferson St, Chicago, IL 60661",
@@ -4256,7 +4288,7 @@
     "Instagram": "https://www.instagram.com/p/DdMbLmhlSBC/?img_index=1"
   },
   {
-    "Index": 267,
+    "Index": 269,
     "Restaurants": "Ritual Coffeehouse",
     "Neighborhood": "Lincoln Square",
     "Address": "1821 W Irving Park Rd, Chicago, IL 60613",
@@ -4272,7 +4304,7 @@
     "Instagram": "https://www.instagram.com/p/DdPTq6aNMLw/"
   },
   {
-    "Index": 268,
+    "Index": 270,
     "Restaurants": "Paris Baguette-Streeterville",
     "Neighborhood": "Streeterville",
     "Address": "325 E Illinois St, Chicago, IL 60611",
@@ -4288,327 +4320,7 @@
     "Instagram": "https://www.instagram.com/p/DdP7pkKpC04/"
   },
   {
-    "Index": 269,
-    "Restaurants": "The Bagel Spot",
-    "Neighborhood": "Loop",
-    "Address": "105 W Madison St Lower level, Chicago, IL 60602",
-    "Phone Number": "(312) 248-8400",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://thebagelspotchicago.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.5,
-    "Comments by Louis Sungwoo Cho": "Fresh bagels, vegan cream cheese, easy Loop breakfast energy, and a perfect downtown spot when you want something quick, chewy, and satisfying before work or during a coffee break.",
-    "Instagram": "https://www.instagram.com/p/Dct1_y6OaQJ/?hl=en"
-  },
-  {
-    "Index": 270,
-    "Restaurants": "Sweet Reserve Cafe & Bakery",
-    "Neighborhood": "Skokie",
-    "Address": "4845 Oakton St, Skokie, IL 60077",
-    "Phone Number": "(630) 376-6150",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Oakton-Skokie",
-    "L Line [Train]": "Yellow",
-    "Meals": "Café",
-    "Menu/Website": "https://sweetreservebakery.com/pages/skokie?srsltid=AfmBOoq9sODfzs_axBv6X_2OjUwqV6LPhb2xqG_CQv_U4wLkK0el3ij4",
-    "Price $": 7.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "The peach-crust pudding dessert was sweet, rich, and satisfying.",
-    "Instagram": "https://www.instagram.com/p/DYc09d8BWRD/"
-  },
-  {
     "Index": 271,
-    "Restaurants": "Mr. Submarine Sandwiches",
-    "Neighborhood": "Loop",
-    "Address": "47 N Wells St, Chicago, IL 60606",
-    "Phone Number": "(312) 419-0008",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
-    "L Line [Train]": "Brown, Orange, Purple, Pink",
-    "Meals": "Bakery",
-    "Menu/Website": "https://mrsubmarine.com/loop/#themenu",
-    "Price $": 9.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Good sandwiches with generous portions.",
-    "Instagram": "https://www.instagram.com/p/DZtCclhhBKl/?hl=en"
-  },
-  {
-    "Index": 272,
-    "Restaurants": "Pear Chef",
-    "Neighborhood": "Loop",
-    "Address": "170 W Washington St, Chicago, IL 60602",
-    "Phone Number": "(312) 620-9889",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
-    "L Line [Train]": "Brown, Orange, Purple, Pink",
-    "Meals": "Café",
-    "Menu/Website": "http://www.pearchef.com/",
-    "Price $": 12.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Fresh wraps, quick bites, and a cozy Loop café vibe that feels perfect for an easy downtown meal or workday lunch break.",
-    "Instagram": "https://www.instagram.com/p/DZqLnq6pcTt/?hl=en"
-  },
-  {
-    "Index": 273,
-    "Restaurants": "Crumbl Cookies — Michigan Ave",
-    "Neighborhood": "Loop",
-    "Address": "333 N Michigan Ave, Suite 110, Chicago, IL 60601",
-    "Phone Number": "(312) 462-3558",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake [Millenium]",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Café",
-    "Menu/Website": "https://crumblcookies.com/stores/il/chicago-area/ilmichiganave",
-    "Price $": 0.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Sodas, cookies, sweet flavors, and a fun downtown treat deal right in the heart of the Loop.\n",
-    "Instagram": "https://www.instagram.com/p/Dbo_RQtFbur/?hl=en&img_index=1"
-  },
-  {
-    "Index": 274,
-    "Restaurants": "Capital One Café — Chicago Loop",
-    "Neighborhood": "Loop",
-    "Address": "100 S State St, Chicago, IL 60603",
-    "Phone Number": "(312) 279-1047",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash",
-    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
-    "Meals": "Café",
-    "Menu/Website": "https://www.instagram.com/p/DbrX7MGAq9m/?hl=en",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Free treat stop at Capital One Café — From July 31 to August 2, they’re offering free treats, making it a fun little downtown café break for coffee, snacks, and a sweet summer pick-me-up. ",
-    "Instagram": "https://www.instagram.com/p/DbrX7MGAq9m/?hl=en"
-  },
-  {
-    "Index": 275,
-    "Restaurants": "Hanabusa Café",
-    "Neighborhood": "Loop",
-    "Address": "29 E Madison St, Suite 180, Chicago, IL 60602",
-    "Phone Number": "(312) 584-0455",
-    "Cuisine": "Japanese",
-    "Nearest CTA L Stop [Train Station]": "Washington/Wabash, Monroe [Millenium]",
-    "L Line [Train]": "Red, Blue, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Café",
-    "Menu/Website": "https://www.hanabusacafechicago.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Fluffy Japanese soufflé pancakes, cute café energy, and a perfect downtown treat when you want something sweet, soft, and very Instagram-worthy in the Loop.",
-    "Instagram": "https://www.instagram.com/p/DcCl9zjFQ74/?hl=en&img_index=1"
-  },
-  {
-    "Index": 276,
-    "Restaurants": "The Drunken Bean Coffee & Wine Bar",
-    "Neighborhood": "Loop",
-    "Address": "400 East South Water Street, Chicago, IL 60601",
-    "Phone Number": "(312) 549-8000",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
-    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
-    "Meals": "Café",
-    "Menu/Website": "https://www.drunkenbeancafe.com/",
-    "Price $": 4.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Great Lakeshore East café energy, great drinks, and a nice neighborhood spot when you want coffee, bites, or a relaxed break near the Riverwalk and Millennium Park.",
-    "Instagram": "https://www.instagram.com/p/Dco9JxEOQH5/"
-  },
-  {
-    "Index": 277,
-    "Restaurants": "Brobagel",
-    "Neighborhood": "Wicker Park",
-    "Address": "1931 W North Ave, Chicago, IL 60622",
-    "Phone Number": "(773) 276-2243",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Damen/Milwaukee",
-    "L Line [Train]": "Blue",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://brobagel.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "The bagels were good, chewy, and such a solid Wicker Park breakfast pick when you want something quick, fresh, and satisfying near the Blue Line.",
-    "Instagram": "https://www.instagram.com/p/DcZDtLChcJd/?hl=en"
-  },
-  {
-    "Index": 278,
-    "Restaurants": "River Roast - Café",
-    "Neighborhood": "River North",
-    "Address": "315 N LaSalle St, Chicago, IL 60654",
-    "Phone Number": "(312) 822-0100",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Merchandise Mart",
-    "L Line [Train]": "Brown, Purple",
-    "Meals": "Café",
-    "Menu/Website": "https://www.riverroastchicago.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Coffee was okay, but the Riverwalk view absolutely made it worth the stop. Great downtown spot to sit by the water, enjoy the skyline, and take in that classic Chicago river energy.",
-    "Instagram": "https://www.instagram.com/p/DcbNLO8lfiU/?hl=en&img_index=1"
-  },
-  {
-    "Index": 279,
-    "Restaurants": "Boar’s Head Café",
-    "Neighborhood": "Loop",
-    "Address": "210 W Lake St, Chicago, IL 60606",
-    "Phone Number": "(312) 759-2233",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Washington/Wells",
-    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
-    "Meals": "Café, Bakery",
-    "Menu/Website": "https://boarsheadcafechicago.com/",
-    "Price $": 5.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "Quick downtown coffee, fresh café bites, and a reliable Loop spot when you need an easy office break right by one of Chicago’s busiest CTA transfer stations.",
-    "Instagram": "https://www.instagram.com/p/DctOjbYBDAz/?hl=en"
-  },
-  {
-    "Index": 280,
-    "Restaurants": "Mochinut - Lincoln Park",
-    "Neighborhood": "Lincoln Park",
-    "Address": "734 W Fullerton Ave, Chicago, IL 60614",
-    "Phone Number": "(708) 638-3892",
-    "Cuisine": "Asian Fusion",
-    "Nearest CTA L Stop [Train Station]": "Fullerton",
-    "L Line [Train]": "Red, Purple, Brown",
-    "Meals": "Café",
-    "Menu/Website": "https://www.ordermochinutchi.com/",
-    "Price $": 7.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "The raspberry lemonade was honestly such a good refreshing surprise. Perfect little treat when you want donuts and a drink that hits.",
-    "Instagram": "https://www.instagram.com/p/Dc6R-rHJV_G/?hl=en"
-  },
-  {
-    "Index": 281,
-    "Restaurants": "Corner Bakery Café - Washington/Wells",
-    "Neighborhood": "Loop",
-    "Address": "188 W Washington St, Chicago, IL 60602",
-    "Phone Number": "(312) 263-4258",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
-    "Meals": "Café",
-    "Menu/Website": "https://cornerbakerycafe.com/",
-    "Price $": 11.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The chicken sausage wrap was nice, quick, and perfect for an easy downtown office lunch right by the Loop L tracks.",
-    "Instagram": "https://www.instagram.com/p/Db_Q1LnSXO_/?hl=en"
-  },
-  {
-    "Index": 282,
-    "Restaurants": "Potbelly Sandwiches",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Bakery",
-    "Menu/Website": "https://www.potbelly.com/",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Decent sandwiches and a reliable casual option.",
-    "Instagram": "https://www.instagram.com/p/DYf1lvOB9AS/"
-  },
-  {
-    "Index": 283,
-    "Restaurants": "Subway - Madison St",
-    "Neighborhood": "Loop",
-    "Address": "105 W Madison St, Chicago, IL 60602",
-    "Phone Number": "(312) 837-3238",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
-    "Meals": "Bakery",
-    "Menu/Website": "https://www.subway.com/en-us",
-    "Price $": 8.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Quick, easy, and exactly the kind of downtown workday meal that gets the job done when you need something fast between meetings. Sometimes a simple sandwich lunch just hits.",
-    "Instagram": "https://www.instagram.com/p/DcwlGkPMJNW/?hl=en"
-  },
-  {
-    "Index": 284,
-    "Restaurants": "Kaufman's Bagel & Delicatessen",
-    "Neighborhood": "Skokie",
-    "Address": "4905 Dempster St, Skokie, IL 60077",
-    "Phone Number": "(847) 677-6190",
-    "Cuisine": "Jewish",
-    "Nearest CTA L Stop [Train Station]": "Dempster-Skokie",
-    "L Line [Train]": "Yellow",
-    "Meals": "Bakery, Café",
-    "Menu/Website": "https://kaufmans.restaurants-world.net/",
-    "Price $": 14.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "The bagel sandwich was okay, and there are many kosher meal options.",
-    "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
-  },
-  {
-    "Index": 285,
-    "Restaurants": "Happy Monday Coffee - Loop",
-    "Neighborhood": "Loop",
-    "Address": "30 E Adams St Chicago IL 60603",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
-    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink",
-    "Meals": "Café",
-    "Menu/Website": "https://www.happymondaychicago.com/",
-    "Price $": 6.0,
-    "Ratings (/5)": 3.5,
-    "Comments by Louis Sungwoo Cho": "Coffee was ok but not great",
-    "Instagram": "https://www.instagram.com/p/DY7Pmi1O3hX/"
-  },
-  {
-    "Index": 286,
-    "Restaurants": "Einstein Bros Bagels - LaSalle",
-    "Neighborhood": "Loop",
-    "Address": "30 N La Salle St Lbby Lbby 100E, Chicago, IL 60602",
-    "Phone Number": "(312) 346-5110",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
-    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
-    "Meals": "Bakery",
-    "Menu/Website": "https://www.einsteinbros.com/menu/?gad_source=1&gad_campaignid=13068647642&gbraid=0AAAAADRssCSGiQN-1QIHXC1nFCOQbB7if&gclid=CjwKCAjwzLHPBhBTEiwABaLsSnhKBI5j3ByLMiOLIn1fkOfjI2J4myh6-_-Kh7EYjiBKMngWzjghGRoC6gcQAvD_BwE",
-    "Price $": 0.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Decent bagels for a quick and convenient bite.",
-    "Instagram": "https://www.instagram.com/p/DZBHH8snUau/"
-  },
-  {
-    "Index": 287,
-    "Restaurants": "Meli Café South Loop",
-    "Neighborhood": "South Loop",
-    "Address": "500 S Dearborn St, Chicago, IL 60605",
-    "Phone Number": "(312) 834-0500",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Harrison, Jackson, Harold Washington Library [State/Van Buren]",
-    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
-    "Meals": "Café",
-    "Menu/Website": "https://www.melicafe.com/",
-    "Price $": 7.0,
-    "Ratings (/5)": 3.0,
-    "Comments by Louis Sungwoo Cho": "Smooth, refreshing, and such a great way to start the day in Printer’s Row. Perfect for breakfast, brunch, or a downtown coffee stop before work.",
-    "Instagram": "https://www.instagram.com/p/Dc04gSyOjgh/"
-  },
-  {
-    "Index": 288,
-    "Restaurants": "Jeni's Splendid Ice Cream",
-    "Neighborhood": "Various Neighborhoods",
-    "Address": "Various Addresses",
-    "Phone Number": "",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Various Stops",
-    "L Line [Train]": "Various Lines",
-    "Meals": "Café",
-    "Menu/Website": "https://jenis.com/?pb=0&srsltid=AfmBOopacL7HMqdCFQiYE9yg7sQdQlkk7NmcqrjGyykmzioJv1_mpieA#hang_open",
-    "Price $": 8.0,
-    "Ratings (/5)": 2.0,
-    "Comments by Louis Sungwoo Cho": "Not my personal go-to spot for ice cream.",
-    "Instagram": ""
-  },
-  {
-    "Index": 289,
     "Restaurants": "Ancient Grounds Coffee",
     "Neighborhood": "Lakeview",
     "Address": "1022 W Belmont Ave, Chicago, IL 60657",
@@ -4624,7 +4336,7 @@
     "Instagram": "https://www.instagram.com/p/DdhfNCtlR0S/?img_index=1"
   },
   {
-    "Index": 290,
+    "Index": 272,
     "Restaurants": "Bartlebys Homemade Ice Cream",
     "Neighborhood": "Lincoln Square",
     "Address": "1943 W Byron St, Chicago, IL 60613",
@@ -4640,7 +4352,343 @@
     "Instagram": "https://www.instagram.com/p/Ddhe4McFa9V/?img_index=1"
   },
   {
+    "Index": 273,
+    "Restaurants": "Chicago French Press at Roosevelt Collection",
+    "Neighborhood": "South Loop",
+    "Address": "1021 S Delano Ct, Chicago, IL 60605",
+    "Phone Number": "(312) 957-1601",
+    "Cuisine": "American, French",
+    "Nearest CTA L Stop [Train Station]": "Roosevelt, [Museum Campus/11th Street]",
+    "L Line [Train]": "Red, Orange, Green [Metra]",
+    "Meals": "Café",
+    "Menu/Website": "https://chicagofrenchpress.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great coffee at Chicago French Press near Roosevelt! Such a nice spot for a coffee break in the South Loop, with a relaxed atmosphere and plenty of downtown Chicago energy nearby.",
+    "Instagram": "https://www.instagram.com/p/DdwU58jB3KP/?hl=en"
+  },
+  {
+    "Index": 274,
+    "Restaurants": "The Bagel Spot",
+    "Neighborhood": "Loop",
+    "Address": "105 W Madison St Lower level, Chicago, IL 60602",
+    "Phone Number": "(312) 248-8400",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
+    "Meals": "Bakery, Café",
+    "Menu/Website": "https://thebagelspotchicago.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.5,
+    "Comments by Louis Sungwoo Cho": "Fresh bagels, vegan cream cheese, easy Loop breakfast energy, and a perfect downtown spot when you want something quick, chewy, and satisfying before work or during a coffee break.",
+    "Instagram": "https://www.instagram.com/p/Dct1_y6OaQJ/?hl=en"
+  },
+  {
+    "Index": 275,
+    "Restaurants": "Sweet Reserve Cafe & Bakery",
+    "Neighborhood": "Skokie",
+    "Address": "4845 Oakton St, Skokie, IL 60077",
+    "Phone Number": "(630) 376-6150",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Oakton-Skokie",
+    "L Line [Train]": "Yellow",
+    "Meals": "Café",
+    "Menu/Website": "https://sweetreservebakery.com/pages/skokie?srsltid=AfmBOoq9sODfzs_axBv6X_2OjUwqV6LPhb2xqG_CQv_U4wLkK0el3ij4",
+    "Price $": 7.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "The peach-crust pudding dessert was sweet, rich, and satisfying.",
+    "Instagram": "https://www.instagram.com/p/DYc09d8BWRD/"
+  },
+  {
+    "Index": 276,
+    "Restaurants": "Mr. Submarine Sandwiches",
+    "Neighborhood": "Loop",
+    "Address": "47 N Wells St, Chicago, IL 60606",
+    "Phone Number": "(312) 419-0008",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Brown, Orange, Purple, Pink",
+    "Meals": "Bakery",
+    "Menu/Website": "https://mrsubmarine.com/loop/#themenu",
+    "Price $": 9.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Good sandwiches with generous portions.",
+    "Instagram": "https://www.instagram.com/p/DZtCclhhBKl/?hl=en"
+  },
+  {
+    "Index": 277,
+    "Restaurants": "Pear Chef",
+    "Neighborhood": "Loop",
+    "Address": "170 W Washington St, Chicago, IL 60602",
+    "Phone Number": "(312) 620-9889",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wells",
+    "L Line [Train]": "Brown, Orange, Purple, Pink",
+    "Meals": "Café",
+    "Menu/Website": "http://www.pearchef.com/",
+    "Price $": 12.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Fresh wraps, quick bites, and a cozy Loop café vibe that feels perfect for an easy downtown meal or workday lunch break.",
+    "Instagram": "https://www.instagram.com/p/DZqLnq6pcTt/?hl=en"
+  },
+  {
+    "Index": 278,
+    "Restaurants": "Crumbl Cookies — Michigan Ave",
+    "Neighborhood": "Loop",
+    "Address": "333 N Michigan Ave, Suite 110, Chicago, IL 60601",
+    "Phone Number": "(312) 462-3558",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake [Millenium]",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Café",
+    "Menu/Website": "https://crumblcookies.com/stores/il/chicago-area/ilmichiganave",
+    "Price $": 0.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Sodas, cookies, sweet flavors, and a fun downtown treat deal right in the heart of the Loop.\n",
+    "Instagram": "https://www.instagram.com/p/Dbo_RQtFbur/?hl=en&img_index=1"
+  },
+  {
+    "Index": 279,
+    "Restaurants": "Capital One Café — Chicago Loop",
+    "Neighborhood": "Loop",
+    "Address": "100 S State St, Chicago, IL 60603",
+    "Phone Number": "(312) 279-1047",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wabash",
+    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
+    "Meals": "Café",
+    "Menu/Website": "https://www.instagram.com/p/DbrX7MGAq9m/?hl=en",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Free treat stop at Capital One Café — From July 31 to August 2, they’re offering free treats, making it a fun little downtown café break for coffee, snacks, and a sweet summer pick-me-up. ",
+    "Instagram": "https://www.instagram.com/p/DbrX7MGAq9m/?hl=en"
+  },
+  {
+    "Index": 280,
+    "Restaurants": "Hanabusa Café",
+    "Neighborhood": "Loop",
+    "Address": "29 E Madison St, Suite 180, Chicago, IL 60602",
+    "Phone Number": "(312) 584-0455",
+    "Cuisine": "Japanese",
+    "Nearest CTA L Stop [Train Station]": "Washington/Wabash, Monroe [Millenium]",
+    "L Line [Train]": "Red, Blue, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Café",
+    "Menu/Website": "https://www.hanabusacafechicago.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Fluffy Japanese soufflé pancakes, cute café energy, and a perfect downtown treat when you want something sweet, soft, and very Instagram-worthy in the Loop.",
+    "Instagram": "https://www.instagram.com/p/DcCl9zjFQ74/?hl=en&img_index=1"
+  },
+  {
+    "Index": 281,
+    "Restaurants": "The Drunken Bean Coffee & Wine Bar",
+    "Neighborhood": "Loop",
+    "Address": "400 East South Water Street, Chicago, IL 60601",
+    "Phone Number": "(312) 549-8000",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "State/Lake [Millenium]",
+    "L Line [Train]": "Red, Green, Brown, Orange, Purple, Pink [Metra, South Shore]",
+    "Meals": "Café",
+    "Menu/Website": "https://www.drunkenbeancafe.com/",
+    "Price $": 4.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Great Lakeshore East café energy, great drinks, and a nice neighborhood spot when you want coffee, bites, or a relaxed break near the Riverwalk and Millennium Park.",
+    "Instagram": "https://www.instagram.com/p/Dco9JxEOQH5/"
+  },
+  {
+    "Index": 282,
+    "Restaurants": "Brobagel",
+    "Neighborhood": "Wicker Park",
+    "Address": "1931 W North Ave, Chicago, IL 60622",
+    "Phone Number": "(773) 276-2243",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Damen/Milwaukee",
+    "L Line [Train]": "Blue",
+    "Meals": "Bakery, Café",
+    "Menu/Website": "https://brobagel.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "The bagels were good, chewy, and such a solid Wicker Park breakfast pick when you want something quick, fresh, and satisfying near the Blue Line.",
+    "Instagram": "https://www.instagram.com/p/DcZDtLChcJd/?hl=en"
+  },
+  {
+    "Index": 283,
+    "Restaurants": "River Roast - Café",
+    "Neighborhood": "River North",
+    "Address": "315 N LaSalle St, Chicago, IL 60654",
+    "Phone Number": "(312) 822-0100",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Merchandise Mart",
+    "L Line [Train]": "Brown, Purple",
+    "Meals": "Café",
+    "Menu/Website": "https://www.riverroastchicago.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Coffee was okay, but the Riverwalk view absolutely made it worth the stop. Great downtown spot to sit by the water, enjoy the skyline, and take in that classic Chicago river energy.",
+    "Instagram": "https://www.instagram.com/p/DcbNLO8lfiU/?hl=en&img_index=1"
+  },
+  {
+    "Index": 284,
+    "Restaurants": "Boar’s Head Café",
+    "Neighborhood": "Loop",
+    "Address": "210 W Lake St, Chicago, IL 60606",
+    "Phone Number": "(312) 759-2233",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Clark/Lake, State/Lake, Washington/Wells",
+    "L Line [Train]": "Red, Blue, Orange, Green, Purple, Pink, Brown",
+    "Meals": "Café, Bakery",
+    "Menu/Website": "https://boarsheadcafechicago.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "Quick downtown coffee, fresh café bites, and a reliable Loop spot when you need an easy office break right by one of Chicago’s busiest CTA transfer stations.",
+    "Instagram": "https://www.instagram.com/p/DctOjbYBDAz/?hl=en"
+  },
+  {
+    "Index": 285,
+    "Restaurants": "Mochinut - Lincoln Park",
+    "Neighborhood": "Lincoln Park",
+    "Address": "734 W Fullerton Ave, Chicago, IL 60614",
+    "Phone Number": "(708) 638-3892",
+    "Cuisine": "Asian Fusion",
+    "Nearest CTA L Stop [Train Station]": "Fullerton",
+    "L Line [Train]": "Red, Purple, Brown",
+    "Meals": "Café",
+    "Menu/Website": "https://www.ordermochinutchi.com/",
+    "Price $": 7.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "The raspberry lemonade was honestly such a good refreshing surprise. Perfect little treat when you want donuts and a drink that hits.",
+    "Instagram": "https://www.instagram.com/p/Dc6R-rHJV_G/?hl=en"
+  },
+  {
+    "Index": 286,
+    "Restaurants": "Corner Bakery Café - Washington/Wells",
+    "Neighborhood": "Loop",
+    "Address": "188 W Washington St, Chicago, IL 60602",
+    "Phone Number": "(312) 263-4258",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
+    "Meals": "Café",
+    "Menu/Website": "https://cornerbakerycafe.com/",
+    "Price $": 11.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The chicken sausage wrap was nice, quick, and perfect for an easy downtown office lunch right by the Loop L tracks.",
+    "Instagram": "https://www.instagram.com/p/Db_Q1LnSXO_/?hl=en"
+  },
+  {
+    "Index": 287,
+    "Restaurants": "Potbelly Sandwiches",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.potbelly.com/",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Decent sandwiches and a reliable casual option.",
+    "Instagram": "https://www.instagram.com/p/DYf1lvOB9AS/"
+  },
+  {
+    "Index": 288,
+    "Restaurants": "Subway - Madison St",
+    "Neighborhood": "Loop",
+    "Address": "105 W Madison St, Chicago, IL 60602",
+    "Phone Number": "(312) 837-3238",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.subway.com/en-us",
+    "Price $": 8.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Quick, easy, and exactly the kind of downtown workday meal that gets the job done when you need something fast between meetings. Sometimes a simple sandwich lunch just hits.",
+    "Instagram": "https://www.instagram.com/p/DcwlGkPMJNW/?hl=en"
+  },
+  {
+    "Index": 289,
+    "Restaurants": "Kaufman's Bagel & Delicatessen",
+    "Neighborhood": "Skokie",
+    "Address": "4905 Dempster St, Skokie, IL 60077",
+    "Phone Number": "(847) 677-6190",
+    "Cuisine": "Jewish",
+    "Nearest CTA L Stop [Train Station]": "Dempster-Skokie",
+    "L Line [Train]": "Yellow",
+    "Meals": "Bakery, Café",
+    "Menu/Website": "https://kaufmans.restaurants-world.net/",
+    "Price $": 14.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "The bagel sandwich was okay, and there are many kosher meal options.",
+    "Instagram": "https://www.instagram.com/p/DX4XvagFfGD/"
+  },
+  {
+    "Index": 290,
+    "Restaurants": "Happy Monday Coffee - Loop",
+    "Neighborhood": "Loop",
+    "Address": "30 E Adams St Chicago IL 60603",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Adams/Wabash, Monroe",
+    "L Line [Train]": "Blue, Red, Green, Brown, Orange, Purple, Pink",
+    "Meals": "Café",
+    "Menu/Website": "https://www.happymondaychicago.com/",
+    "Price $": 6.0,
+    "Ratings (/5)": 3.5,
+    "Comments by Louis Sungwoo Cho": "Coffee was ok but not great",
+    "Instagram": "https://www.instagram.com/p/DY7Pmi1O3hX/"
+  },
+  {
     "Index": 291,
+    "Restaurants": "Einstein Bros Bagels - LaSalle",
+    "Neighborhood": "Loop",
+    "Address": "30 N La Salle St Lbby Lbby 100E, Chicago, IL 60602",
+    "Phone Number": "(312) 346-5110",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Monroe, Washington/Wells",
+    "L Line [Train]": "Blue, Red, Brown, Orange, Purple, Pink",
+    "Meals": "Bakery",
+    "Menu/Website": "https://www.einsteinbros.com/menu/?gad_source=1&gad_campaignid=13068647642&gbraid=0AAAAADRssCSGiQN-1QIHXC1nFCOQbB7if&gclid=CjwKCAjwzLHPBhBTEiwABaLsSnhKBI5j3ByLMiOLIn1fkOfjI2J4myh6-_-Kh7EYjiBKMngWzjghGRoC6gcQAvD_BwE",
+    "Price $": 0.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Decent bagels for a quick and convenient bite.",
+    "Instagram": "https://www.instagram.com/p/DZBHH8snUau/"
+  },
+  {
+    "Index": 292,
+    "Restaurants": "Meli Café South Loop",
+    "Neighborhood": "South Loop",
+    "Address": "500 S Dearborn St, Chicago, IL 60605",
+    "Phone Number": "(312) 834-0500",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Harrison, Jackson, Harold Washington Library [State/Van Buren]",
+    "L Line [Train]": "Red, Blue, Orange, Purple, Pink, Brown",
+    "Meals": "Café",
+    "Menu/Website": "https://www.melicafe.com/",
+    "Price $": 7.0,
+    "Ratings (/5)": 3.0,
+    "Comments by Louis Sungwoo Cho": "Smooth, refreshing, and such a great way to start the day in Printer’s Row. Perfect for breakfast, brunch, or a downtown coffee stop before work.",
+    "Instagram": "https://www.instagram.com/p/Dc04gSyOjgh/"
+  },
+  {
+    "Index": 293,
+    "Restaurants": "Jeni's Splendid Ice Cream",
+    "Neighborhood": "Various Neighborhoods",
+    "Address": "Various Addresses",
+    "Phone Number": "",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Various Stops",
+    "L Line [Train]": "Various Lines",
+    "Meals": "Café",
+    "Menu/Website": "https://jenis.com/?pb=0&srsltid=AfmBOopacL7HMqdCFQiYE9yg7sQdQlkk7NmcqrjGyykmzioJv1_mpieA#hang_open",
+    "Price $": 8.0,
+    "Ratings (/5)": 2.0,
+    "Comments by Louis Sungwoo Cho": "Not my personal go-to spot for ice cream.",
+    "Instagram": ""
+  },
+  {
+    "Index": 294,
     "Restaurants": "Pilot Project Brewing - Logan Square",
     "Neighborhood": "Logan Square",
     "Address": "2140 N Milwaukee Ave, Chicago, IL 60647",
@@ -4650,13 +4698,13 @@
     "L Line [Train]": "Blue",
     "Meals": "Bar",
     "Menu/Website": "https://www.pilotprojectbrewing.com/",
-    "Price $": 0.0,
+    "Price $": 7.0,
     "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great choice of drinks and bites. Always a great place to network with professionals and friends!",
+    "Comments by Louis Sungwoo Cho": "Craft beer and community at Pilot Project Brewing. Creative brews, casual bites, and a lively Logan Square space that feels perfect for meeting people, catching up with friends, or networking over drinks.",
     "Instagram": "https://www.instagram.com/p/DX4a_i3FRqh/?img_index=1"
   },
   {
-    "Index": 292,
+    "Index": 295,
     "Restaurants": "The Reveler",
     "Neighborhood": "Lincoln Square",
     "Address": "3403 N Damen Ave, Chicago, IL 60657",
@@ -4672,7 +4720,7 @@
     "Instagram": ""
   },
   {
-    "Index": 293,
+    "Index": 296,
     "Restaurants": "Bar Moxy",
     "Neighborhood": "River North",
     "Address": "530 N La Salle Dr, Chicago, IL 60654",
@@ -4684,11 +4732,11 @@
     "Menu/Website": "https://www.marriott.com/en-us/hotels/chiox-moxy-chicago-downtown/dining/",
     "Price $": 15.0,
     "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "A great place for cocktails in River North.",
+    "Comments by Louis Sungwoo Cho": "Great drinks, playful hotel bar energy, and a fun River North spot that feels perfect for a casual night out, pre-dinner meetup, or late-night hang.",
     "Instagram": "https://www.instagram.com/p/DawPcz1htiO/?hl=en"
   },
   {
-    "Index": 294,
+    "Index": 297,
     "Restaurants": "Franklin Tap",
     "Neighborhood": "Loop",
     "Address": "325 S Franklin St, Chicago, IL, 60606",
@@ -4700,27 +4748,27 @@
     "Menu/Website": "https://www.franklintap.com/",
     "Price $": 0.0,
     "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great choice of drinks and bites. Always a great place to network with professionals and friends!",
+    "Comments by Louis Sungwoo Cho": "After-work drinks at Franklin Tap. Great beer, casual pub energy, and a solid Loop spot for happy hour, burgers, sandwiches, or catching up downtown.",
     "Instagram": "https://www.instagram.com/p/DYc0P4VMzXm/"
   },
   {
-    "Index": 295,
+    "Index": 298,
     "Restaurants": "Haymarket Pub & Brewery",
     "Neighborhood": "West Loop",
     "Address": "737 W Randolph St, Chicago, IL 60661",
     "Phone Number": "(312) 638-0700",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Clinton [Ogilvie Transportation Center]",
+    "Nearest CTA L Stop [Train Station]": "Morgan/Lake [Ogilvie Transportation Center]",
     "L Line [Train]": "Green, Pink [Metra]",
     "Meals": "Bar",
     "Menu/Website": "https://www.haymarketbeer.com/",
-    "Price $": 0.0,
+    "Price $": 6.0,
     "Ratings (/5)": 5.0,
-    "Comments by Louis Sungwoo Cho": "Great choice of drinks and bites. Always a great place to network with professionals and friends!",
-    "Instagram": ""
+    "Comments by Louis Sungwoo Cho": "Great day to relax at Haymarket Pub & Brewery! Such a fun West Loop spot to unwind with good food, craft beer, and a lively Chicago atmosphere.",
+    "Instagram": "https://www.instagram.com/p/DdzZJAyuxYk/?hl=en"
   },
   {
-    "Index": 296,
+    "Index": 299,
     "Restaurants": "Marz Community Brewing Company",
     "Neighborhood": "McKinley Park",
     "Address": "3630 S Iron St, Chicago, IL 60609",
@@ -4736,7 +4784,7 @@
     "Instagram": "https://www.instagram.com/p/DYIouBElcuC/?img_index=1"
   },
   {
-    "Index": 297,
+    "Index": 300,
     "Restaurants": "Shakers on Clark",
     "Neighborhood": "Lakeview",
     "Address": "3162 N Clark St, Chicago, IL 60657",
@@ -4752,7 +4800,7 @@
     "Instagram": "https://www.instagram.com/p/DYLY80HFQeo/?img_index=1"
   },
   {
-    "Index": 298,
+    "Index": 301,
     "Restaurants": "Dovetail Brewery",
     "Neighborhood": "Lincoln Square",
     "Address": "1800 W Belle Plaine Ave, Chicago, IL 60613",
@@ -4768,7 +4816,7 @@
     "Instagram": "https://www.instagram.com/p/DYV3xY0lerA/?img_index=1"
   },
   {
-    "Index": 299,
+    "Index": 302,
     "Restaurants": "Jake Melnick’s Corner Tap",
     "Neighborhood": "River North",
     "Address": "41 E Superior St, Chicago, IL 60611",
@@ -4784,7 +4832,7 @@
     "Instagram": "https://www.instagram.com/p/DYbAlbqMllv/"
   },
   {
-    "Index": 300,
+    "Index": 303,
     "Restaurants": "Double Clutch Brewing Company",
     "Neighborhood": "Evanston",
     "Address": "2121 Ashland Ave, Evanston, IL 60201",
@@ -4800,7 +4848,7 @@
     "Instagram": "https://www.instagram.com/p/DYbBZoWlQ9q/?img_index=1"
   },
   {
-    "Index": 301,
+    "Index": 304,
     "Restaurants": "The Getaway",
     "Neighborhood": "Lincoln Square",
     "Address": "4530 N Lincoln Ave, Chicago, IL 60625",
@@ -4816,7 +4864,7 @@
     "Instagram": "https://www.instagram.com/p/DYf89ZiFSJ0/?img_index=1"
   },
   {
-    "Index": 302,
+    "Index": 305,
     "Restaurants": "CloudBar at 360 CHICAGO",
     "Neighborhood": "River North",
     "Address": "875 N Michigan Ave 94th floor, Chicago, IL 60611",
@@ -4832,7 +4880,7 @@
     "Instagram": "https://www.instagram.com/p/DYlql8zDoaL/?img_index=1"
   },
   {
-    "Index": 303,
+    "Index": 306,
     "Restaurants": "Declan’s Irish Pub",
     "Neighborhood": "Old Town",
     "Address": "1240 N Wells St, Chicago, IL 60610",
@@ -4848,7 +4896,7 @@
     "Instagram": "https://www.instagram.com/p/DYbAINuPdJi/"
   },
   {
-    "Index": 304,
+    "Index": 307,
     "Restaurants": "Reunion by Chef Art Smith",
     "Neighborhood": "Navy Pier",
     "Address": "Navy Pier, 600 E Grand Ave, Chicago, IL 60611",
@@ -4864,7 +4912,7 @@
     "Instagram": "https://www.instagram.com/p/DYtTEKQlfxD/?img_index=1"
   },
   {
-    "Index": 305,
+    "Index": 308,
     "Restaurants": "Timothy O’Toole’s",
     "Neighborhood": "River North",
     "Address": "622 N Fairbanks Ct, Chicago, IL 60611",
@@ -4880,7 +4928,7 @@
     "Instagram": "https://www.instagram.com/p/DY0q6oEFcvC/?img_index=1"
   },
   {
-    "Index": 306,
+    "Index": 309,
     "Restaurants": "Vintage Bar",
     "Neighborhood": "West Loop",
     "Address": "1449 W Taylor St, Chicago, IL 60607",
@@ -4896,7 +4944,7 @@
     "Instagram": "https://www.instagram.com/p/DY6El0dFZPd/?img_index=1"
   },
   {
-    "Index": 307,
+    "Index": 310,
     "Restaurants": "Midwest Coast Brewing",
     "Neighborhood": "West Loop",
     "Address": "2137 W Walnut St, Chicago, IL 60612",
@@ -4912,7 +4960,7 @@
     "Instagram": "https://www.instagram.com/p/DZlVlRsMYmH/?hl=en"
   },
   {
-    "Index": 308,
+    "Index": 311,
     "Restaurants": "AIRE Rooftop Bar",
     "Neighborhood": "Loop",
     "Address": "100 W Monroe St, 24th Floor, Chicago, IL 60603",
@@ -4928,7 +4976,7 @@
     "Instagram": "https://www.instagram.com/p/DZ1EZb3FQCM/?hl=en&img_index=1"
   },
   {
-    "Index": 309,
+    "Index": 312,
     "Restaurants": "The Beer Temple",
     "Neighborhood": "Avondale",
     "Address": "3173 N Elston Ave, Chicago, IL 60618",
@@ -4944,7 +4992,7 @@
     "Instagram": "https://www.instagram.com/p/DZ_ZIXeFX8W/?hl=en&img_index=1"
   },
   {
-    "Index": 310,
+    "Index": 313,
     "Restaurants": "Hopsmith Chicago",
     "Neighborhood": "River North",
     "Address": "15 W Division St, Chicago, IL 60610",
@@ -4960,7 +5008,7 @@
     "Instagram": "https://www.instagram.com/p/DaB_YFQFbMP/?hl=en&img_index=1"
   },
   {
-    "Index": 311,
+    "Index": 314,
     "Restaurants": "Pancho’s Rooftop Cantina",
     "Neighborhood": "South Loop",
     "Address": "327 S Plymouth Ct, Chicago, IL 60604",
@@ -4976,7 +5024,7 @@
     "Instagram": "https://www.instagram.com/p/DaMKlY-FZX2/?img_index=1"
   },
   {
-    "Index": 312,
+    "Index": 315,
     "Restaurants": "Henrietta",
     "Neighborhood": "Loop",
     "Address": "151 W Adams St, Chicago, IL 60603",
@@ -4992,7 +5040,7 @@
     "Instagram": "https://www.instagram.com/p/DaRl0tFFTZE/?hl=en"
   },
   {
-    "Index": 313,
+    "Index": 316,
     "Restaurants": "Vol. 39",
     "Neighborhood": "Loop",
     "Address": "39 S LaSalle St, Chicago, IL 60603",
@@ -5008,7 +5056,7 @@
     "Instagram": "https://www.instagram.com/p/DaT9z7xjDIO/?img_index=1"
   },
   {
-    "Index": 314,
+    "Index": 317,
     "Restaurants": "Brehon Pub",
     "Neighborhood": "River North",
     "Address": "731 N Wells St, Chicago, IL 60654",
@@ -5024,7 +5072,7 @@
     "Instagram": "https://www.instagram.com/p/DaebvujP4Df/?hl=en"
   },
   {
-    "Index": 315,
+    "Index": 318,
     "Restaurants": "Monk's Pub",
     "Neighborhood": "Loop",
     "Address": "205 W Lake St, Chicago, IL 60606",
@@ -5040,7 +5088,7 @@
     "Instagram": "https://www.instagram.com/p/DajbaeVh090/?hl=en"
   },
   {
-    "Index": 316,
+    "Index": 319,
     "Restaurants": "Azul",
     "Neighborhood": "West Town",
     "Address": "1177 N Elston Ave, Chicago, IL 60642",
@@ -5056,7 +5104,7 @@
     "Instagram": "https://www.instagram.com/p/Dasuh3vlU5W/?img_index=1"
   },
   {
-    "Index": 317,
+    "Index": 320,
     "Restaurants": "Federales Tacos & Tequila — Fulton Market",
     "Neighborhood": "West Loop",
     "Address": "180 N Morgan St, Chicago, IL 60607",
@@ -5072,7 +5120,7 @@
     "Instagram": "https://www.instagram.com/p/Da88c2fFQMi/?img_index=1"
   },
   {
-    "Index": 318,
+    "Index": 321,
     "Restaurants": "ROOF on theWit",
     "Neighborhood": "Loop",
     "Address": "201 N State St, 27th Floor, Chicago, IL 60601",
@@ -5088,7 +5136,7 @@
     "Instagram": "https://www.instagram.com/p/Da_cOzgFccv/?hl=en&img_index=1"
   },
   {
-    "Index": 319,
+    "Index": 322,
     "Restaurants": "New Line Tavern",
     "Neighborhood": "West Loop",
     "Address": "201 N Clinton St, Chicago, IL 60661",
@@ -5104,7 +5152,7 @@
     "Instagram": "https://www.instagram.com/p/DbKCiwclQtT/?hl=en&img_index=1"
   },
   {
-    "Index": 320,
+    "Index": 323,
     "Restaurants": "Winnie's Chicago",
     "Neighborhood": "Old Town",
     "Address": "1400 N Wells St, Chicago, IL 60610",
@@ -5120,7 +5168,7 @@
     "Instagram": "https://www.instagram.com/p/DbO_AMFz1a1/?hl=en"
   },
   {
-    "Index": 321,
+    "Index": 324,
     "Restaurants": "Jimmy Buffett’s Margaritaville — Navy Pier",
     "Neighborhood": "Navy Pier",
     "Address": "700 E Grand Ave, Chicago, IL 60611",
@@ -5136,13 +5184,13 @@
     "Instagram": "https://www.instagram.com/p/DbQ7_RjtYYT/?hl=en"
   },
   {
-    "Index": 322,
+    "Index": 325,
     "Restaurants": "Black Barrel Tavern",
     "Neighborhood": "West Loop",
     "Address": "1061 W Madison St, Chicago, IL 60607",
     "Phone Number": "(773) 280-5500",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Morgan",
+    "Nearest CTA L Stop [Train Station]": "Morgan/Lake",
     "L Line [Train]": "Green, Pink",
     "Meals": "Bar",
     "Menu/Website": "https://blackbarreltavern.shop/",
@@ -5152,7 +5200,7 @@
     "Instagram": "https://www.instagram.com/p/DbW4MjdFWGU/?hl=en&img_index=1"
   },
   {
-    "Index": 323,
+    "Index": 326,
     "Restaurants": "O'Neil's on Wells",
     "Neighborhood": "Loop",
     "Address": "411 S Wells St, Chicago, IL 60607",
@@ -5168,7 +5216,7 @@
     "Instagram": "https://www.instagram.com/p/DcFEDIBFQYq/?hl=en&img_index=1"
   },
   {
-    "Index": 324,
+    "Index": 327,
     "Restaurants": "London House Rooftop Bar",
     "Neighborhood": "Loop",
     "Address": "85 E Wacker Dr, Chicago, IL 60601",
@@ -5184,7 +5232,7 @@
     "Instagram": "https://www.instagram.com/p/DcKZubdPPxB/?hl=en"
   },
   {
-    "Index": 325,
+    "Index": 328,
     "Restaurants": "Raised Urban Rooftop Bar",
     "Neighborhood": "Loop",
     "Address": "1 W Wacker Dr, Chicago, IL 60601",
@@ -5200,7 +5248,7 @@
     "Instagram": "https://www.instagram.com/p/DcV7QPkukZO/?hl=en"
   },
   {
-    "Index": 326,
+    "Index": 329,
     "Restaurants": "The Rabbit Hole Old Town",
     "Neighborhood": "Old Town",
     "Address": "1208 N Wells St, Chicago, IL 60610",
@@ -5216,7 +5264,7 @@
     "Instagram": "https://www.instagram.com/p/DccWmfdTqge/?hl=en"
   },
   {
-    "Index": 327,
+    "Index": 330,
     "Restaurants": "About Last Knife",
     "Neighborhood": "Loop",
     "Address": "168 N Michigan Ave, Chicago, IL 60601",
@@ -5232,7 +5280,7 @@
     "Instagram": "https://www.instagram.com/p/DckINAvFXf7/?hl=en&img_index=1"
   },
   {
-    "Index": 328,
+    "Index": 331,
     "Restaurants": "Boss Bar",
     "Neighborhood": "River North",
     "Address": "420 N Clark St, Chicago, IL 60654",
@@ -5248,7 +5296,7 @@
     "Instagram": "https://www.instagram.com/p/DcmtlSwFYN2/?hl=en&img_index=1"
   },
   {
-    "Index": 329,
+    "Index": 332,
     "Restaurants": "Half Sour",
     "Neighborhood": "South Loop",
     "Address": "755 S Clark St, Chicago, IL 60605",
@@ -5264,7 +5312,7 @@
     "Instagram": "https://www.instagram.com/p/Dcrzi5Vv04B/"
   },
   {
-    "Index": 330,
+    "Index": 333,
     "Restaurants": "Lincoln Square Taproom",
     "Neighborhood": "Lincoln Square",
     "Address": "4721 N Lincoln Ave, Chicago, IL 60625",
@@ -5280,7 +5328,7 @@
     "Instagram": "https://www.instagram.com/p/Dc4pjTTs9TK/?hl=en"
   },
   {
-    "Index": 331,
+    "Index": 334,
     "Restaurants": "Off Color Brewing The Mousetrap",
     "Neighborhood": "Lincoln Park",
     "Address": "1460 N Kingsbury St, Chicago, IL 60642",
@@ -5296,7 +5344,7 @@
     "Instagram": "https://www.instagram.com/p/DdSdm5HFZrh/?img_index=1"
   },
   {
-    "Index": 332,
+    "Index": 335,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 W Hubbard St, Chicago, IL 60654",
@@ -5312,7 +5360,7 @@
     "Instagram": "https://www.instagram.com/p/Dc7VM3klc7x/?hl=en&img_index=1"
   },
   {
-    "Index": 333,
+    "Index": 336,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -5328,7 +5376,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 334,
+    "Index": 337,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -5344,7 +5392,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 335,
+    "Index": 338,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -5360,7 +5408,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 336,
+    "Index": 339,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -5376,7 +5424,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 337,
+    "Index": 340,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
@@ -5392,7 +5440,7 @@
     "Instagram": "https://www.instagram.com/p/DaOyxBjpAH3/?hl=en"
   },
   {
-    "Index": 338,
+    "Index": 341,
     "Restaurants": "Island Party Hut - Chicago",
     "Neighborhood": "Loop",
     "Address": "355 E Riverwalk, Chicago, IL 60601",
