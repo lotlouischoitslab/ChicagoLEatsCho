@@ -4790,7 +4790,7 @@
     "Address": "3162 N Clark St, Chicago, IL 60657",
     "Phone Number": "(773) 327-5969",
     "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Belmont/Avondale",
+    "Nearest CTA L Stop [Train Station]": "Belmont/Lakeview",
     "L Line [Train]": "Red, Purple, Brown",
     "Meals": "Bar",
     "Menu/Website": "https://www.shakersonclark.com/",
@@ -5345,6 +5345,22 @@
   },
   {
     "Index": 335,
+    "Restaurants": "Trader Todd’s",
+    "Neighborhood": "Lakeview",
+    "Address": "3216 N Sheffield Ave, Chicago, IL 60657",
+    "Phone Number": "(773) 348-3250",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Belmont/Lakeview",
+    "L Line [Train]": "Red, Purple, Brown",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.tradertodd.com/",
+    "Price $": 5.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Amazing karaoke and bar night out at Trader Todd’s! Such a fun place for singing, drinks, and a lively night with friends in Lakeview. Definitely a great spot when you want a high-energy Chicago night out and enjoy the Bears football game!",
+    "Instagram": "https://www.instagram.com/p/Dd2o5p4FTE2/?hl=en&img_index=1"
+  },
+  {
+    "Index": 336,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 W Hubbard St, Chicago, IL 60654",
@@ -5360,7 +5376,7 @@
     "Instagram": "https://www.instagram.com/p/Dc7VM3klc7x/?hl=en&img_index=1"
   },
   {
-    "Index": 336,
+    "Index": 337,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -5376,7 +5392,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 337,
+    "Index": 338,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -5392,7 +5408,7 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 338,
+    "Index": 339,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -5408,7 +5424,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 339,
+    "Index": 340,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -5424,7 +5440,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 340,
+    "Index": 341,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
@@ -5440,7 +5456,7 @@
     "Instagram": "https://www.instagram.com/p/DaOyxBjpAH3/?hl=en"
   },
   {
-    "Index": 341,
+    "Index": 342,
     "Restaurants": "Island Party Hut - Chicago",
     "Neighborhood": "Loop",
     "Address": "355 E Riverwalk, Chicago, IL 60601",
