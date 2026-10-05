@@ -5457,6 +5457,22 @@
   },
   {
     "Index": 342,
+    "Restaurants": "Kitty O’Sheas",
+    "Neighborhood": "South Loop",
+    "Address": "720 S Michigan Ave, Chicago, IL 60605",
+    "Phone Number": "(312) 294-6860",
+    "Cuisine": "Irish",
+    "Nearest CTA L Stop [Train Station]": "Harrison [Museum Campus/11th Street]",
+    "L Line [Train]": "Red [Metra, South Shore]",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.hiltonchicagomeetings.com/hotel-information/hotel-amenities/restaurants-bars/kitty-o-sheas/",
+    "Price $": 12.0,
+    "Ratings (/5)": 5.0,
+    "Comments by Louis Sungwoo Cho": "Great pint of Guinness at Kitty O’Sheas! A fun Irish pub atmosphere, a perfectly poured pint, and a great place to unwind right along Michigan Avenue.",
+    "Instagram": "https://www.instagram.com/p/DeGKbK2OdMs/"
+  },
+  {
+    "Index": 343,
     "Restaurants": "Joy District",
     "Neighborhood": "River North",
     "Address": "112 W Hubbard St, Chicago, IL 60654",
@@ -5472,7 +5488,7 @@
     "Instagram": "https://www.instagram.com/p/Dc7VM3klc7x/?hl=en&img_index=1"
   },
   {
-    "Index": 343,
+    "Index": 344,
     "Restaurants": "Caffe Oliva",
     "Neighborhood": "River North",
     "Address": "550 E Grand Ave, Chicago, IL 60611",
@@ -5488,7 +5504,7 @@
     "Instagram": "https://www.instagram.com/p/DYscjNTlRFg/?img_index=1"
   },
   {
-    "Index": 344,
+    "Index": 345,
     "Restaurants": "The Berghoff and Adams Street Brewery",
     "Neighborhood": "Loop",
     "Address": " 17 W Adams St, Chicago, IL 60603",
@@ -5504,7 +5520,23 @@
     "Instagram": "https://www.instagram.com/p/DZEGiKWlaXs/?img_index=1"
   },
   {
-    "Index": 345,
+    "Index": 346,
+    "Restaurants": "Three Dots and a Dash",
+    "Neighborhood": "River North",
+    "Address": "435 N Clark St, Chicago, IL 60654",
+    "Phone Number": "(312) 610-4220",
+    "Cuisine": "American",
+    "Nearest CTA L Stop [Train Station]": "Grand/State",
+    "L Line [Train]": "Red",
+    "Meals": "Bar",
+    "Menu/Website": "https://www.threedotschicago.com/",
+    "Price $": 15.0,
+    "Ratings (/5)": 4.0,
+    "Comments by Louis Sungwoo Cho": "The hidden alley entrance, underground setting, dramatic decor, and creative cocktails made the whole night feel like stepping into another world. Such a fun spot for a spooky night out in River North!",
+    "Instagram": "https://www.instagram.com/p/DeA1RapFcgE/?img_index=1"
+  },
+  {
+    "Index": 347,
     "Restaurants": "Wild Goose Bar & Grill",
     "Neighborhood": "Lincoln Square",
     "Address": "4600 N Lincoln Ave, Chicago, IL 60625",
@@ -5520,7 +5552,7 @@
     "Instagram": "https://www.instagram.com/p/DYgR24kFcag/?img_index=1"
   },
   {
-    "Index": 346,
+    "Index": 348,
     "Restaurants": "Maria's Packaged Goods and Community Bar",
     "Neighborhood": "Bridgeport",
     "Address": "960 W 31st St, Chicago, IL 60608",
@@ -5536,7 +5568,7 @@
     "Instagram": "https://www.instagram.com/p/DZxg0ZdlR6g/?hl=en&img_index=1"
   },
   {
-    "Index": 347,
+    "Index": 349,
     "Restaurants": "The Junction",
     "Neighborhood": "West Loop",
     "Address": "222 S Riverside Plaza, Chicago, IL 60606",
@@ -5552,7 +5584,7 @@
     "Instagram": "https://www.instagram.com/p/DaOyxBjpAH3/?hl=en"
   },
   {
-    "Index": 348,
+    "Index": 350,
     "Restaurants": "Island Party Hut - Chicago",
     "Neighborhood": "Loop",
     "Address": "355 E Riverwalk, Chicago, IL 60601",
@@ -5566,21 +5598,5 @@
     "Ratings (/5)": 3.5,
     "Comments by Louis Sungwoo Cho": "Fun waterfront vibes, downtown views, and a perfect summer spot to connect with Chicago transportation professionals by the river.",
     "Instagram": "https://www.instagram.com/p/DcOX5PbMIl6/?hl=en"
-  },
-  {
-    "Index": 349,
-    "Restaurants": "Three Dots and a Dash",
-    "Neighborhood": "River North",
-    "Address": "435 N Clark St, Chicago, IL 60654",
-    "Phone Number": "(312) 610-4220",
-    "Cuisine": "American",
-    "Nearest CTA L Stop [Train Station]": "Grand/State",
-    "L Line [Train]": "Red",
-    "Meals": "Bar",
-    "Menu/Website": "https://www.threedotschicago.com/",
-    "Price $": 15.0,
-    "Ratings (/5)": 4.0,
-    "Comments by Louis Sungwoo Cho": "The hidden alley entrance, underground setting, dramatic decor, and creative cocktails made the whole night feel like stepping into another world. Such a fun spot for a spooky night out in River North!",
-    "Instagram": "https://www.instagram.com/p/DeA1RapFcgE/?img_index=1"
   }
 ]
